@@ -99,39 +99,6 @@ npx wdio run ./wdio.web.headless.conf.ts
 
 ## 📝 Sample Test Cases
 
-### Basic Login Test
-```gherkin
-@smoke @positive @web
-Scenario: Successful login and logout on SauceDemo
-  Given I navigate to "https://www.saucedemo.com/"
-  When I type "standard_user" into "Username" field
-  And I type "secret_sauce" into "Password" field
-  And I click on "Login" button
-  Then "Products" element should be visible
-  And "inventoryContainer" element should be visible
-  When I click on "menuButton" element
-  And I click on "Logout" link
-  Then "Login" button should be visible
-```
-
-### E-commerce Cart Test
-```gherkin
-@smoke @positive @web
-Scenario: Add product to cart and verify
-  Given I navigate to "https://www.saucedemo.com/"
-  When I type "standard_user" into "Username" field
-  And I type "secret_sauce" into "Password" field
-  And I click on "Login" button
-  Then "Products" element should be visible
-  When I click on "Add to cart" button
-  Then "Remove" element should be visible
-  Then "shoppingCartBadge" element should be visible
-  And "shoppingCartBadge" element should contain text "1"
-  When I click on "shoppingCartLink" element
-  Then "cartContents" element should be visible
-  And "Sauce Labs Backpack" element should be visible
-```
-
 ### Complete Purchase Flow
 ```gherkin
 @regression @positive @web
@@ -153,17 +120,6 @@ Scenario: Complete purchase flow
   When I click on "Finish" button
   Then "checkoutComplete" element should be visible
   And "Thank you for your order!" element should be visible
-```
-
-### Negative Testing
-```gherkin
-@negative @web
-Scenario: Login with invalid credentials
-  Given I navigate to "https://www.saucedemo.com/"
-  When I type "invalid_user" into "Username" field
-  And I type "wrong_password" into "Password" field
-  And I click on "Login" button
-  Then "Username and password do not match" element should be visible
 ```
 
 ## 🎯 Locator Strategy
