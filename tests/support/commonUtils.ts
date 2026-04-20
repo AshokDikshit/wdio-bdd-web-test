@@ -5,7 +5,7 @@
  */
 
 import { $, $$, browser } from '@wdio/globals';
-import type { ChainablePromiseElement } from 'webdriverio';
+import type { ChainablePromiseArray, ChainablePromiseElement } from 'webdriverio';
 import locatorManager from './locatorManager';
 
 
@@ -87,7 +87,7 @@ class CommonUIUtils {
      * @param selector - CSS selector to find elements
      * @returns Array of WebDriverIO elements
      */
-    async getElements(elementName: string, elementType?: string): Promise<ChainablePromiseElement[]> {
+    async getElements(elementName: string, elementType?: string): Promise<ChainablePromiseArray> {
         try {
             const selector = await locatorManager.getSelector(elementName, elementType); // Ensure locator is defined in locatorManager
             const elements = $$(selector);
@@ -102,7 +102,7 @@ class CommonUIUtils {
      * @param elementName - Base name of elements to find
      * @returns Array of WebDriverIO elements
      */
-    async getElementsByName(elementName: string, elementType?: string): Promise<ChainablePromiseElement[]> {
+    async getElementsByName(elementName: string, elementType?: string): Promise<ChainablePromiseArray> {
         try {
             const selector = await locatorManager.getSelector(elementName, elementType); // Ensure locator is defined in locatorManager
             const elements = $$(selector);

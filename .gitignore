@@ -5,4 +5,4 @@ logs
 reports
 screenshots
 package-lock.json
-
+cucumber-html-report

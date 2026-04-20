@@ -13,11 +13,13 @@
     "expect-webdriverio": "^5.6.5"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts",
-    "test": "wdio run ./wdio.web.conf.js --capabilities 0"
+    "chrome": "wdio run ./wdio.web.conf.js --capabilities 0",
+    "reports": "node ./tests/support/generate-cucumber-report.js",
+    "tests": "npm run chrome & npm run reports"
   },
   "dependencies": {
     "@types/js-yaml": "^4.0.9",
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.1",
+    "multiple-cucumber-html-reporter": "^3.10.0"
   }
 }
