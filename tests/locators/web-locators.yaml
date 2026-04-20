@@ -1,0 +1,23 @@
+# Web Application Locators
+# All locators consolidated under common key for better maintainability
+# Organized by functionality for easy access
+
+common:
+  # Products Page Elements
+  inventoryContainer: "//div[@id='inventory_container']"
+  shoppingCartBadge: "//span[@class='shopping_cart_badge']"
+  shoppingCartLink: "//a[@class='shopping_cart_link']"
+
+  # Cart Page Elements
+  cartContents: "//div[@id='cart_contents_container']"
+  menuButton: "//button[@id='react-burger-menu-btn']"
+  
+  # Checkout Information Page Elements
+  checkoutInfo: "//div[@id='checkout_info_container']"
+  
+  # Checkout Overview Page Elements
+  checkoutSummary: "//div[@id='checkout_summary_container']"
+  # finishButton: "//button[@id='finish']"
+  
+  # Checkout Complete Page Elements
+  checkoutComplete: "//div[@id='checkout_complete_container']"

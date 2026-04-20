@@ -1,0 +1,8 @@
+node_modules
+.slingshot
+.vscode
+logs
+reports
+screenshots
+package-lock.json
+
