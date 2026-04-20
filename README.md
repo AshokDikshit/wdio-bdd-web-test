@@ -17,31 +17,31 @@ This is a comprehensive **WebDriverIO BDD (Behavior-Driven Development)** test a
 ### Project Structure
 ```
 wdio-bdd-web-test/
-├── package.json                    # Project dependencies and scripts
-├── tsconfig.json                   # TypeScript configuration
-├── wdio.conf.ts                   # Main WebDriverIO configuration
-├── wdio.shared.conf.ts            # Shared configuration
-├── wdio.web.conf.ts               # Web-specific configuration
-├── wdio.web.headless.conf.ts      # Headless web configuration
-├── scripts/                       # Utility scripts
+├── package.json                          # Project dependencies and scripts
+├── tsconfig.json                         # TypeScript configuration
+├── wdio.conf.ts                          # Main WebDriverIO configuration
+├── wdio.shared.conf.ts                   # Shared configuration
+├── wdio.web.conf.ts                      # Web-specific configuration
+├── wdio.web.headless.conf.ts             # Headless web configuration
+├── scripts/                              # Utility scripts
 ├── tests/
-│   ├── features/                  # Cucumber feature files
-│   │   └── web-demo.feature       # Sample BDD scenarios
-│   ├── locators/                  # Element locators
-│   │   └── web-locators.yaml      # YAML-based locator definitions
-│   ├── step-definitions/          # Cucumber step implementations
-│   │   ├── built-in/              # Pre-built step definitions
-│   │   │   ├── ui-actions.steps.ts    # Action steps (Given/When)
-│   │   │   └── ui-assertions.steps.ts # Assertion steps (Then)
-│   │   └── custom/                # Custom step definitions
-│   │       └── registration.steps.ts  # Domain-specific steps
-│   ├── support/                   # Support utilities
-│   │   ├── commonUtils.ts         # Common utility functions
-│   │   ├── generate-cucumber-report.js # Report generation
-│   │   ├── locatorManager.ts      # Dynamic locator management
-│   │   ├── uiActions.ts           # UI action implementations
-│   │   └── uiAssertions.ts        # UI assertion implementations
-│   └── test-data/                 # Test data files
+│   ├── features/                         # Cucumber feature files
+│   │   └── web-demo.feature              # Sample BDD scenarios
+│   ├── locators/                         # Element locators
+│   │   └── web-locators.yaml             # YAML-based locator definitions
+│   ├── step-definitions/                 # Cucumber step implementations
+│   │   ├── built-in/                     # Pre-built step definitions
+│   │   │   ├── ui-actions.steps.ts       # Action steps (Given/When)
+│   │   │   └── ui-assertions.steps.ts    # Assertion steps (Then)
+│   │   └── custom/                       # Custom step definitions
+│   │       └── registration.steps.ts     # Domain-specific steps
+│   ├── support/                          # Support utilities
+│   │   ├── commonUtils.ts                # Common utility functions
+│   │   ├── generate-cucumber-report.js   # Report generation
+│   │   ├── locatorManager.ts             # Dynamic locator management
+│   │   ├── uiActions.ts                  # UI action implementations
+│   │   └── uiAssertions.ts               # UI assertion implementations
+│   └── test-data/                        # Test data files
 ```
 
 ## 🔧 Setup Instructions
