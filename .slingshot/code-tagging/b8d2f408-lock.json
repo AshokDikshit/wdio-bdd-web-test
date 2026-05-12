@@ -1,0 +1,347 @@
+{
+  "cucumber.config.ts": {
+    "filename": "cucumber.config.ts",
+    "path": "cucumber.config.ts",
+    "version": "1.2",
+    "contextFile": "b8d2f408-context.json",
+    "chunks": {
+      "c90500": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778022762,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "4dd8a54b",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c90500",
+        "hash": "409bfe91",
+        "encoded": "import%20%7B%20IConfiguration%20%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c90500",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "c90500",
+        "hash": "ab8963ed",
+        "encoded": "*%20Cucumber%20Configuration%20for%20Playwright%20BDD",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c90500",
+        "hash": "2e70f868",
+        "encoded": "*%20Migrated%20from%20WebDriverIO%20Cucumber%20configuration",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "c90500",
+        "hash": "ed5940e5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c90500",
+        "hash": "1edb07c0",
+        "encoded": "const%20config:%20IConfiguration%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "c90500",
+        "hash": "e1b7e5ad",
+        "encoded": "//%20Feature%20files%20location",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "c90500",
+        "hash": "afca411f",
+        "encoded": "paths:%20%5B'tests/features/**/*.feature'%5D,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "c90500",
+        "hash": "50439e53",
+        "encoded": "//%20Step%20definitions%20location",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "c90500",
+        "hash": "d99ec9ac",
+        "encoded": "require:%20%5B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "c90500",
+        "hash": "16d0577f",
+        "encoded": "'tests/step-definitions/**/*.ts',",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "c90500",
+        "hash": "e3dbfeb7",
+        "encoded": "'tests/support/**/*.ts'",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c90500",
+        "hash": "fd9719e2",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c90500",
+        "hash": "29135221",
+        "encoded": "//%20Require%20modules",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c90500",
+        "hash": "498a5deb",
+        "encoded": "requireModule:%20%5B'ts-node/register'%5D,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c90500",
+        "hash": "d8d31907",
+        "encoded": "//%20Format%20options",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "c90500",
+        "hash": "32e3c49d",
+        "encoded": "format:%20%5B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c90500",
+        "hash": "25739dc7",
+        "encoded": "'json:reports/cucumber-report.json',",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "c90500",
+        "hash": "8138cadd",
+        "encoded": "'html:reports/cucumber-report.html',",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c90500",
+        "hash": "8ea46893",
+        "encoded": "'@cucumber/pretty-formatter'",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "c90500",
+        "hash": "0f999d71",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "c90500",
+        "hash": "4f59e5cd",
+        "encoded": "//%20Parallel%20execution",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "c90500",
+        "hash": "0181c7db",
+        "encoded": "parallel:%201,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "c90500",
+        "hash": "bd606980",
+        "encoded": "//%20Retry%20configuration",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c90500",
+        "hash": "1c2186d5",
+        "encoded": "retry:%200,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "c90500",
+        "hash": "53d7376c",
+        "encoded": "//%20Timeout%20for%20step%20definitions%20(in%20milliseconds)",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c90500",
+        "hash": "00555014",
+        "encoded": "timeout:%2060000,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "c90500",
+        "hash": "bfa66793",
+        "encoded": "//%20Dry%20run%20mode",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c90500",
+        "hash": "dd27ead4",
+        "encoded": "dryRun:%20false,",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "c90500",
+        "hash": "219e7ae3",
+        "encoded": "//%20Fail%20fast%20on%20first%20failure",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "c90500",
+        "hash": "84a8dc6f",
+        "encoded": "failFast:%20false,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "c90500",
+        "hash": "a633a878",
+        "encoded": "//%20Strict%20mode%20-%20fail%20if%20there%20are%20undefined%20steps",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "c90500",
+        "hash": "98800ad0",
+        "encoded": "strict:%20true,",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "c90500",
+        "hash": "6b886a40",
+        "encoded": "//%20Tag%20expression%20for%20filtering%20scenarios",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "c90500",
+        "hash": "c447f698",
+        "encoded": "tags:%20process.env.CUCUMBER_TAGS%20%7C%7C%20'',",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "c90500",
+        "hash": "fefeac02",
+        "encoded": "//%20World%20parameters",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "c90500",
+        "hash": "f8c5c9e2",
+        "encoded": "worldParameters:%20%7B",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "c90500",
+        "hash": "41581c93",
+        "encoded": "baseUrl:%20process.env.BASE_URL%20%7C%7C%20'https://www.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "c90500",
+        "hash": "1eb57836",
+        "encoded": "browser:%20process.env.BROWSER%20%7C%7C%20'chromium',",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "c90500",
+        "hash": "8c98f8a8",
+        "encoded": "headless:%20process.env.HEADLESS%20===%20'true',",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "c90500",
+        "hash": "c2c8108e",
+        "encoded": "viewport:%20%7B",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "c90500",
+        "hash": "2a31e6a6",
+        "encoded": "width:%20parseInt(process.env.VIEWPORT_WIDTH%20%7C%7C%20'1920'),",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "c90500",
+        "hash": "f913b195",
+        "encoded": "height:%20parseInt(process.env.VIEWPORT_HEIGHT%20%7C%7C%20'1080')",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "c90500",
+        "hash": "2ef1d392",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "c90500",
+        "hash": "ad50244c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "c90500",
+        "hash": "ec09d536",
+        "encoded": "//%20Publish%20results",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "c90500",
+        "hash": "979d98d6",
+        "encoded": "publish:%20false,",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "c90500",
+        "hash": "22659cd0",
+        "encoded": "//%20Snippets%20interface",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "c90500",
+        "hash": "df27e523",
+        "encoded": "snippetInterface:%20'async-await',",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "c90500",
+        "hash": "00a41cad",
+        "encoded": "//%20Snippets%20syntax",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "c90500",
+        "hash": "b9703cb4",
+        "encoded": "snippetSyntax:%20'typescript'",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "c90500",
+        "hash": "a3b0d34c",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "c90500",
+        "hash": "70ff605f",
+        "encoded": "export%20default%20config;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

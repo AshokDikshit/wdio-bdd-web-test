@@ -1,0 +1,4050 @@
+{
+  "tests/step-definitions/built-in/ui-actions.steps.ts": {
+    "filename": "ui-actions.steps.ts",
+    "path": "tests/step-definitions/built-in/ui-actions.steps.ts",
+    "version": "1.2",
+    "contextFile": "d9c80434-context.json",
+    "chunks": {
+      "6f6a20": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "79948fa5",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "c49af7": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613481,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "a515563d",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "f1ec68": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "174a09a1",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6a9aea": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "d873347e",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "4edf43": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "5bebe106",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "d7d3dd": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "58996f2e",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "5511bd": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "4d77a32f",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "164d90": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "78d6f1f5",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "02b1db": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "403b46c3",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "284eea": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "ae5c56cc",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "0675d1": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "627c9790",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "a245ee": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "fb227dfc",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "e5a365": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "f958b8b0",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "43a349": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "e81965f5",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "15514f": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "579ea0c2",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "9893e4": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "263146da",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6e113a": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "4a7e0720",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "b270ae": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614053,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "15ab1a25",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c49af7",
+        "hash": "2e2fed18",
+        "encoded": "import%20%7B%20Given,%20When,%20Then%20%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "c49af7",
+        "hash": "e4e2efcd",
+        "encoded": "import%20%7B%20createBdd%20%7D%20from%20'playwright-bdd';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c49af7",
+        "hash": "c00f6f17",
+        "encoded": "import%20%7B%20test%20%7D%20from%20'../../support/fixtures';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c49af7",
+        "hash": "f7f8793a",
+        "encoded": "const%20%7B%20Given:%20BddGiven,%20When:%20BddWhen,%20Then:%20BddThen%20%7D%20=%20createBdd(test);",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "6f6a20",
+        "hash": "969bc188",
+        "encoded": "import%20%7B%20CustomWorld%20%7D%20from%20'../../support/world';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b270ae",
+        "hash": "1f62a13f",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b270ae",
+        "hash": "f045c3df",
+        "encoded": "//%20NAVIGATION%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "b270ae",
+        "hash": "6e9e0b95",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "b270ae",
+        "hash": "b0132cee",
+        "encoded": "BddGiven(/%5EI%20navigate%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20url:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b270ae",
+        "hash": "533f9ca9",
+        "encoded": "console.log(%60Navigating%20to%20%22$%7Burl%7D%22%60);",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "b270ae",
+        "hash": "a49c3717",
+        "encoded": "await%20uiActions.navigateTo(url);",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b270ae",
+        "hash": "70287d6a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "6f6a20",
+        "hash": "dd26462c",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "6f6a20",
+        "hash": "f396c308",
+        "encoded": "//%20NAVIGATION%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "6f6a20",
+        "hash": "0784c44d",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "6f6a20",
+        "hash": "912e7297",
+        "encoded": "Given(/%5EI%20navigate%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20url:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "6f6a20",
+        "hash": "84b472d7",
+        "encoded": "console.log(%60Navigating%20to%20%22$%7Burl%7D%22%60);",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "6f6a20",
+        "hash": "d9b40fdd",
+        "encoded": "await%20this.uiActions.navigateTo(url);",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "6f6a20",
+        "hash": "1b686da9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "6e113a",
+        "hash": "3fd8d992",
+        "encoded": "BddWhen(/%5EI%20go%20back$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "6e113a",
+        "hash": "78971e4e",
+        "encoded": "console.log('Going%20back%20in%20browser');",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "6e113a",
+        "hash": "bfa6f029",
+        "encoded": "await%20uiActions.goBack();",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "6e113a",
+        "hash": "98201597",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "6e113a",
+        "hash": "76a490f6",
+        "encoded": "BddWhen(/%5EI%20go%20forward$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "6e113a",
+        "hash": "0a5f2984",
+        "encoded": "console.log('Going%20forward%20in%20browser');",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "6e113a",
+        "hash": "290517d4",
+        "encoded": "await%20uiActions.goForward();",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "6e113a",
+        "hash": "56683f82",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "6e113a",
+        "hash": "7e595a9b",
+        "encoded": "BddWhen(/%5EI%20refresh%20the%20page$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "6e113a",
+        "hash": "053bbee9",
+        "encoded": "console.log('Refreshing%20the%20page');",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "6e113a",
+        "hash": "9c715233",
+        "encoded": "await%20uiActions.refreshPage();",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "6e113a",
+        "hash": "84faadb9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "6e113a",
+        "hash": "16ffa8c8",
+        "encoded": "BddWhen(/%5EI%20reload%20the%20page$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "6e113a",
+        "hash": "c00be44b",
+        "encoded": "console.log('Reloading%20the%20page');",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "6e113a",
+        "hash": "344f9e47",
+        "encoded": "await%20uiActions.reloadPage();",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "6e113a",
+        "hash": "3b202ec2",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "6f6a20",
+        "hash": "d16c5ba3",
+        "encoded": "When(/%5EI%20go%20back$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "6f6a20",
+        "hash": "a1d06b79",
+        "encoded": "console.log('Going%20back%20in%20browser');",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "6f6a20",
+        "hash": "7158a425",
+        "encoded": "await%20this.uiActions.goBack();",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "6f6a20",
+        "hash": "6f909b24",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "6f6a20",
+        "hash": "20094df4",
+        "encoded": "When(/%5EI%20go%20forward$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "6f6a20",
+        "hash": "90bc05b6",
+        "encoded": "console.log('Going%20forward%20in%20browser');",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "6f6a20",
+        "hash": "9c4a9a48",
+        "encoded": "await%20this.uiActions.goForward();",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "6f6a20",
+        "hash": "6c3f165a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "6f6a20",
+        "hash": "ce7e91ed",
+        "encoded": "When(/%5EI%20refresh%20the%20page$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "6f6a20",
+        "hash": "d6c1988b",
+        "encoded": "console.log('Refreshing%20the%20page');",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "6f6a20",
+        "hash": "552763a8",
+        "encoded": "await%20this.uiActions.refreshPage();",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "6f6a20",
+        "hash": "cd261499",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "6f6a20",
+        "hash": "77d680e7",
+        "encoded": "When(/%5EI%20reload%20the%20page$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "6f6a20",
+        "hash": "596a1629",
+        "encoded": "console.log('Reloading%20the%20page');",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "6f6a20",
+        "hash": "7edf5821",
+        "encoded": "await%20this.uiActions.reloadPage();",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "6f6a20",
+        "hash": "a7e8e737",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "9893e4",
+        "hash": "f6947c98",
+        "encoded": "BddWhen(/%5EI%20switch%20to%20tab%20(%5Cd+)$/,%20async%20(%7B%20uiActions%20%7D,%20tabIndex:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9893e4",
+        "hash": "f43e54e7",
+        "encoded": "console.log(%60Switching%20to%20tab%20$%7BtabIndex%7D%60);",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "9893e4",
+        "hash": "e71516b8",
+        "encoded": "await%20uiActions.switchToTab(tabIndex);",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "9893e4",
+        "hash": "a5e29a33",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "9893e4",
+        "hash": "2119b86a",
+        "encoded": "BddWhen(/%5EI%20open%20new%20tab$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "9893e4",
+        "hash": "0d9465f6",
+        "encoded": "console.log('Opening%20new%20tab');",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "9893e4",
+        "hash": "1622c81e",
+        "encoded": "await%20uiActions.openNewTab();",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "9893e4",
+        "hash": "7a9bc11e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "9893e4",
+        "hash": "2dacb71f",
+        "encoded": "BddWhen(/%5EI%20close%20current%20tab$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "9893e4",
+        "hash": "ae3835bd",
+        "encoded": "console.log('Closing%20current%20tab');",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "9893e4",
+        "hash": "901e4ac5",
+        "encoded": "await%20uiActions.closeCurrentTab();",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "9893e4",
+        "hash": "80aa1e64",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "6f6a20",
+        "hash": "e7b74d97",
+        "encoded": "When(/%5EI%20switch%20to%20tab%20(%5Cd+)$/,%20async%20function%20(this:%20CustomWorld,%20tabIndex:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "6f6a20",
+        "hash": "7b08ab83",
+        "encoded": "console.log(%60Switching%20to%20tab%20$%7BtabIndex%7D%60);",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "6f6a20",
+        "hash": "f3918664",
+        "encoded": "await%20this.uiActions.switchToTab(tabIndex);",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "6f6a20",
+        "hash": "6538520c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "6f6a20",
+        "hash": "ec25c5bd",
+        "encoded": "When(/%5EI%20open%20new%20tab$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "6f6a20",
+        "hash": "a41663a8",
+        "encoded": "console.log('Opening%20new%20tab');",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "6f6a20",
+        "hash": "e3e176cd",
+        "encoded": "await%20this.uiActions.openNewTab();",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "6f6a20",
+        "hash": "5f95f156",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "6f6a20",
+        "hash": "24e82e77",
+        "encoded": "When(/%5EI%20close%20current%20tab$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "6f6a20",
+        "hash": "faa27d5f",
+        "encoded": "console.log('Closing%20current%20tab');",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "6f6a20",
+        "hash": "259be90b",
+        "encoded": "await%20this.uiActions.closeCurrentTab();",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "6f6a20",
+        "hash": "6e8213bb",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "15514f",
+        "hash": "db083dc4",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "15514f",
+        "hash": "1b108d9c",
+        "encoded": "//%20CLICK%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "15514f",
+        "hash": "ff58a14b",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "15514f",
+        "hash": "0e022dc8",
+        "encoded": "BddWhen(/%5EI%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "15514f",
+        "hash": "f1ea623d",
+        "encoded": "console.log(%60Clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "15514f",
+        "hash": "a7c470a6",
+        "encoded": "await%20uiActions.clickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "15514f",
+        "hash": "a8fc62b8",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "15514f",
+        "hash": "7004fcc8",
+        "encoded": "BddWhen(/%5EI%20double%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "15514f",
+        "hash": "b6c02ba3",
+        "encoded": "console.log(%60Double%20clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "15514f",
+        "hash": "ca841fdc",
+        "encoded": "await%20uiActions.doubleClickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "15514f",
+        "hash": "e3b88b3c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "15514f",
+        "hash": "5fa75306",
+        "encoded": "BddWhen(/%5EI%20right%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "15514f",
+        "hash": "af3a650b",
+        "encoded": "console.log(%60Right%20clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "15514f",
+        "hash": "69bc9bdb",
+        "encoded": "await%20uiActions.rightClickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "15514f",
+        "hash": "530a7fe5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "6f6a20",
+        "hash": "2648e887",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "6f6a20",
+        "hash": "65ca051a",
+        "encoded": "//%20CLICK%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "6f6a20",
+        "hash": "ed88b32d",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "6f6a20",
+        "hash": "a7610267",
+        "encoded": "When(/%5EI%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "6f6a20",
+        "hash": "45b21208",
+        "encoded": "console.log(%60Clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "6f6a20",
+        "hash": "46fcc969",
+        "encoded": "await%20this.uiActions.clickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "6f6a20",
+        "hash": "0bf9a8ad",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "6f6a20",
+        "hash": "f2097527",
+        "encoded": "When(/%5EI%20double%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "6f6a20",
+        "hash": "c78e73fd",
+        "encoded": "console.log(%60Double%20clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "6f6a20",
+        "hash": "ee94a63e",
+        "encoded": "await%20this.uiActions.doubleClickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "6f6a20",
+        "hash": "f825b8cd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "6f6a20",
+        "hash": "1da1e6ed",
+        "encoded": "When(/%5EI%20right%20click%20on%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "6f6a20",
+        "hash": "11fcf41a",
+        "encoded": "console.log(%60Right%20clicking%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "6f6a20",
+        "hash": "ebf85d1a",
+        "encoded": "await%20this.uiActions.rightClickOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "6f6a20",
+        "hash": "3b7ac76c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "43a349",
+        "hash": "5a861187",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "43a349",
+        "hash": "312648a5",
+        "encoded": "//%20TEXT%20INPUT%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "43a349",
+        "hash": "cb0f79c5",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "43a349",
+        "hash": "9da82c32",
+        "encoded": "BddWhen(/%5EI%20(type%7Center)%20%22(%5B%5E%22%5D*)%22%20into%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20(%7B%20uiActions%20%7D,%20action:%20string,%20text:%20string,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "43a349",
+        "hash": "d09f053f",
+        "encoded": "console.log(%60Typing/Entering%20%22$%7Btext%7D%22%20into%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "43a349",
+        "hash": "e9f02912",
+        "encoded": "await%20uiActions.typeText(text,%20elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "43a349",
+        "hash": "f9bbf6da",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "43a349",
+        "hash": "37e95bd5",
+        "encoded": "BddWhen(/%5EI%20clear%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "43a349",
+        "hash": "7aa689d2",
+        "encoded": "console.log(%60Clearing%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "43a349",
+        "hash": "2f9698dc",
+        "encoded": "await%20uiActions.clearField(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "43a349",
+        "hash": "ed4ca5df",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "43a349",
+        "hash": "0248153d",
+        "encoded": "BddWhen(/%5EI%20select%20all%20text%20in%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "43a349",
+        "hash": "9edc9e81",
+        "encoded": "console.log(%60Selecting%20all%20text%20in%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "43a349",
+        "hash": "f240f964",
+        "encoded": "await%20uiActions.selectAllText(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "43a349",
+        "hash": "81a16467",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "6f6a20",
+        "hash": "986a4248",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "6f6a20",
+        "hash": "381f4770",
+        "encoded": "//%20TEXT%20INPUT%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "6f6a20",
+        "hash": "2e23d30b",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "6f6a20",
+        "hash": "cfb30dfd",
+        "encoded": "When(/%5EI%20(type%7Center)%20%22(%5B%5E%22%5D*)%22%20into%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20function%20(this:%20CustomWorld,%20action:%20string,%20text:%20string,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "6f6a20",
+        "hash": "702a9bd0",
+        "encoded": "console.log(%60Typing/Entering%20%22$%7Btext%7D%22%20into%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "6f6a20",
+        "hash": "0107ad8a",
+        "encoded": "await%20this.uiActions.typeText(text,%20elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "6f6a20",
+        "hash": "110dc275",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "6f6a20",
+        "hash": "b02aa00b",
+        "encoded": "When(/%5EI%20clear%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "6f6a20",
+        "hash": "226ee8cb",
+        "encoded": "console.log(%60Clearing%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "6f6a20",
+        "hash": "d5db5e64",
+        "encoded": "await%20this.uiActions.clearField(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "6f6a20",
+        "hash": "2f343238",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "6f6a20",
+        "hash": "0ee3883d",
+        "encoded": "When(/%5EI%20select%20all%20text%20in%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Ctextbox)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "6f6a20",
+        "hash": "9a1c1f31",
+        "encoded": "console.log(%60Selecting%20all%20text%20in%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "6f6a20",
+        "hash": "d73ce7c1",
+        "encoded": "await%20this.uiActions.selectAllText(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "6f6a20",
+        "hash": "ef195dc5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "e5a365",
+        "hash": "b3236e57",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "e5a365",
+        "hash": "cb6563fd",
+        "encoded": "//%20DROPDOWN%20AND%20SELECTION%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "e5a365",
+        "hash": "c548ea98",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "e5a365",
+        "hash": "8cc033b0",
+        "encoded": "BddWhen(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20from%20%22(%5B%5E%22%5D*)%22%20dropdown$/,%20async%20(%7B%20uiActions%20%7D,%20option:%20string,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "e5a365",
+        "hash": "2f3bb64e",
+        "encoded": "console.log(%60Selecting%20%22$%7Boption%7D%22%20from%20$%7BelementName%7D%20dropdown%60);",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "e5a365",
+        "hash": "8aa9454b",
+        "encoded": "await%20uiActions.selectFromDropdown(elementName,%20option);",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "e5a365",
+        "hash": "6171d7e0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "e5a365",
+        "hash": "a804cc0b",
+        "encoded": "BddWhen(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20option%20from%20%22(%5B%5E%22%5D*)%22%20dropdown$/,%20async%20(%7B%20uiActions%20%7D,%20option:%20string,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "e5a365",
+        "hash": "3d0e14b2",
+        "encoded": "console.log(%60Selecting%20$%7Boption%7D%20option%20from%20$%7BelementName%7D%20dropdown%60);",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "e5a365",
+        "hash": "2b002746",
+        "encoded": "await%20uiActions.selectFromDropdown(elementName,%20option);",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "e5a365",
+        "hash": "3d741aec",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "6f6a20",
+        "hash": "a3fbd85c",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "6f6a20",
+        "hash": "4fd4ce28",
+        "encoded": "//%20DROPDOWN%20AND%20SELECTION%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "6f6a20",
+        "hash": "a3218367",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "6f6a20",
+        "hash": "9736baf1",
+        "encoded": "When(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20from%20%22(%5B%5E%22%5D*)%22%20dropdown$/,%20async%20function%20(this:%20CustomWorld,%20option:%20string,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "6f6a20",
+        "hash": "48d0f40b",
+        "encoded": "console.log(%60Selecting%20%22$%7Boption%7D%22%20from%20$%7BelementName%7D%20dropdown%60);",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "6f6a20",
+        "hash": "ce793b1d",
+        "encoded": "await%20this.uiActions.selectFromDropdown(elementName,%20option);",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "6f6a20",
+        "hash": "ff8bbd91",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "6f6a20",
+        "hash": "4527d205",
+        "encoded": "When(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20option%20from%20%22(%5B%5E%22%5D*)%22%20dropdown$/,%20async%20function%20(this:%20CustomWorld,%20option:%20string,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "6f6a20",
+        "hash": "86a0ebda",
+        "encoded": "console.log(%60Selecting%20$%7Boption%7D%20option%20from%20$%7BelementName%7D%20dropdown%60);",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "6f6a20",
+        "hash": "12e15096",
+        "encoded": "await%20this.uiActions.selectFromDropdown(elementName,%20option);",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "6f6a20",
+        "hash": "454f7868",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "a245ee",
+        "hash": "faf6f429",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "a245ee",
+        "hash": "42941e69",
+        "encoded": "//%20CHECKBOX%20AND%20RADIO%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "a245ee",
+        "hash": "68404475",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "a245ee",
+        "hash": "a2a26bee",
+        "encoded": "BddWhen(/%5EI%20check%20%22(%5B%5E%22%5D*)%22%20checkbox$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "a245ee",
+        "hash": "82aeca38",
+        "encoded": "console.log(%60Checking%20$%7BelementName%7D%20checkbox%60);",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "a245ee",
+        "hash": "90c1dee0",
+        "encoded": "await%20uiActions.checkCheckbox(elementName);",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "a245ee",
+        "hash": "dee1f66f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "a245ee",
+        "hash": "376d697d",
+        "encoded": "BddWhen(/%5EI%20uncheck%20%22(%5B%5E%22%5D*)%22%20checkbox$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "a245ee",
+        "hash": "180be507",
+        "encoded": "console.log(%60Unchecking%20$%7BelementName%7D%20checkbox%60);",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "a245ee",
+        "hash": "420359d9",
+        "encoded": "await%20uiActions.uncheckCheckbox(elementName);",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "a245ee",
+        "hash": "2b0ab22c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "a245ee",
+        "hash": "995f911f",
+        "encoded": "BddWhen(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20radio%20button$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "a245ee",
+        "hash": "880e55bf",
+        "encoded": "console.log(%60Selecting%20$%7BelementName%7D%20radio%20button%60);",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "a245ee",
+        "hash": "455db719",
+        "encoded": "await%20uiActions.selectRadioButton(elementName);",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "a245ee",
+        "hash": "8556aade",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "6f6a20",
+        "hash": "7385d2c5",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "6f6a20",
+        "hash": "c928aea2",
+        "encoded": "//%20CHECKBOX%20AND%20RADIO%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "6f6a20",
+        "hash": "157b865d",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "6f6a20",
+        "hash": "6d3b2c9f",
+        "encoded": "When(/%5EI%20check%20%22(%5B%5E%22%5D*)%22%20checkbox$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "6f6a20",
+        "hash": "627ad9f4",
+        "encoded": "console.log(%60Checking%20$%7BelementName%7D%20checkbox%60);",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "6f6a20",
+        "hash": "bfa81420",
+        "encoded": "await%20this.uiActions.checkCheckbox(elementName);",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "6f6a20",
+        "hash": "313d143e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "6f6a20",
+        "hash": "5925f78c",
+        "encoded": "When(/%5EI%20uncheck%20%22(%5B%5E%22%5D*)%22%20checkbox$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "6f6a20",
+        "hash": "d7e46347",
+        "encoded": "console.log(%60Unchecking%20$%7BelementName%7D%20checkbox%60);",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "6f6a20",
+        "hash": "1197dd9a",
+        "encoded": "await%20this.uiActions.uncheckCheckbox(elementName);",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "6f6a20",
+        "hash": "08a5d128",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "6f6a20",
+        "hash": "7b0aa47b",
+        "encoded": "When(/%5EI%20select%20%22(%5B%5E%22%5D*)%22%20radio%20button$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "6f6a20",
+        "hash": "d99739db",
+        "encoded": "console.log(%60Selecting%20$%7BelementName%7D%20radio%20button%60);",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "6f6a20",
+        "hash": "c266bcca",
+        "encoded": "await%20this.uiActions.selectRadioButton(elementName);",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "6f6a20",
+        "hash": "0fb6c9cb",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "0675d1",
+        "hash": "2ee75507",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "0675d1",
+        "hash": "e35a3265",
+        "encoded": "//%20HOVER%20AND%20FOCUS%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "0675d1",
+        "hash": "b5fd3c4a",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "0675d1",
+        "hash": "76b6a4a2",
+        "encoded": "BddWhen(/%5EI%20hover%20over%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "0675d1",
+        "hash": "ed8be172",
+        "encoded": "console.log(%60Hovering%20over%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "0675d1",
+        "hash": "3b07d7df",
+        "encoded": "await%20uiActions.hoverOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "0675d1",
+        "hash": "ad0fc85f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "0675d1",
+        "hash": "e7e15df2",
+        "encoded": "BddWhen(/%5EI%20focus%20on%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Celement)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "0675d1",
+        "hash": "22930fa0",
+        "encoded": "console.log(%60Focusing%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "0675d1",
+        "hash": "80c88ada",
+        "encoded": "await%20uiActions.focusOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "0675d1",
+        "hash": "bc1ed12a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "6f6a20",
+        "hash": "877766eb",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "6f6a20",
+        "hash": "4616e220",
+        "encoded": "//%20HOVER%20AND%20FOCUS%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "6f6a20",
+        "hash": "26722f48",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "6f6a20",
+        "hash": "c1f43a46",
+        "encoded": "When(/%5EI%20hover%20over%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "6f6a20",
+        "hash": "f1168df4",
+        "encoded": "console.log(%60Hovering%20over%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "6f6a20",
+        "hash": "f3e81535",
+        "encoded": "await%20this.uiActions.hoverOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "6f6a20",
+        "hash": "c26df5e9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "6f6a20",
+        "hash": "91ad1484",
+        "encoded": "When(/%5EI%20focus%20on%20%22(%5B%5E%22%5D*)%22%20(field%7Cinput%7Celement)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "6f6a20",
+        "hash": "0d2cd27a",
+        "encoded": "console.log(%60Focusing%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "6f6a20",
+        "hash": "2e768849",
+        "encoded": "await%20this.uiActions.focusOn(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "6f6a20",
+        "hash": "e1484a10",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "284eea",
+        "hash": "64189f24",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "284eea",
+        "hash": "1696f9d1",
+        "encoded": "//%20SCROLL%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "284eea",
+        "hash": "d14eaf48",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "284eea",
+        "hash": "42d156c0",
+        "encoded": "BddWhen(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20(element%7Csection)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "284eea",
+        "hash": "42f1651f",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "284eea",
+        "hash": "04938486",
+        "encoded": "await%20uiActions.scrollTo(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "284eea",
+        "hash": "1d3a12c5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "244": {
+        "chunkId": "284eea",
+        "hash": "e720f193",
+        "encoded": "BddWhen(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20click$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "245": {
+        "chunkId": "284eea",
+        "hash": "74c4cbdf",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "246": {
+        "chunkId": "284eea",
+        "hash": "61c44856",
+        "encoded": "await%20uiActions.scrollToAndClick(elementName);",
+        "prevChunkIds": []
+      },
+      "247": {
+        "chunkId": "284eea",
+        "hash": "1f5a7612",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "249": {
+        "chunkId": "284eea",
+        "hash": "76b5ca33",
+        "encoded": "BddWhen(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20double%20click$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "250": {
+        "chunkId": "284eea",
+        "hash": "7024b3ba",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20double%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "251": {
+        "chunkId": "284eea",
+        "hash": "6f762bc3",
+        "encoded": "await%20uiActions.scrollToAndDoubleClick(elementName);",
+        "prevChunkIds": []
+      },
+      "252": {
+        "chunkId": "284eea",
+        "hash": "f96ea138",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "254": {
+        "chunkId": "284eea",
+        "hash": "dccd5545",
+        "encoded": "BddWhen(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20right%20click$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "255": {
+        "chunkId": "284eea",
+        "hash": "b3f32e8e",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20right%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "256": {
+        "chunkId": "284eea",
+        "hash": "36aba29d",
+        "encoded": "await%20uiActions.scrollToAndRightClick(elementName);",
+        "prevChunkIds": []
+      },
+      "257": {
+        "chunkId": "284eea",
+        "hash": "c57f914f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "259": {
+        "chunkId": "284eea",
+        "hash": "8c9db220",
+        "encoded": "BddWhen(/%5EI%20scroll%20(left%7Cright%7Cup%7Cdown)%20to%20%22(%5B%5E%22%5D*)%22%20and%20click%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20direction:%20string,%20targetElement:%20string,%20clickElement:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "260": {
+        "chunkId": "284eea",
+        "hash": "6076f7b4",
+        "encoded": "console.log(%60Scrolling%20$%7Bdirection%7D%20to%20$%7BtargetElement%7D%20and%20clicking%20on%20$%7BclickElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "261": {
+        "chunkId": "284eea",
+        "hash": "255adcb8",
+        "encoded": "await%20uiActions.scrollDirectionToAndClick(direction,%20targetElement,%20clickElement);",
+        "prevChunkIds": []
+      },
+      "262": {
+        "chunkId": "284eea",
+        "hash": "99b7fee2",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "264": {
+        "chunkId": "284eea",
+        "hash": "e66d4928",
+        "encoded": "BddWhen(/%5EI%20scroll%20(left%7Cright%7Cup%7Cdown)%20by%20(%5Cd+)%20pixels$/,%20async%20(%7B%20uiActions%20%7D,%20direction:%20string,%20pixels:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "265": {
+        "chunkId": "284eea",
+        "hash": "9ec87ddd",
+        "encoded": "console.log(%60Scrolling%20$%7Bdirection%7D%20by%20$%7Bpixels%7D%20pixels%60);",
+        "prevChunkIds": []
+      },
+      "266": {
+        "chunkId": "284eea",
+        "hash": "fab09330",
+        "encoded": "await%20uiActions.scrollByPixels(direction,%20pixels);",
+        "prevChunkIds": []
+      },
+      "267": {
+        "chunkId": "284eea",
+        "hash": "e654b523",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "268": {
+        "chunkId": "6f6a20",
+        "hash": "764b9ec4",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "269": {
+        "chunkId": "6f6a20",
+        "hash": "f79081c9",
+        "encoded": "//%20SCROLL%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "270": {
+        "chunkId": "6f6a20",
+        "hash": "2222dfad",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "271": {
+        "chunkId": "6f6a20",
+        "hash": "4cc91fc8",
+        "encoded": "When(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20(element%7Csection)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "272": {
+        "chunkId": "6f6a20",
+        "hash": "63becf4e",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "273": {
+        "chunkId": "6f6a20",
+        "hash": "cb882fda",
+        "encoded": "await%20this.uiActions.scrollTo(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "274": {
+        "chunkId": "6f6a20",
+        "hash": "4e315c35",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "276": {
+        "chunkId": "6f6a20",
+        "hash": "475979f4",
+        "encoded": "When(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20click$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "277": {
+        "chunkId": "6f6a20",
+        "hash": "27635912",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "278": {
+        "chunkId": "6f6a20",
+        "hash": "dcdf8594",
+        "encoded": "await%20this.uiActions.scrollToAndClick(elementName);",
+        "prevChunkIds": []
+      },
+      "279": {
+        "chunkId": "6f6a20",
+        "hash": "97e34ae0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "281": {
+        "chunkId": "6f6a20",
+        "hash": "25b1417e",
+        "encoded": "When(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20double%20click$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "282": {
+        "chunkId": "6f6a20",
+        "hash": "575daa7f",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20double%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "283": {
+        "chunkId": "6f6a20",
+        "hash": "ec29666e",
+        "encoded": "await%20this.uiActions.scrollToAndDoubleClick(elementName);",
+        "prevChunkIds": []
+      },
+      "284": {
+        "chunkId": "6f6a20",
+        "hash": "ce2db8ab",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "286": {
+        "chunkId": "6f6a20",
+        "hash": "21264f00",
+        "encoded": "When(/%5EI%20scroll%20to%20%22(%5B%5E%22%5D*)%22%20and%20right%20click$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "287": {
+        "chunkId": "6f6a20",
+        "hash": "e81ff153",
+        "encoded": "console.log(%60Scrolling%20to%20$%7BelementName%7D%20and%20right%20clicking%60);",
+        "prevChunkIds": []
+      },
+      "288": {
+        "chunkId": "6f6a20",
+        "hash": "7794f6ee",
+        "encoded": "await%20this.uiActions.scrollToAndRightClick(elementName);",
+        "prevChunkIds": []
+      },
+      "289": {
+        "chunkId": "6f6a20",
+        "hash": "2f0b2e9f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "291": {
+        "chunkId": "6f6a20",
+        "hash": "cd666623",
+        "encoded": "When(/%5EI%20scroll%20(left%7Cright%7Cup%7Cdown)%20to%20%22(%5B%5E%22%5D*)%22%20and%20click%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20direction:%20string,%20targetElement:%20string,%20clickElement:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "292": {
+        "chunkId": "6f6a20",
+        "hash": "23b94b02",
+        "encoded": "console.log(%60Scrolling%20$%7Bdirection%7D%20to%20$%7BtargetElement%7D%20and%20clicking%20on%20$%7BclickElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "293": {
+        "chunkId": "6f6a20",
+        "hash": "2e329207",
+        "encoded": "await%20this.uiActions.scrollDirectionToAndClick(direction,%20targetElement,%20clickElement);",
+        "prevChunkIds": []
+      },
+      "294": {
+        "chunkId": "6f6a20",
+        "hash": "73f3e0a4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "296": {
+        "chunkId": "6f6a20",
+        "hash": "5b88047b",
+        "encoded": "When(/%5EI%20scroll%20(left%7Cright%7Cup%7Cdown)%20by%20(%5Cd+)%20pixels$/,%20async%20function%20(this:%20CustomWorld,%20direction:%20string,%20pixels:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "297": {
+        "chunkId": "6f6a20",
+        "hash": "0eac9a47",
+        "encoded": "console.log(%60Scrolling%20$%7Bdirection%7D%20by%20$%7Bpixels%7D%20pixels%60);",
+        "prevChunkIds": []
+      },
+      "298": {
+        "chunkId": "6f6a20",
+        "hash": "188cf90e",
+        "encoded": "await%20this.uiActions.scrollByPixels(direction,%20pixels);",
+        "prevChunkIds": []
+      },
+      "299": {
+        "chunkId": "6f6a20",
+        "hash": "9e550863",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "300": {
+        "chunkId": "02b1db",
+        "hash": "cb8caa98",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "301": {
+        "chunkId": "02b1db",
+        "hash": "9a01684d",
+        "encoded": "//%20WAIT%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "302": {
+        "chunkId": "02b1db",
+        "hash": "657a2243",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "303": {
+        "chunkId": "02b1db",
+        "hash": "46cf8047",
+        "encoded": "BddWhen(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20visible$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "304": {
+        "chunkId": "02b1db",
+        "hash": "f4317ca3",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20visible%60);",
+        "prevChunkIds": []
+      },
+      "305": {
+        "chunkId": "02b1db",
+        "hash": "32d6e1b7",
+        "encoded": "await%20uiActions.waitSeconds(5);%20//%20Short%20wait%20to%20ensure%20any%20animations%20have%20started",
+        "prevChunkIds": []
+      },
+      "306": {
+        "chunkId": "02b1db",
+        "hash": "2df9f8d0",
+        "encoded": "await%20uiActions.waitForVisible(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "307": {
+        "chunkId": "02b1db",
+        "hash": "b96bdf42",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "309": {
+        "chunkId": "02b1db",
+        "hash": "987c35af",
+        "encoded": "BddWhen(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20disappear$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "310": {
+        "chunkId": "02b1db",
+        "hash": "80e5fef3",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20disappear%60);",
+        "prevChunkIds": []
+      },
+      "311": {
+        "chunkId": "02b1db",
+        "hash": "8f614b85",
+        "encoded": "await%20uiActions.waitForDisappear(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "312": {
+        "chunkId": "02b1db",
+        "hash": "944d59f9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "314": {
+        "chunkId": "02b1db",
+        "hash": "e7f3a5a0",
+        "encoded": "BddWhen(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20enabled$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "315": {
+        "chunkId": "02b1db",
+        "hash": "dba2927b",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20enabled%60);",
+        "prevChunkIds": []
+      },
+      "316": {
+        "chunkId": "02b1db",
+        "hash": "f93d8a41",
+        "encoded": "await%20uiActions.waitForEnabled(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "317": {
+        "chunkId": "02b1db",
+        "hash": "517bdd45",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "319": {
+        "chunkId": "02b1db",
+        "hash": "7b195b2c",
+        "encoded": "BddWhen(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20clickable$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "320": {
+        "chunkId": "02b1db",
+        "hash": "3804fe8b",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20clickable%60);",
+        "prevChunkIds": []
+      },
+      "321": {
+        "chunkId": "02b1db",
+        "hash": "bd005e1a",
+        "encoded": "await%20uiActions.waitForClickable(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "322": {
+        "chunkId": "02b1db",
+        "hash": "777c75ba",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "324": {
+        "chunkId": "02b1db",
+        "hash": "7f669322",
+        "encoded": "BddWhen(/%5EI%20wait%20(%5Cd+)%20seconds$/,%20async%20(%7B%20uiActions%20%7D,%20seconds:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "325": {
+        "chunkId": "02b1db",
+        "hash": "407f8306",
+        "encoded": "console.log(%60Waiting%20$%7Bseconds%7D%20seconds%60);",
+        "prevChunkIds": []
+      },
+      "326": {
+        "chunkId": "02b1db",
+        "hash": "bae0c3fe",
+        "encoded": "await%20uiActions.waitSeconds(seconds);",
+        "prevChunkIds": []
+      },
+      "327": {
+        "chunkId": "02b1db",
+        "hash": "cdbc14c4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "329": {
+        "chunkId": "02b1db",
+        "hash": "d92f3faa",
+        "encoded": "BddWhen('I%20wait%20for%20page%20to%20load',%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "330": {
+        "chunkId": "02b1db",
+        "hash": "12e0c9c4",
+        "encoded": "console.log('Waiting%20for%20page%20to%20load');",
+        "prevChunkIds": []
+      },
+      "331": {
+        "chunkId": "02b1db",
+        "hash": "28c52c68",
+        "encoded": "await%20uiActions.waitForPageLoad();",
+        "prevChunkIds": []
+      },
+      "332": {
+        "chunkId": "02b1db",
+        "hash": "f6640381",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "333": {
+        "chunkId": "6f6a20",
+        "hash": "492b0281",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "334": {
+        "chunkId": "6f6a20",
+        "hash": "28fbf7a6",
+        "encoded": "//%20WAIT%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "335": {
+        "chunkId": "6f6a20",
+        "hash": "836efe89",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "336": {
+        "chunkId": "6f6a20",
+        "hash": "07533632",
+        "encoded": "When(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20visible$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "337": {
+        "chunkId": "6f6a20",
+        "hash": "ee192741",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20visible%60);",
+        "prevChunkIds": []
+      },
+      "338": {
+        "chunkId": "6f6a20",
+        "hash": "80b13a31",
+        "encoded": "await%20this.uiActions.waitSeconds(5);%20//%20Short%20wait%20to%20ensure%20any%20animations%20have%20started",
+        "prevChunkIds": []
+      },
+      "339": {
+        "chunkId": "6f6a20",
+        "hash": "f0b30c9e",
+        "encoded": "await%20this.uiActions.waitForVisible(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "340": {
+        "chunkId": "6f6a20",
+        "hash": "2b0d2d9a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "342": {
+        "chunkId": "6f6a20",
+        "hash": "3e83eb38",
+        "encoded": "When(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20disappear$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "343": {
+        "chunkId": "6f6a20",
+        "hash": "aeed4d0e",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20disappear%60);",
+        "prevChunkIds": []
+      },
+      "344": {
+        "chunkId": "6f6a20",
+        "hash": "cfc3d917",
+        "encoded": "await%20this.uiActions.waitForDisappear(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "345": {
+        "chunkId": "6f6a20",
+        "hash": "4cda76c2",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "347": {
+        "chunkId": "6f6a20",
+        "hash": "37216e34",
+        "encoded": "When(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20enabled$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "348": {
+        "chunkId": "6f6a20",
+        "hash": "2514d2ed",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20enabled%60);",
+        "prevChunkIds": []
+      },
+      "349": {
+        "chunkId": "6f6a20",
+        "hash": "bcce7cec",
+        "encoded": "await%20this.uiActions.waitForEnabled(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "350": {
+        "chunkId": "6f6a20",
+        "hash": "ca7a180c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "352": {
+        "chunkId": "6f6a20",
+        "hash": "de66cb43",
+        "encoded": "When(/%5EI%20wait%20for%20%22(%5B%5E%22%5D*)%22%20(button%7Clink%7Celement%7Cradio%20button)%20to%20be%20clickable$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "353": {
+        "chunkId": "6f6a20",
+        "hash": "0bea2a6f",
+        "encoded": "console.log(%60Waiting%20for%20$%7BelementName%7D%20$%7BelementType%7D%20to%20be%20clickable%60);",
+        "prevChunkIds": []
+      },
+      "354": {
+        "chunkId": "6f6a20",
+        "hash": "35287295",
+        "encoded": "await%20this.uiActions.waitForClickable(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "355": {
+        "chunkId": "6f6a20",
+        "hash": "9b61a3d0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "357": {
+        "chunkId": "6f6a20",
+        "hash": "6d3f9ea8",
+        "encoded": "When(/%5EI%20wait%20(%5Cd+)%20seconds$/,%20async%20function%20(this:%20CustomWorld,%20seconds:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "358": {
+        "chunkId": "6f6a20",
+        "hash": "14a71781",
+        "encoded": "console.log(%60Waiting%20$%7Bseconds%7D%20seconds%60);",
+        "prevChunkIds": []
+      },
+      "359": {
+        "chunkId": "6f6a20",
+        "hash": "bc2b7665",
+        "encoded": "await%20this.uiActions.waitSeconds(seconds);",
+        "prevChunkIds": []
+      },
+      "360": {
+        "chunkId": "6f6a20",
+        "hash": "3b0929ba",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "362": {
+        "chunkId": "6f6a20",
+        "hash": "e4a90798",
+        "encoded": "When('I%20wait%20for%20page%20to%20load',%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "363": {
+        "chunkId": "6f6a20",
+        "hash": "0aea1b4a",
+        "encoded": "console.log('Waiting%20for%20page%20to%20load');",
+        "prevChunkIds": []
+      },
+      "364": {
+        "chunkId": "6f6a20",
+        "hash": "3acca123",
+        "encoded": "await%20this.uiActions.waitForPageLoad();",
+        "prevChunkIds": []
+      },
+      "365": {
+        "chunkId": "6f6a20",
+        "hash": "5639db18",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "366": {
+        "chunkId": "164d90",
+        "hash": "aecf722c",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "367": {
+        "chunkId": "164d90",
+        "hash": "a9e15154",
+        "encoded": "//%20FILE%20UPLOAD%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "368": {
+        "chunkId": "164d90",
+        "hash": "bbafd9ab",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "369": {
+        "chunkId": "164d90",
+        "hash": "39da58d6",
+        "encoded": "BddWhen(/%5EI%20upload%20file%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20filePath:%20string,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "370": {
+        "chunkId": "164d90",
+        "hash": "5462c9b1",
+        "encoded": "console.log(%60Uploading%20file%20%22$%7BfilePath%7D%22%20to%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "371": {
+        "chunkId": "164d90",
+        "hash": "fb2bb195",
+        "encoded": "await%20uiActions.uploadFile(filePath,%20elementName);",
+        "prevChunkIds": []
+      },
+      "372": {
+        "chunkId": "164d90",
+        "hash": "f6261752",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "374": {
+        "chunkId": "164d90",
+        "hash": "f2c9d57c",
+        "encoded": "BddWhen(/%5EI%20select%20file%20%22(%5B%5E%22%5D*)%22%20from%20file%20picker$/,%20async%20(%7B%20uiActions%20%7D,%20filePath:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "375": {
+        "chunkId": "164d90",
+        "hash": "d7a7cc61",
+        "encoded": "console.log(%60Selecting%20file%20%22$%7BfilePath%7D%22%20from%20file%20picker%60);",
+        "prevChunkIds": []
+      },
+      "376": {
+        "chunkId": "164d90",
+        "hash": "4976b5d8",
+        "encoded": "await%20uiActions.selectFileFromPicker(filePath);",
+        "prevChunkIds": []
+      },
+      "377": {
+        "chunkId": "164d90",
+        "hash": "1291acb0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "378": {
+        "chunkId": "6f6a20",
+        "hash": "db1b8b69",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "379": {
+        "chunkId": "6f6a20",
+        "hash": "a2027532",
+        "encoded": "//%20FILE%20UPLOAD%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "380": {
+        "chunkId": "6f6a20",
+        "hash": "5bfd879e",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "381": {
+        "chunkId": "6f6a20",
+        "hash": "bf92f180",
+        "encoded": "When(/%5EI%20upload%20file%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20filePath:%20string,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "382": {
+        "chunkId": "6f6a20",
+        "hash": "4824bf09",
+        "encoded": "console.log(%60Uploading%20file%20%22$%7BfilePath%7D%22%20to%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "383": {
+        "chunkId": "6f6a20",
+        "hash": "56730b50",
+        "encoded": "await%20this.uiActions.uploadFile(filePath,%20elementName);",
+        "prevChunkIds": []
+      },
+      "384": {
+        "chunkId": "6f6a20",
+        "hash": "a6af228a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "386": {
+        "chunkId": "6f6a20",
+        "hash": "6907913f",
+        "encoded": "When(/%5EI%20select%20file%20%22(%5B%5E%22%5D*)%22%20from%20file%20picker$/,%20async%20function%20(this:%20CustomWorld,%20filePath:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "387": {
+        "chunkId": "6f6a20",
+        "hash": "0b2a07cd",
+        "encoded": "console.log(%60Selecting%20file%20%22$%7BfilePath%7D%22%20from%20file%20picker%60);",
+        "prevChunkIds": []
+      },
+      "388": {
+        "chunkId": "6f6a20",
+        "hash": "11d303c7",
+        "encoded": "await%20this.uiActions.selectFileFromPicker(filePath);",
+        "prevChunkIds": []
+      },
+      "389": {
+        "chunkId": "6f6a20",
+        "hash": "0cf7dda5",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "390": {
+        "chunkId": "5511bd",
+        "hash": "592c7dd6",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "391": {
+        "chunkId": "5511bd",
+        "hash": "93ba7b87",
+        "encoded": "//%20ALERT%20AND%20MODAL%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "392": {
+        "chunkId": "5511bd",
+        "hash": "ec135066",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "393": {
+        "chunkId": "5511bd",
+        "hash": "323d38fc",
+        "encoded": "BddWhen(/%5EI%20accept%20the%20alert$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "394": {
+        "chunkId": "5511bd",
+        "hash": "0f4abc67",
+        "encoded": "console.log('Accepting%20the%20alert');",
+        "prevChunkIds": []
+      },
+      "395": {
+        "chunkId": "5511bd",
+        "hash": "e705c786",
+        "encoded": "await%20uiActions.acceptAlert();",
+        "prevChunkIds": []
+      },
+      "396": {
+        "chunkId": "5511bd",
+        "hash": "35c1a298",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "398": {
+        "chunkId": "5511bd",
+        "hash": "a7119b83",
+        "encoded": "BddWhen(/%5EI%20dismiss%20the%20alert$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "399": {
+        "chunkId": "5511bd",
+        "hash": "a9cbd307",
+        "encoded": "console.log('Dismissing%20the%20alert');",
+        "prevChunkIds": []
+      },
+      "400": {
+        "chunkId": "5511bd",
+        "hash": "c4a909d1",
+        "encoded": "await%20uiActions.dismissAlert();",
+        "prevChunkIds": []
+      },
+      "401": {
+        "chunkId": "5511bd",
+        "hash": "f9e319fd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "403": {
+        "chunkId": "5511bd",
+        "hash": "9bf8921a",
+        "encoded": "BddWhen(/%5EI%20type%20%22(%5B%5E%22%5D*)%22%20in%20alert%20prompt$/,%20async%20(%7B%20uiActions%20%7D,%20text:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "404": {
+        "chunkId": "5511bd",
+        "hash": "b66db8a8",
+        "encoded": "console.log(%60Typing%20%22$%7Btext%7D%22%20in%20alert%20prompt%60);",
+        "prevChunkIds": []
+      },
+      "405": {
+        "chunkId": "5511bd",
+        "hash": "08d02e63",
+        "encoded": "await%20uiActions.typeInAlert(text);",
+        "prevChunkIds": []
+      },
+      "406": {
+        "chunkId": "5511bd",
+        "hash": "34d5ee66",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "408": {
+        "chunkId": "5511bd",
+        "hash": "f6e487ee",
+        "encoded": "BddWhen(/%5EI%20close%20the%20modal$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "409": {
+        "chunkId": "5511bd",
+        "hash": "5a5ddf19",
+        "encoded": "console.log('Closing%20the%20modal');",
+        "prevChunkIds": []
+      },
+      "410": {
+        "chunkId": "5511bd",
+        "hash": "13e0e086",
+        "encoded": "await%20uiActions.closeModal();",
+        "prevChunkIds": []
+      },
+      "411": {
+        "chunkId": "5511bd",
+        "hash": "8c7871c6",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "413": {
+        "chunkId": "5511bd",
+        "hash": "07a39e85",
+        "encoded": "BddWhen(/%5EI%20click%20outside%20the%20modal$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "414": {
+        "chunkId": "5511bd",
+        "hash": "626d8091",
+        "encoded": "console.log('Clicking%20outside%20the%20modal');",
+        "prevChunkIds": []
+      },
+      "415": {
+        "chunkId": "5511bd",
+        "hash": "ca8d50c1",
+        "encoded": "await%20uiActions.clickOutsideModal();",
+        "prevChunkIds": []
+      },
+      "416": {
+        "chunkId": "5511bd",
+        "hash": "d2d1d1a8",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "417": {
+        "chunkId": "6f6a20",
+        "hash": "1f857bf9",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "418": {
+        "chunkId": "6f6a20",
+        "hash": "542c2f14",
+        "encoded": "//%20ALERT%20AND%20MODAL%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "419": {
+        "chunkId": "6f6a20",
+        "hash": "caa0ae81",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "420": {
+        "chunkId": "6f6a20",
+        "hash": "58bed447",
+        "encoded": "When(/%5EI%20accept%20the%20alert$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "421": {
+        "chunkId": "6f6a20",
+        "hash": "300b6c1f",
+        "encoded": "console.log('Accepting%20the%20alert');",
+        "prevChunkIds": []
+      },
+      "422": {
+        "chunkId": "6f6a20",
+        "hash": "9f321969",
+        "encoded": "await%20this.uiActions.acceptAlert();",
+        "prevChunkIds": []
+      },
+      "423": {
+        "chunkId": "6f6a20",
+        "hash": "2389c92b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "425": {
+        "chunkId": "6f6a20",
+        "hash": "eaebc525",
+        "encoded": "When(/%5EI%20dismiss%20the%20alert$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "426": {
+        "chunkId": "6f6a20",
+        "hash": "ed1d8d51",
+        "encoded": "console.log('Dismissing%20the%20alert');",
+        "prevChunkIds": []
+      },
+      "427": {
+        "chunkId": "6f6a20",
+        "hash": "3329a988",
+        "encoded": "await%20this.uiActions.dismissAlert();",
+        "prevChunkIds": []
+      },
+      "428": {
+        "chunkId": "6f6a20",
+        "hash": "49cb4715",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "430": {
+        "chunkId": "6f6a20",
+        "hash": "b59a3eb0",
+        "encoded": "When(/%5EI%20type%20%22(%5B%5E%22%5D*)%22%20in%20alert%20prompt$/,%20async%20function%20(this:%20CustomWorld,%20text:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "431": {
+        "chunkId": "6f6a20",
+        "hash": "d189dac0",
+        "encoded": "console.log(%60Typing%20%22$%7Btext%7D%22%20in%20alert%20prompt%60);",
+        "prevChunkIds": []
+      },
+      "432": {
+        "chunkId": "6f6a20",
+        "hash": "ec688c65",
+        "encoded": "await%20this.uiActions.typeInAlert(text);",
+        "prevChunkIds": []
+      },
+      "433": {
+        "chunkId": "6f6a20",
+        "hash": "116fe2fd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "435": {
+        "chunkId": "6f6a20",
+        "hash": "37556b2b",
+        "encoded": "When(/%5EI%20close%20the%20modal$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "436": {
+        "chunkId": "6f6a20",
+        "hash": "148cda5a",
+        "encoded": "console.log('Closing%20the%20modal');",
+        "prevChunkIds": []
+      },
+      "437": {
+        "chunkId": "6f6a20",
+        "hash": "f61b3ab7",
+        "encoded": "await%20this.uiActions.closeModal();",
+        "prevChunkIds": []
+      },
+      "438": {
+        "chunkId": "6f6a20",
+        "hash": "372e5ea4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "440": {
+        "chunkId": "6f6a20",
+        "hash": "f122c43a",
+        "encoded": "When(/%5EI%20click%20outside%20the%20modal$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "441": {
+        "chunkId": "6f6a20",
+        "hash": "6bc4e427",
+        "encoded": "console.log('Clicking%20outside%20the%20modal');",
+        "prevChunkIds": []
+      },
+      "442": {
+        "chunkId": "6f6a20",
+        "hash": "7555d460",
+        "encoded": "await%20this.uiActions.clickOutsideModal();",
+        "prevChunkIds": []
+      },
+      "443": {
+        "chunkId": "6f6a20",
+        "hash": "8e5b3577",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "444": {
+        "chunkId": "d7d3dd",
+        "hash": "dbdd7bb9",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "445": {
+        "chunkId": "d7d3dd",
+        "hash": "d3bab867",
+        "encoded": "//%20KEYBOARD%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "446": {
+        "chunkId": "d7d3dd",
+        "hash": "899d07cf",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "447": {
+        "chunkId": "d7d3dd",
+        "hash": "3c711ef7",
+        "encoded": "BddWhen(/%5EI%20press%20(Enter%7CTab%7CEscape%7CSpace%7CBackspace%7CDelete)%20key$/,%20async%20(%7B%20uiActions%20%7D,%20key:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "448": {
+        "chunkId": "d7d3dd",
+        "hash": "53a0ae4b",
+        "encoded": "console.log(%60Pressing%20$%7Bkey%7D%20key%60);",
+        "prevChunkIds": []
+      },
+      "449": {
+        "chunkId": "d7d3dd",
+        "hash": "c5a37338",
+        "encoded": "await%20uiActions.pressKey(key);",
+        "prevChunkIds": []
+      },
+      "450": {
+        "chunkId": "d7d3dd",
+        "hash": "465755f0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "452": {
+        "chunkId": "d7d3dd",
+        "hash": "4c7463db",
+        "encoded": "BddWhen(/%5EI%20press%20key%20combination%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20keys:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "453": {
+        "chunkId": "d7d3dd",
+        "hash": "70067dc4",
+        "encoded": "console.log(%60Pressing%20key%20combination%20%22$%7Bkeys%7D%22%60);",
+        "prevChunkIds": []
+      },
+      "454": {
+        "chunkId": "d7d3dd",
+        "hash": "e880c412",
+        "encoded": "await%20uiActions.pressKeyCombination(keys);",
+        "prevChunkIds": []
+      },
+      "455": {
+        "chunkId": "d7d3dd",
+        "hash": "db451dbf",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "456": {
+        "chunkId": "6f6a20",
+        "hash": "12fb26b5",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "457": {
+        "chunkId": "6f6a20",
+        "hash": "d235a8ca",
+        "encoded": "//%20KEYBOARD%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "458": {
+        "chunkId": "6f6a20",
+        "hash": "23d2996f",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "459": {
+        "chunkId": "6f6a20",
+        "hash": "a9696033",
+        "encoded": "When(/%5EI%20press%20(Enter%7CTab%7CEscape%7CSpace%7CBackspace%7CDelete)%20key$/,%20async%20function%20(this:%20CustomWorld,%20key:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "460": {
+        "chunkId": "6f6a20",
+        "hash": "d2226bce",
+        "encoded": "console.log(%60Pressing%20$%7Bkey%7D%20key%60);",
+        "prevChunkIds": []
+      },
+      "461": {
+        "chunkId": "6f6a20",
+        "hash": "302c8b30",
+        "encoded": "await%20this.uiActions.pressKey(key);",
+        "prevChunkIds": []
+      },
+      "462": {
+        "chunkId": "6f6a20",
+        "hash": "95029804",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "464": {
+        "chunkId": "6f6a20",
+        "hash": "ea25c3ff",
+        "encoded": "When(/%5EI%20press%20key%20combination%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20keys:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "465": {
+        "chunkId": "6f6a20",
+        "hash": "742cdf8f",
+        "encoded": "console.log(%60Pressing%20key%20combination%20%22$%7Bkeys%7D%22%60);",
+        "prevChunkIds": []
+      },
+      "466": {
+        "chunkId": "6f6a20",
+        "hash": "476acaf3",
+        "encoded": "await%20this.uiActions.pressKeyCombination(keys);",
+        "prevChunkIds": []
+      },
+      "467": {
+        "chunkId": "6f6a20",
+        "hash": "d4391efd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "468": {
+        "chunkId": "4edf43",
+        "hash": "6fa88420",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "469": {
+        "chunkId": "4edf43",
+        "hash": "50da900d",
+        "encoded": "//%20DRAG%20AND%20DROP%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "470": {
+        "chunkId": "4edf43",
+        "hash": "1e86e591",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "471": {
+        "chunkId": "4edf43",
+        "hash": "eb24d9d3",
+        "encoded": "BddWhen(/%5EI%20drag%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20sourceElement:%20string,%20targetElement:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "472": {
+        "chunkId": "4edf43",
+        "hash": "615a3e47",
+        "encoded": "console.log(%60Dragging%20$%7BsourceElement%7D%20to%20$%7BtargetElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "473": {
+        "chunkId": "4edf43",
+        "hash": "ac72b12a",
+        "encoded": "await%20uiActions.dragToElement(sourceElement,%20targetElement);",
+        "prevChunkIds": []
+      },
+      "474": {
+        "chunkId": "4edf43",
+        "hash": "6989e009",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "476": {
+        "chunkId": "4edf43",
+        "hash": "abaf3668",
+        "encoded": "BddWhen(/%5EI%20drag%20%22(%5B%5E%22%5D*)%22%20by%20offset%20%5C((%5Cd+),(%5Cd+)%5C)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20x:%20string,%20y:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "477": {
+        "chunkId": "4edf43",
+        "hash": "946e2e97",
+        "encoded": "console.log(%60Dragging%20$%7BelementName%7D%20by%20offset%20($%7Bx%7D,$%7By%7D)%60);",
+        "prevChunkIds": []
+      },
+      "478": {
+        "chunkId": "4edf43",
+        "hash": "18d1dad2",
+        "encoded": "await%20uiActions.dragByOffset(elementName,%20x,%20y);",
+        "prevChunkIds": []
+      },
+      "479": {
+        "chunkId": "4edf43",
+        "hash": "9bdd27b7",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "480": {
+        "chunkId": "6f6a20",
+        "hash": "a7c6c8ec",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "481": {
+        "chunkId": "6f6a20",
+        "hash": "98935a53",
+        "encoded": "//%20DRAG%20AND%20DROP%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "482": {
+        "chunkId": "6f6a20",
+        "hash": "3e80da10",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "483": {
+        "chunkId": "6f6a20",
+        "hash": "a8da460d",
+        "encoded": "When(/%5EI%20drag%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20sourceElement:%20string,%20targetElement:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "484": {
+        "chunkId": "6f6a20",
+        "hash": "87cf4741",
+        "encoded": "console.log(%60Dragging%20$%7BsourceElement%7D%20to%20$%7BtargetElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "485": {
+        "chunkId": "6f6a20",
+        "hash": "72a9101e",
+        "encoded": "await%20this.uiActions.dragToElement(sourceElement,%20targetElement);",
+        "prevChunkIds": []
+      },
+      "486": {
+        "chunkId": "6f6a20",
+        "hash": "a72559c1",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "488": {
+        "chunkId": "6f6a20",
+        "hash": "16177536",
+        "encoded": "When(/%5EI%20drag%20%22(%5B%5E%22%5D*)%22%20by%20offset%20%5C((%5Cd+),(%5Cd+)%5C)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20x:%20string,%20y:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "489": {
+        "chunkId": "6f6a20",
+        "hash": "9f7a91e8",
+        "encoded": "console.log(%60Dragging%20$%7BelementName%7D%20by%20offset%20($%7Bx%7D,$%7By%7D)%60);",
+        "prevChunkIds": []
+      },
+      "490": {
+        "chunkId": "6f6a20",
+        "hash": "b8396c3a",
+        "encoded": "await%20this.uiActions.dragByOffset(elementName,%20x,%20y);",
+        "prevChunkIds": []
+      },
+      "491": {
+        "chunkId": "6f6a20",
+        "hash": "0aa2e7d6",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "492": {
+        "chunkId": "6a9aea",
+        "hash": "cf918e15",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "493": {
+        "chunkId": "6a9aea",
+        "hash": "7deba560",
+        "encoded": "//%20FORM%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "494": {
+        "chunkId": "6a9aea",
+        "hash": "ee83ae27",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "495": {
+        "chunkId": "6a9aea",
+        "hash": "031d82a9",
+        "encoded": "BddWhen(/%5EI%20submit%20the%20form$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "496": {
+        "chunkId": "6a9aea",
+        "hash": "5d0df18e",
+        "encoded": "console.log('Submitting%20the%20form');",
+        "prevChunkIds": []
+      },
+      "497": {
+        "chunkId": "6f6a20",
+        "hash": "ba2ef4e4",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "498": {
+        "chunkId": "6f6a20",
+        "hash": "7e3a4ba5",
+        "encoded": "//%20FORM%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "499": {
+        "chunkId": "6f6a20",
+        "hash": "f94b30af",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "500": {
+        "chunkId": "6f6a20",
+        "hash": "e8562cab",
+        "encoded": "When(/%5EI%20submit%20the%20form$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "501": {
+        "chunkId": "f1ec68",
+        "hash": "72ead2d0",
+        "encoded": "await%20uiActions.submitForm();",
+        "prevChunkIds": []
+      },
+      "502": {
+        "chunkId": "f1ec68",
+        "hash": "ffa1ddfc",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "504": {
+        "chunkId": "f1ec68",
+        "hash": "0c45faf0",
+        "encoded": "BddWhen(/%5EI%20reset%20the%20form$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "505": {
+        "chunkId": "f1ec68",
+        "hash": "fa0d5990",
+        "encoded": "console.log('Resetting%20the%20form');",
+        "prevChunkIds": []
+      },
+      "506": {
+        "chunkId": "f1ec68",
+        "hash": "21f589cf",
+        "encoded": "await%20uiActions.resetForm();",
+        "prevChunkIds": []
+      },
+      "507": {
+        "chunkId": "f1ec68",
+        "hash": "b74862ee",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "509": {
+        "chunkId": "f1ec68",
+        "hash": "58e2bc3a",
+        "encoded": "BddWhen(/%5EI%20fill%20form%20with:$/,%20async%20(%7B%20uiActions%20%7D,%20dataTable:%20any)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "510": {
+        "chunkId": "f1ec68",
+        "hash": "b62b8fd5",
+        "encoded": "console.log('Filling%20form%20with%20data%20table:',%20dataTable.raw());",
+        "prevChunkIds": []
+      },
+      "511": {
+        "chunkId": "f1ec68",
+        "hash": "f4963034",
+        "encoded": "await%20uiActions.fillFormWithData(dataTable);",
+        "prevChunkIds": []
+      },
+      "512": {
+        "chunkId": "f1ec68",
+        "hash": "f285fe29",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "514": {
+        "chunkId": "f1ec68",
+        "hash": "0977469b",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "515": {
+        "chunkId": "f1ec68",
+        "hash": "ecb825da",
+        "encoded": "//%20UTILITY%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "516": {
+        "chunkId": "f1ec68",
+        "hash": "56bd7a1e",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "517": {
+        "chunkId": "f1ec68",
+        "hash": "c072c155",
+        "encoded": "BddWhen(/%5EI%20take%20a%20screenshot$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "518": {
+        "chunkId": "f1ec68",
+        "hash": "91565558",
+        "encoded": "console.log('Taking%20a%20screenshot');",
+        "prevChunkIds": []
+      },
+      "519": {
+        "chunkId": "f1ec68",
+        "hash": "0a0d1b8e",
+        "encoded": "await%20uiActions.takeScreenshot();",
+        "prevChunkIds": []
+      },
+      "520": {
+        "chunkId": "f1ec68",
+        "hash": "9270f339",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "522": {
+        "chunkId": "f1ec68",
+        "hash": "c084d63d",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "523": {
+        "chunkId": "f1ec68",
+        "hash": "623c601f",
+        "encoded": "//%20MOBILE-SPECIFIC%20ACTIONS%20(Compatibility)",
+        "prevChunkIds": []
+      },
+      "524": {
+        "chunkId": "f1ec68",
+        "hash": "2b088e63",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "525": {
+        "chunkId": "f1ec68",
+        "hash": "ebdf82ad",
+        "encoded": "BddWhen(/%5EI%20rotate%20device%20to%20(landscape%7Cportrait)$/,%20async%20(%7B%20uiActions%20%7D,%20orientation:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "526": {
+        "chunkId": "f1ec68",
+        "hash": "17ce224a",
+        "encoded": "console.log(%60Rotating%20device%20to%20$%7Borientation%7D%60);",
+        "prevChunkIds": []
+      },
+      "527": {
+        "chunkId": "f1ec68",
+        "hash": "4aa0d45e",
+        "encoded": "await%20uiActions.rotateDevice(orientation);",
+        "prevChunkIds": []
+      },
+      "528": {
+        "chunkId": "f1ec68",
+        "hash": "92222f98",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "530": {
+        "chunkId": "f1ec68",
+        "hash": "1159a8b0",
+        "encoded": "BddWhen(/%5EI%20shake%20the%20device$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "531": {
+        "chunkId": "f1ec68",
+        "hash": "9bfc6b95",
+        "encoded": "console.log('Shaking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "532": {
+        "chunkId": "f1ec68",
+        "hash": "467d8d52",
+        "encoded": "await%20uiActions.shakeDevice();",
+        "prevChunkIds": []
+      },
+      "533": {
+        "chunkId": "f1ec68",
+        "hash": "08ff2239",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "535": {
+        "chunkId": "f1ec68",
+        "hash": "3bd0b13b",
+        "encoded": "BddWhen(/%5EI%20lock%20the%20device$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "536": {
+        "chunkId": "f1ec68",
+        "hash": "e4941629",
+        "encoded": "console.log('Locking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "537": {
+        "chunkId": "f1ec68",
+        "hash": "11f1a69a",
+        "encoded": "await%20uiActions.lockDevice();",
+        "prevChunkIds": []
+      },
+      "538": {
+        "chunkId": "f1ec68",
+        "hash": "6f88b2ad",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "540": {
+        "chunkId": "f1ec68",
+        "hash": "3f884af7",
+        "encoded": "BddWhen(/%5EI%20unlock%20the%20device$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "541": {
+        "chunkId": "f1ec68",
+        "hash": "491d8b60",
+        "encoded": "console.log('Unlocking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "542": {
+        "chunkId": "f1ec68",
+        "hash": "a016dc53",
+        "encoded": "await%20uiActions.unlockDevice();",
+        "prevChunkIds": []
+      },
+      "543": {
+        "chunkId": "f1ec68",
+        "hash": "d3b889c7",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "545": {
+        "chunkId": "f1ec68",
+        "hash": "e1d264c1",
+        "encoded": "BddWhen(/%5EI%20put%20app%20in%20background%20for%20(%5Cd+)%20seconds$/,%20async%20(%7B%20uiActions%20%7D,%20seconds:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "546": {
+        "chunkId": "f1ec68",
+        "hash": "599d007b",
+        "encoded": "console.log(%60Putting%20app%20in%20background%20for%20$%7Bseconds%7D%20seconds%60);",
+        "prevChunkIds": []
+      },
+      "547": {
+        "chunkId": "f1ec68",
+        "hash": "645d2914",
+        "encoded": "await%20uiActions.putAppInBackground(seconds);",
+        "prevChunkIds": []
+      },
+      "548": {
+        "chunkId": "f1ec68",
+        "hash": "67bc21b8",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "550": {
+        "chunkId": "f1ec68",
+        "hash": "5b7fe87e",
+        "encoded": "BddWhen(/%5EI%20bring%20app%20to%20foreground$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "551": {
+        "chunkId": "f1ec68",
+        "hash": "3abd7ba6",
+        "encoded": "console.log('Bringing%20app%20to%20foreground');",
+        "prevChunkIds": []
+      },
+      "552": {
+        "chunkId": "f1ec68",
+        "hash": "a29dfcf3",
+        "encoded": "await%20uiActions.bringAppToForeground();",
+        "prevChunkIds": []
+      },
+      "553": {
+        "chunkId": "f1ec68",
+        "hash": "c86d175c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "555": {
+        "chunkId": "f1ec68",
+        "hash": "700b16a2",
+        "encoded": "BddWhen(/%5EI%20hide%20keyboard$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "556": {
+        "chunkId": "f1ec68",
+        "hash": "fbc6f3d7",
+        "encoded": "console.log('Hiding%20keyboard');",
+        "prevChunkIds": []
+      },
+      "557": {
+        "chunkId": "f1ec68",
+        "hash": "5d5ad057",
+        "encoded": "await%20uiActions.hideKeyboard();",
+        "prevChunkIds": []
+      },
+      "558": {
+        "chunkId": "f1ec68",
+        "hash": "7651d819",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "560": {
+        "chunkId": "f1ec68",
+        "hash": "c402712a",
+        "encoded": "BddWhen(/%5EI%20show%20keyboard$/,%20async%20(%7B%20uiActions%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "561": {
+        "chunkId": "f1ec68",
+        "hash": "d026965b",
+        "encoded": "console.log('Showing%20keyboard');",
+        "prevChunkIds": []
+      },
+      "562": {
+        "chunkId": "f1ec68",
+        "hash": "048c26c5",
+        "encoded": "await%20uiActions.showKeyboard();",
+        "prevChunkIds": []
+      },
+      "563": {
+        "chunkId": "f1ec68",
+        "hash": "05468005",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "565": {
+        "chunkId": "f1ec68",
+        "hash": "f6a19a61",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "566": {
+        "chunkId": "f1ec68",
+        "hash": "368a60bb",
+        "encoded": "//%20TOUCH%20AND%20GESTURE%20ACTIONS%20(Compatibility)",
+        "prevChunkIds": []
+      },
+      "567": {
+        "chunkId": "f1ec68",
+        "hash": "d5ae1af2",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "568": {
+        "chunkId": "f1ec68",
+        "hash": "9e94679c",
+        "encoded": "BddWhen(/%5EI%20press%20and%20hold%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "569": {
+        "chunkId": "f1ec68",
+        "hash": "e7a581a4",
+        "encoded": "console.log(%60Pressing%20and%20holding%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "570": {
+        "chunkId": "f1ec68",
+        "hash": "500cf0cc",
+        "encoded": "await%20uiActions.pressAndHold(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "571": {
+        "chunkId": "f1ec68",
+        "hash": "2f3c1348",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "573": {
+        "chunkId": "f1ec68",
+        "hash": "c6c1f740",
+        "encoded": "BddWhen(/%5EI%20release%20the%20hold%20on%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "574": {
+        "chunkId": "f1ec68",
+        "hash": "44cb3d75",
+        "encoded": "console.log(%60Releasing%20hold%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "575": {
+        "chunkId": "f1ec68",
+        "hash": "ca3a99de",
+        "encoded": "await%20uiActions.releaseHold(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "576": {
+        "chunkId": "f1ec68",
+        "hash": "fd67fe9e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "578": {
+        "chunkId": "f1ec68",
+        "hash": "93a28b42",
+        "encoded": "BddWhen(/%5EI%20long%20press%20on%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string,%20elementType:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "579": {
+        "chunkId": "f1ec68",
+        "hash": "0112f116",
+        "encoded": "console.log(%60Long%20pressing%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "580": {
+        "chunkId": "f1ec68",
+        "hash": "c95221d3",
+        "encoded": "await%20uiActions.longPress(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "581": {
+        "chunkId": "f1ec68",
+        "hash": "015e88e9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "583": {
+        "chunkId": "f1ec68",
+        "hash": "20fd1a95",
+        "encoded": "BddWhen(/%5EI%20swipe%20from%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20fromElement:%20string,%20toElement:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "584": {
+        "chunkId": "f1ec68",
+        "hash": "beda8860",
+        "encoded": "console.log(%60Swiping%20from%20$%7BfromElement%7D%20to%20$%7BtoElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "585": {
+        "chunkId": "f1ec68",
+        "hash": "9b9bff52",
+        "encoded": "await%20uiActions.swipeFromTo(fromElement,%20toElement);",
+        "prevChunkIds": []
+      },
+      "586": {
+        "chunkId": "f1ec68",
+        "hash": "60434d76",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "588": {
+        "chunkId": "f1ec68",
+        "hash": "1aced345",
+        "encoded": "BddWhen(/%5EI%20swipe%20(left%7Cright%7Cup%7Cdown)%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20direction:%20string,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "589": {
+        "chunkId": "f1ec68",
+        "hash": "29e496f4",
+        "encoded": "console.log(%60Swiping%20$%7Bdirection%7D%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "590": {
+        "chunkId": "f1ec68",
+        "hash": "2aa894d4",
+        "encoded": "await%20uiActions.swipeDirection(direction,%20elementName);",
+        "prevChunkIds": []
+      },
+      "591": {
+        "chunkId": "f1ec68",
+        "hash": "b7fe2f6d",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "593": {
+        "chunkId": "f1ec68",
+        "hash": "73bba383",
+        "encoded": "BddWhen(/%5EI%20pinch%20in%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "594": {
+        "chunkId": "f1ec68",
+        "hash": "7beebf5f",
+        "encoded": "console.log(%60Pinching%20in%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "595": {
+        "chunkId": "f1ec68",
+        "hash": "5060b538",
+        "encoded": "await%20uiActions.pinchIn(elementName);",
+        "prevChunkIds": []
+      },
+      "596": {
+        "chunkId": "f1ec68",
+        "hash": "c2d2f613",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "598": {
+        "chunkId": "f1ec68",
+        "hash": "1608707a",
+        "encoded": "BddWhen(/%5EI%20pinch%20out%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "599": {
+        "chunkId": "f1ec68",
+        "hash": "f572fcca",
+        "encoded": "console.log(%60Pinching%20out%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "600": {
+        "chunkId": "f1ec68",
+        "hash": "6ed8b04d",
+        "encoded": "await%20uiActions.pinchOut(elementName);",
+        "prevChunkIds": []
+      },
+      "601": {
+        "chunkId": "f1ec68",
+        "hash": "ce9c6a57",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "603": {
+        "chunkId": "f1ec68",
+        "hash": "8c3d4e90",
+        "encoded": "BddWhen(/%5EI%20zoom%20in%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "604": {
+        "chunkId": "f1ec68",
+        "hash": "6b903ed3",
+        "encoded": "console.log(%60Zooming%20in%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "605": {
+        "chunkId": "f1ec68",
+        "hash": "0797afe3",
+        "encoded": "await%20uiActions.zoomIn(elementName);",
+        "prevChunkIds": []
+      },
+      "606": {
+        "chunkId": "f1ec68",
+        "hash": "497661b8",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "608": {
+        "chunkId": "f1ec68",
+        "hash": "2ff1a560",
+        "encoded": "BddWhen(/%5EI%20zoom%20out%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "609": {
+        "chunkId": "f1ec68",
+        "hash": "aa27125f",
+        "encoded": "console.log(%60Zooming%20out%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "610": {
+        "chunkId": "f1ec68",
+        "hash": "b99f4fa1",
+        "encoded": "await%20uiActions.zoomOut(elementName);",
+        "prevChunkIds": []
+      },
+      "611": {
+        "chunkId": "f1ec68",
+        "hash": "bd7651c1",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "612": {
+        "chunkId": "6f6a20",
+        "hash": "73f12d41",
+        "encoded": "await%20this.uiActions.submitForm();",
+        "prevChunkIds": []
+      },
+      "613": {
+        "chunkId": "6f6a20",
+        "hash": "2d89663f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "615": {
+        "chunkId": "6f6a20",
+        "hash": "3a174c25",
+        "encoded": "When(/%5EI%20reset%20the%20form$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "616": {
+        "chunkId": "6f6a20",
+        "hash": "610fa800",
+        "encoded": "console.log('Resetting%20the%20form');",
+        "prevChunkIds": []
+      },
+      "617": {
+        "chunkId": "6f6a20",
+        "hash": "93e36e2d",
+        "encoded": "await%20this.uiActions.resetForm();",
+        "prevChunkIds": []
+      },
+      "618": {
+        "chunkId": "6f6a20",
+        "hash": "cd6c524e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "620": {
+        "chunkId": "6f6a20",
+        "hash": "d38cbb0e",
+        "encoded": "When(/%5EI%20fill%20form%20with:$/,%20async%20function%20(this:%20CustomWorld,%20dataTable:%20any)%20%7B",
+        "prevChunkIds": []
+      },
+      "621": {
+        "chunkId": "6f6a20",
+        "hash": "547658a0",
+        "encoded": "console.log('Filling%20form%20with%20data%20table:',%20dataTable.raw());",
+        "prevChunkIds": []
+      },
+      "622": {
+        "chunkId": "6f6a20",
+        "hash": "0b52828a",
+        "encoded": "await%20this.uiActions.fillFormWithData(dataTable);",
+        "prevChunkIds": []
+      },
+      "623": {
+        "chunkId": "6f6a20",
+        "hash": "be1bc7ef",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "625": {
+        "chunkId": "6f6a20",
+        "hash": "2de24e57",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "626": {
+        "chunkId": "6f6a20",
+        "hash": "579c78b8",
+        "encoded": "//%20UTILITY%20ACTIONS",
+        "prevChunkIds": []
+      },
+      "627": {
+        "chunkId": "6f6a20",
+        "hash": "5f064f57",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "628": {
+        "chunkId": "6f6a20",
+        "hash": "700bf1f0",
+        "encoded": "When(/%5EI%20take%20a%20screenshot$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "629": {
+        "chunkId": "6f6a20",
+        "hash": "4fa54430",
+        "encoded": "console.log('Taking%20a%20screenshot');",
+        "prevChunkIds": []
+      },
+      "630": {
+        "chunkId": "6f6a20",
+        "hash": "9d2968d7",
+        "encoded": "await%20this.uiActions.takeScreenshot();",
+        "prevChunkIds": []
+      },
+      "631": {
+        "chunkId": "6f6a20",
+        "hash": "1183f9de",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "633": {
+        "chunkId": "6f6a20",
+        "hash": "85514ddd",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "634": {
+        "chunkId": "6f6a20",
+        "hash": "d10486d8",
+        "encoded": "//%20MOBILE-SPECIFIC%20ACTIONS%20(Compatibility)",
+        "prevChunkIds": []
+      },
+      "635": {
+        "chunkId": "6f6a20",
+        "hash": "620c3049",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "636": {
+        "chunkId": "6f6a20",
+        "hash": "d270d981",
+        "encoded": "When(/%5EI%20rotate%20device%20to%20(landscape%7Cportrait)$/,%20async%20function%20(this:%20CustomWorld,%20orientation:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "637": {
+        "chunkId": "6f6a20",
+        "hash": "1de19ded",
+        "encoded": "console.log(%60Rotating%20device%20to%20$%7Borientation%7D%60);",
+        "prevChunkIds": []
+      },
+      "638": {
+        "chunkId": "6f6a20",
+        "hash": "685b3ba5",
+        "encoded": "await%20this.uiActions.rotateDevice(orientation);",
+        "prevChunkIds": []
+      },
+      "639": {
+        "chunkId": "6f6a20",
+        "hash": "f149c543",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "641": {
+        "chunkId": "6f6a20",
+        "hash": "0654a27b",
+        "encoded": "When(/%5EI%20shake%20the%20device$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "642": {
+        "chunkId": "6f6a20",
+        "hash": "e89b5987",
+        "encoded": "console.log('Shaking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "643": {
+        "chunkId": "6f6a20",
+        "hash": "5fd09a7a",
+        "encoded": "await%20this.uiActions.shakeDevice();",
+        "prevChunkIds": []
+      },
+      "644": {
+        "chunkId": "6f6a20",
+        "hash": "a7a14aeb",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "646": {
+        "chunkId": "6f6a20",
+        "hash": "33bcc4f1",
+        "encoded": "When(/%5EI%20lock%20the%20device$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "647": {
+        "chunkId": "6f6a20",
+        "hash": "3ec7b517",
+        "encoded": "console.log('Locking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "648": {
+        "chunkId": "6f6a20",
+        "hash": "5b483b51",
+        "encoded": "await%20this.uiActions.lockDevice();",
+        "prevChunkIds": []
+      },
+      "649": {
+        "chunkId": "6f6a20",
+        "hash": "bce73377",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "651": {
+        "chunkId": "6f6a20",
+        "hash": "55b3c0db",
+        "encoded": "When(/%5EI%20unlock%20the%20device$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "652": {
+        "chunkId": "6f6a20",
+        "hash": "c2c4003b",
+        "encoded": "console.log('Unlocking%20the%20device');",
+        "prevChunkIds": []
+      },
+      "653": {
+        "chunkId": "6f6a20",
+        "hash": "8dbad477",
+        "encoded": "await%20this.uiActions.unlockDevice();",
+        "prevChunkIds": []
+      },
+      "654": {
+        "chunkId": "6f6a20",
+        "hash": "21295c3d",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "656": {
+        "chunkId": "6f6a20",
+        "hash": "61c488be",
+        "encoded": "When(/%5EI%20put%20app%20in%20background%20for%20(%5Cd+)%20seconds$/,%20async%20function%20(this:%20CustomWorld,%20seconds:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "657": {
+        "chunkId": "6f6a20",
+        "hash": "a85b27bc",
+        "encoded": "console.log(%60Putting%20app%20in%20background%20for%20$%7Bseconds%7D%20seconds%60);",
+        "prevChunkIds": []
+      },
+      "658": {
+        "chunkId": "6f6a20",
+        "hash": "fb16b51b",
+        "encoded": "await%20this.uiActions.putAppInBackground(seconds);",
+        "prevChunkIds": []
+      },
+      "659": {
+        "chunkId": "6f6a20",
+        "hash": "27cb0a9c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "661": {
+        "chunkId": "6f6a20",
+        "hash": "a06dd1bb",
+        "encoded": "When(/%5EI%20bring%20app%20to%20foreground$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "662": {
+        "chunkId": "6f6a20",
+        "hash": "c43fa4e0",
+        "encoded": "console.log('Bringing%20app%20to%20foreground');",
+        "prevChunkIds": []
+      },
+      "663": {
+        "chunkId": "6f6a20",
+        "hash": "f53a0910",
+        "encoded": "await%20this.uiActions.bringAppToForeground();",
+        "prevChunkIds": []
+      },
+      "664": {
+        "chunkId": "6f6a20",
+        "hash": "0b02b523",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "666": {
+        "chunkId": "6f6a20",
+        "hash": "b9385714",
+        "encoded": "When(/%5EI%20hide%20keyboard$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "667": {
+        "chunkId": "6f6a20",
+        "hash": "fcbe29ae",
+        "encoded": "console.log('Hiding%20keyboard');",
+        "prevChunkIds": []
+      },
+      "668": {
+        "chunkId": "6f6a20",
+        "hash": "2a01ed5e",
+        "encoded": "await%20this.uiActions.hideKeyboard();",
+        "prevChunkIds": []
+      },
+      "669": {
+        "chunkId": "6f6a20",
+        "hash": "bf76889b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "671": {
+        "chunkId": "6f6a20",
+        "hash": "9743c319",
+        "encoded": "When(/%5EI%20show%20keyboard$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "672": {
+        "chunkId": "6f6a20",
+        "hash": "d1e95751",
+        "encoded": "console.log('Showing%20keyboard');",
+        "prevChunkIds": []
+      },
+      "673": {
+        "chunkId": "6f6a20",
+        "hash": "fe141e53",
+        "encoded": "await%20this.uiActions.showKeyboard();",
+        "prevChunkIds": []
+      },
+      "674": {
+        "chunkId": "6f6a20",
+        "hash": "70704cb4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "676": {
+        "chunkId": "6f6a20",
+        "hash": "511c4ee8",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "677": {
+        "chunkId": "6f6a20",
+        "hash": "2f1ab843",
+        "encoded": "//%20TOUCH%20AND%20GESTURE%20ACTIONS%20(Compatibility)",
+        "prevChunkIds": []
+      },
+      "678": {
+        "chunkId": "6f6a20",
+        "hash": "ab68cf75",
+        "encoded": "//%20===============================",
+        "prevChunkIds": []
+      },
+      "679": {
+        "chunkId": "6f6a20",
+        "hash": "c50ce52f",
+        "encoded": "When(/%5EI%20press%20and%20hold%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "680": {
+        "chunkId": "6f6a20",
+        "hash": "a6a3528c",
+        "encoded": "console.log(%60Pressing%20and%20holding%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "681": {
+        "chunkId": "6f6a20",
+        "hash": "e1f9683b",
+        "encoded": "await%20this.uiActions.pressAndHold(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "682": {
+        "chunkId": "6f6a20",
+        "hash": "764d395a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "684": {
+        "chunkId": "6f6a20",
+        "hash": "bda0aa46",
+        "encoded": "When(/%5EI%20release%20the%20hold%20on%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "685": {
+        "chunkId": "6f6a20",
+        "hash": "ec9ace34",
+        "encoded": "console.log(%60Releasing%20hold%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "686": {
+        "chunkId": "6f6a20",
+        "hash": "182e0e58",
+        "encoded": "await%20this.uiActions.releaseHold(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "687": {
+        "chunkId": "6f6a20",
+        "hash": "1af7f431",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "689": {
+        "chunkId": "6f6a20",
+        "hash": "cc6fad8d",
+        "encoded": "When(/%5EI%20long%20press%20on%20%22(%5B%5E%22%5D*)%22%20(element%7Cbutton)$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string,%20elementType:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "690": {
+        "chunkId": "6f6a20",
+        "hash": "49958626",
+        "encoded": "console.log(%60Long%20pressing%20on%20$%7BelementName%7D%20$%7BelementType%7D%60);",
+        "prevChunkIds": []
+      },
+      "691": {
+        "chunkId": "6f6a20",
+        "hash": "0f06cff0",
+        "encoded": "await%20this.uiActions.longPress(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "692": {
+        "chunkId": "6f6a20",
+        "hash": "96d5fe0e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "694": {
+        "chunkId": "6f6a20",
+        "hash": "5351e128",
+        "encoded": "When(/%5EI%20swipe%20from%20%22(%5B%5E%22%5D*)%22%20to%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20fromElement:%20string,%20toElement:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "695": {
+        "chunkId": "6f6a20",
+        "hash": "e206d445",
+        "encoded": "console.log(%60Swiping%20from%20$%7BfromElement%7D%20to%20$%7BtoElement%7D%60);",
+        "prevChunkIds": []
+      },
+      "696": {
+        "chunkId": "6f6a20",
+        "hash": "0e6d10f0",
+        "encoded": "await%20this.uiActions.swipeFromTo(fromElement,%20toElement);",
+        "prevChunkIds": []
+      },
+      "697": {
+        "chunkId": "6f6a20",
+        "hash": "70cd9872",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "699": {
+        "chunkId": "6f6a20",
+        "hash": "145caa5d",
+        "encoded": "When(/%5EI%20swipe%20(left%7Cright%7Cup%7Cdown)%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20direction:%20string,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "700": {
+        "chunkId": "6f6a20",
+        "hash": "33dd272e",
+        "encoded": "console.log(%60Swiping%20$%7Bdirection%7D%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "701": {
+        "chunkId": "6f6a20",
+        "hash": "852fea69",
+        "encoded": "await%20this.uiActions.swipeDirection(direction,%20elementName);",
+        "prevChunkIds": []
+      },
+      "702": {
+        "chunkId": "6f6a20",
+        "hash": "be484997",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "704": {
+        "chunkId": "6f6a20",
+        "hash": "7adde067",
+        "encoded": "When(/%5EI%20pinch%20in%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "705": {
+        "chunkId": "6f6a20",
+        "hash": "82e5314d",
+        "encoded": "console.log(%60Pinching%20in%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "706": {
+        "chunkId": "6f6a20",
+        "hash": "28c1ecf1",
+        "encoded": "await%20this.uiActions.pinchIn(elementName);",
+        "prevChunkIds": []
+      },
+      "707": {
+        "chunkId": "6f6a20",
+        "hash": "172eccd0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "709": {
+        "chunkId": "6f6a20",
+        "hash": "3ad6b4b9",
+        "encoded": "When(/%5EI%20pinch%20out%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "710": {
+        "chunkId": "6f6a20",
+        "hash": "9117f44f",
+        "encoded": "console.log(%60Pinching%20out%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "711": {
+        "chunkId": "6f6a20",
+        "hash": "40ddc976",
+        "encoded": "await%20this.uiActions.pinchOut(elementName);",
+        "prevChunkIds": []
+      },
+      "712": {
+        "chunkId": "6f6a20",
+        "hash": "d130481a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "714": {
+        "chunkId": "6f6a20",
+        "hash": "c4c5fb45",
+        "encoded": "When(/%5EI%20zoom%20in%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "715": {
+        "chunkId": "6f6a20",
+        "hash": "88324302",
+        "encoded": "console.log(%60Zooming%20in%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "716": {
+        "chunkId": "6f6a20",
+        "hash": "49a01b20",
+        "encoded": "await%20this.uiActions.zoomIn(elementName);",
+        "prevChunkIds": []
+      },
+      "717": {
+        "chunkId": "6f6a20",
+        "hash": "91d03b0f",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "719": {
+        "chunkId": "6f6a20",
+        "hash": "0e06c8d9",
+        "encoded": "When(/%5EI%20zoom%20out%20on%20%22(%5B%5E%22%5D*)%22$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "720": {
+        "chunkId": "6f6a20",
+        "hash": "d8154be3",
+        "encoded": "console.log(%60Zooming%20out%20on%20$%7BelementName%7D%60);",
+        "prevChunkIds": []
+      },
+      "721": {
+        "chunkId": "6f6a20",
+        "hash": "902c239e",
+        "encoded": "await%20this.uiActions.zoomOut(elementName);",
+        "prevChunkIds": []
+      },
+      "722": {
+        "chunkId": "6f6a20",
+        "hash": "6246fb78",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+# Demo site locators for Playwright migration testing
+# SauceDemo website element locators
+
+login_page:
+  Username: '[data-test="username"]'
+  Password: '[data-test="password"]'
+  Login: '[data-test="login-button"]'
+  Error: '[data-test="error"]'
+
+products_page:
+  Products: '.title'
+  Inventory: '.inventory_list'
+  AddToCart: '[data-test="add-to-cart-sauce-labs-backpack"]'
+  ShoppingCart: '.shopping_cart_link'
+  Menu: '#react-burger-menu-btn'
+  Logout: '#logout_sidebar_link'
+
+common_elements:
+  Header: '.header_label'
+  Footer: '.footer'
+  Loading: '.loading'
+  Modal: '.modal'
+  CloseButton: '.close'
+  SubmitButton: '[type="submit"]'
+  CancelButton: '.btn_secondary'
+
+form_elements:
+  FirstName: '[data-test="firstName"]'
+  LastName: '[data-test="lastName"]'
+  PostalCode: '[data-test="postalCode"]'
+  Continue: '[data-test="continue"]'
+  Finish: '[data-test="finish"]'
+
+navigation:
+  BackToProducts: '[data-test="back-to-products"]'
+  Checkout: '[data-test="checkout"]'
+  Remove: '[data-test="remove-sauce-labs-backpack"]'

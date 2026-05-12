@@ -1,0 +1,335 @@
+{
+  "tsconfig.json": {
+    "filename": "tsconfig.json",
+    "path": "tsconfig.json",
+    "version": "1.2",
+    "contextFile": "5a95fab8-context.json",
+    "chunks": {
+      "f396de": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778022762,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "285ec763",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "f396de",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "f396de",
+        "hash": "c1221f13",
+        "encoded": "%22compilerOptions%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "f396de",
+        "hash": "c16cc6e6",
+        "encoded": "%22target%22:%20%22ES2022%22,",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "f396de",
+        "hash": "d442bc8b",
+        "encoded": "%22module%22:%20%22commonjs%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "f396de",
+        "hash": "a3be4778",
+        "encoded": "%22lib%22:%20%5B%22ES2022%22,%20%22DOM%22%5D,",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "f396de",
+        "hash": "6beedf6e",
+        "encoded": "%22moduleResolution%22:%20%22node%22,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "f396de",
+        "hash": "74be2a2e",
+        "encoded": "%22strict%22:%20true,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "f396de",
+        "hash": "5ed7cec7",
+        "encoded": "%22esModuleInterop%22:%20true,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "f396de",
+        "hash": "52c75da8",
+        "encoded": "%22skipLibCheck%22:%20true,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "f396de",
+        "hash": "df1af149",
+        "encoded": "%22forceConsistentCasingInFileNames%22:%20true,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "f396de",
+        "hash": "1afa4d7d",
+        "encoded": "%22resolveJsonModule%22:%20true,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "f396de",
+        "hash": "5b1f9872",
+        "encoded": "%22allowSyntheticDefaultImports%22:%20true,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "f396de",
+        "hash": "09473598",
+        "encoded": "%22experimentalDecorators%22:%20true,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "f396de",
+        "hash": "22797b4d",
+        "encoded": "%22emitDecoratorMetadata%22:%20true,",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "f396de",
+        "hash": "bdab70c4",
+        "encoded": "%22declaration%22:%20false,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "f396de",
+        "hash": "9b3ecd06",
+        "encoded": "%22outDir%22:%20%22./dist%22,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "f396de",
+        "hash": "971aade4",
+        "encoded": "%22rootDir%22:%20%22./%22,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "f396de",
+        "hash": "1ddecfec",
+        "encoded": "%22baseUrl%22:%20%22./%22,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "f396de",
+        "hash": "62111b59",
+        "encoded": "%22paths%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "f396de",
+        "hash": "38dd0989",
+        "encoded": "%22@/*%22:%20%5B%22./tests/*%22%5D,",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "f396de",
+        "hash": "0a29e6d8",
+        "encoded": "%22@support/*%22:%20%5B%22./tests/support/*%22%5D,",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "f396de",
+        "hash": "019f93cd",
+        "encoded": "%22@step-definitions/*%22:%20%5B%22./tests/step-definitions/*%22%5D,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "f396de",
+        "hash": "d3fb4d25",
+        "encoded": "%22@features/*%22:%20%5B%22./tests/features/*%22%5D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "f396de",
+        "hash": "0c72a658",
+        "encoded": "%22@locators/*%22:%20%5B%22./tests/locators/*%22%5D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "f396de",
+        "hash": "daa73354",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "f396de",
+        "hash": "e57c4a54",
+        "encoded": "%22types%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "f396de",
+        "hash": "0e2bffdc",
+        "encoded": "%22node%22,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "f396de",
+        "hash": "42da18db",
+        "encoded": "%22@playwright/test%22,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "f396de",
+        "hash": "f61555cf",
+        "encoded": "%22@cucumber/cucumber%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "f396de",
+        "hash": "6b2ad350",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "f396de",
+        "hash": "f8124d3b",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "f396de",
+        "hash": "ec75b4aa",
+        "encoded": "%22include%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "f396de",
+        "hash": "c2a6ed7a",
+        "encoded": "%22tests/**/*%22,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "f396de",
+        "hash": "e38311cf",
+        "encoded": "%22playwright.config.ts%22,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "f396de",
+        "hash": "ef440012",
+        "encoded": "%22playwright-headless.config.ts%22,",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "f396de",
+        "hash": "19faaddb",
+        "encoded": "%22playwright-shared.config.ts%22,",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "f396de",
+        "hash": "3c42fe1c",
+        "encoded": "%22cucumber.config.ts%22,",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "f396de",
+        "hash": "66ded4df",
+        "encoded": "%22**/*.ts%22",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "f396de",
+        "hash": "d24a7254",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "f396de",
+        "hash": "84f934b0",
+        "encoded": "%22exclude%22:%20%5B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "f396de",
+        "hash": "dc78b588",
+        "encoded": "%22node_modules%22,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "f396de",
+        "hash": "fbb29650",
+        "encoded": "%22dist%22,",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "f396de",
+        "hash": "c6159cab",
+        "encoded": "%22test-results%22,",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "f396de",
+        "hash": "620d45fc",
+        "encoded": "%22test-results-headless%22,",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "f396de",
+        "hash": "20d0b2cd",
+        "encoded": "%22reports%22,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "f396de",
+        "hash": "c9f9defb",
+        "encoded": "%22screenshots%22",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "f396de",
+        "hash": "69d98308",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "f396de",
+        "hash": "0bb4acdc",
+        "encoded": "%22ts-node%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "f396de",
+        "hash": "64b3dcdd",
+        "encoded": "%22require%22:%20%5B%22tsconfig-paths/register%22%5D",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "f396de",
+        "hash": "0b4804f7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "f396de",
+        "hash": "6a5bdc1a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

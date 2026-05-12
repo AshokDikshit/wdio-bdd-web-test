@@ -1,0 +1,15 @@
+{
+  "filename": "fixtures.ts",
+  "path": "tests/support/fixtures.ts",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "aa41b429": {
+      "value": "@Workspace Can you refer workspance understand the wdio framework and covert it into playwright framework using TypeScript. I need all build-in step definition and support to work as it is. Only I need to migrated/convert the wdio framework into playwright executable framework. Make changes to the files and create new file if needed"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

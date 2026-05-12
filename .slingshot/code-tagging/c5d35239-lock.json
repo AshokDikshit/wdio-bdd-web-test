@@ -1,0 +1,221 @@
+{
+  "bdd.config.ts": {
+    "filename": "bdd.config.ts",
+    "path": "bdd.config.ts",
+    "version": "1.2",
+    "contextFile": "c5d35239-context.json",
+    "chunks": {
+      "fd49df": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778022762,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "0ca5d2fc",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "fd49df",
+        "hash": "27191860",
+        "encoded": "import%20%7B%20defineBddConfig%20%7D%20from%20'playwright-bdd';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "fd49df",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "fd49df",
+        "hash": "787d4673",
+        "encoded": "*%20BDD%20Configuration%20for%20Playwright",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "fd49df",
+        "hash": "c488181b",
+        "encoded": "*%20Defines%20how%20Cucumber%20features%20are%20processed%20and%20executed",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "fd49df",
+        "hash": "ed5940e5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "fd49df",
+        "hash": "b1145559",
+        "encoded": "export%20const%20bddConfig%20=%20defineBddConfig(%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "fd49df",
+        "hash": "ebfc1f16",
+        "encoded": "//%20Import%20test%20fixtures%20and%20setup",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "fd49df",
+        "hash": "6fc11d05",
+        "encoded": "importTestFrom:%20'tests/support/fixtures.ts',",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "fd49df",
+        "hash": "26cabbaf",
+        "encoded": "//%20Feature%20files%20location",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "fd49df",
+        "hash": "43bc2fa1",
+        "encoded": "paths:%20%5B'tests/features'%5D,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "fd49df",
+        "hash": "0e74e1d1",
+        "encoded": "//%20Step%20definitions%20location",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "fd49df",
+        "hash": "60dfdadc",
+        "encoded": "require:%20%5B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "fd49df",
+        "hash": "cc2f3a85",
+        "encoded": "'tests/step-definitions/**/*.ts'",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "fd49df",
+        "hash": "8d0f862f",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "fd49df",
+        "hash": "3db57d48",
+        "encoded": "//%20Output%20directory%20for%20generated%20test%20files",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "fd49df",
+        "hash": "c3d2e6ea",
+        "encoded": "outputDir:%20'.features-gen',",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "fd49df",
+        "hash": "3877aa3c",
+        "encoded": "//%20Generate%20test%20files",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "fd49df",
+        "hash": "4a96bfeb",
+        "encoded": "generateTests:%20true,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "fd49df",
+        "hash": "60e46def",
+        "encoded": "//%20Verbose%20output",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "fd49df",
+        "hash": "eb016eae",
+        "encoded": "verbose:%20false,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "fd49df",
+        "hash": "9e891212",
+        "encoded": "//%20Quote%20character%20for%20step%20parameters",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "fd49df",
+        "hash": "f898ef7e",
+        "encoded": "quote:%20'%22',",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "fd49df",
+        "hash": "fd1688b8",
+        "encoded": "//%20Enrichment%20options",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "fd49df",
+        "hash": "57b02e29",
+        "encoded": "enrichReporterData:%20true,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "fd49df",
+        "hash": "2fd2dc5b",
+        "encoded": "//%20Tags%20to%20include/exclude",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "fd49df",
+        "hash": "dc1c0774",
+        "encoded": "tags:%20process.env.CUCUMBER_TAGS,",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "fd49df",
+        "hash": "0ee50940",
+        "encoded": "//%20Feature%20naming%20convention",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "fd49df",
+        "hash": "38584875",
+        "encoded": "featureNaming:%20'kebab-case',",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "fd49df",
+        "hash": "e5e1a4a2",
+        "encoded": "//%20Step%20naming%20convention",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "fd49df",
+        "hash": "e284d2f0",
+        "encoded": "stepNaming:%20'camelCase'",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "fd49df",
+        "hash": "8636d221",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "fd49df",
+        "hash": "5167dd09",
+        "encoded": "export%20default%20bddConfig;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

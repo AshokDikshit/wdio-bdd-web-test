@@ -1,0 +1,353 @@
+{
+  ".gitignore": {
+    "filename": ".gitignore",
+    "path": ".gitignore",
+    "version": "1.2",
+    "contextFile": "b6459458-context.json",
+    "chunks": {
+      "6f7a9e": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778022762,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "3035e0c5",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "6f7a9e",
+        "hash": "969a9d8c",
+        "encoded": "#%20Playwright",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "6f7a9e",
+        "hash": "4966dd6b",
+        "encoded": "/test-results/",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "6f7a9e",
+        "hash": "ee5fd102",
+        "encoded": "/test-results-headless/",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "6f7a9e",
+        "hash": "ba15503c",
+        "encoded": "/playwright-report/",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "6f7a9e",
+        "hash": "e6d6744f",
+        "encoded": "/playwright/.cache/",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "6f7a9e",
+        "hash": "c71eca4c",
+        "encoded": "/reports/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "6f7a9e",
+        "hash": "9b2f580d",
+        "encoded": "/screenshots/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "6f7a9e",
+        "hash": "fc90db56",
+        "encoded": "/.features-gen/",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "6f7a9e",
+        "hash": "494b3ab8",
+        "encoded": "#%20Node.js",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "6f7a9e",
+        "hash": "dfc30f6c",
+        "encoded": "node_modules/",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "6f7a9e",
+        "hash": "69735b99",
+        "encoded": "npm-debug.log*",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "6f7a9e",
+        "hash": "b7ad14d2",
+        "encoded": "yarn-debug.log*",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "6f7a9e",
+        "hash": "26d2b753",
+        "encoded": "yarn-error.log*",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "6f7a9e",
+        "hash": "8e75760a",
+        "encoded": "#%20TypeScript",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "6f7a9e",
+        "hash": "15f6444b",
+        "encoded": "*.tsbuildinfo",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "6f7a9e",
+        "hash": "034ef596",
+        "encoded": "/dist/",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "6f7a9e",
+        "hash": "72c6d7a0",
+        "encoded": "#%20Environment%20variables",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "6f7a9e",
+        "hash": "68cdb7a5",
+        "encoded": ".env",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "6f7a9e",
+        "hash": "3dfae765",
+        "encoded": ".env.local",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "6f7a9e",
+        "hash": "8d4a2b3b",
+        "encoded": ".env.development.local",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "6f7a9e",
+        "hash": "55dbe3df",
+        "encoded": ".env.test.local",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "6f7a9e",
+        "hash": "ed5872a1",
+        "encoded": ".env.production.local",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "6f7a9e",
+        "hash": "764e480f",
+        "encoded": "#%20IDE",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "6f7a9e",
+        "hash": "d749bae7",
+        "encoded": ".vscode/",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "6f7a9e",
+        "hash": "880d9285",
+        "encoded": ".idea/",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "6f7a9e",
+        "hash": "db8f8ccc",
+        "encoded": "*.swp",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "6f7a9e",
+        "hash": "b21ad3f9",
+        "encoded": "*.swo",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "6f7a9e",
+        "hash": "ec1d76c7",
+        "encoded": "*~",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "6f7a9e",
+        "hash": "cc3f3aef",
+        "encoded": "#%20OS",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "6f7a9e",
+        "hash": "5a1a0c56",
+        "encoded": ".DS_Store",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "6f7a9e",
+        "hash": "4287712e",
+        "encoded": ".DS_Store?",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "6f7a9e",
+        "hash": "3bfe04d1",
+        "encoded": "._*",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "6f7a9e",
+        "hash": "4f6c80c5",
+        "encoded": ".Spotlight-V100",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "6f7a9e",
+        "hash": "8a1dc518",
+        "encoded": ".Trashes",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "6f7a9e",
+        "hash": "c2558999",
+        "encoded": "ehthumbs.db",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "6f7a9e",
+        "hash": "31bc7954",
+        "encoded": "Thumbs.db",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "6f7a9e",
+        "hash": "0f271e9d",
+        "encoded": "#%20Logs",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "6f7a9e",
+        "hash": "fb8525aa",
+        "encoded": "logs/",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "6f7a9e",
+        "hash": "6051de23",
+        "encoded": "*.log",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "6f7a9e",
+        "hash": "f6bda673",
+        "encoded": "#%20Coverage",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "6f7a9e",
+        "hash": "f59ac378",
+        "encoded": "coverage/",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "6f7a9e",
+        "hash": "dc3d8f6e",
+        "encoded": "*.lcov",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "6f7a9e",
+        "hash": "e043f8b8",
+        "encoded": "#%20Temporary%20files",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "6f7a9e",
+        "hash": "5ea5a74d",
+        "encoded": "*.tmp",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "6f7a9e",
+        "hash": "e14418bc",
+        "encoded": "*.temp",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "6f7a9e",
+        "hash": "88f441f5",
+        "encoded": "#%20WebDriverIO%20(legacy)",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "6f7a9e",
+        "hash": "50b5f206",
+        "encoded": "wdio.log",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "6f7a9e",
+        "hash": "db3767a5",
+        "encoded": "allure-results/",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "6f7a9e",
+        "hash": "099c71c6",
+        "encoded": "#%20Backup%20files",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "6f7a9e",
+        "hash": "c90df066",
+        "encoded": "*.bak",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "6f7a9e",
+        "hash": "0fec1c29",
+        "encoded": "*.backup",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "6f7a9e",
+        "hash": "f4b95896",
+        "encoded": "#%20Lock%20files%20(keep%20package-lock.json%20but%20ignore%20others)",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "6f7a9e",
+        "hash": "a6c0f203",
+        "encoded": "yarn.lock",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "6f7a9e",
+        "hash": "2ce097d4",
+        "encoded": "pnpm-lock.yaml",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

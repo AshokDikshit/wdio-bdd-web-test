@@ -1,23 +1,134 @@
-# Web Application Locators
-# All locators consolidated under common key for better maintainability
-# Organized by functionality for easy access
+# Playwright BDD Web Locators
+# Migrated from WebDriverIO locator definitions
 
 common:
   # Products Page Elements
   inventoryContainer: "//div[@id='inventory_container']"
   shoppingCartBadge: "//span[@class='shopping_cart_badge']"
   shoppingCartLink: "//a[@class='shopping_cart_link']"
-
+  
   # Cart Page Elements
   cartContents: "//div[@id='cart_contents_container']"
   menuButton: "//button[@id='react-burger-menu-btn']"
   
-  # Checkout Information Page Elements
+  # Checkout Elements
   checkoutInfo: "//div[@id='checkout_info_container']"
-  
-  # Checkout Overview Page Elements
   checkoutSummary: "//div[@id='checkout_summary_container']"
-  # finishButton: "//button[@id='finish']"
-  
-  # Checkout Complete Page Elements
   checkoutComplete: "//div[@id='checkout_complete_container']"
+  
+  # Login Elements
+  usernameField: "//input[@id='user-name']"
+  passwordField: "//input[@id='password']"
+  loginButton: "//input[@id='login-button']"
+  
+  # Product Elements
+  addToCartButton: "//button[contains(@class, 'btn_primary') and contains(@class, 'btn_inventory')]"
+  removeButton: "//button[contains(@class, 'btn_secondary') and contains(@class, 'btn_inventory')]"
+  
+  # Navigation Elements
+  backToProducts: "//button[@id='back-to-products']"
+  continueButton: "//input[@id='continue']"
+  finishButton: "//button[@id='finish']"
+  
+  # Form Elements
+  firstNameField: "//input[@id='first-name']"
+  lastNameField: "//input[@id='last-name']"
+  postalCodeField: "//input[@id='postal-code']"
+  
+  # Error Elements
+  errorMessage: "//h3[@data-test='error']"
+  errorButton: "//button[@class='error-button']"
+  
+  # Success Elements
+  completeHeader: "//h2[@class='complete-header']"
+  completeText: "//div[@class='complete-text']"
+  
+  # Filter and Sort Elements
+  productSortContainer: "//select[@class='product_sort_container']"
+  filterButton: "//button[@id='filter-button']"
+  
+  # Social Media Links
+  twitterLink: "//a[contains(@href, 'twitter')]"
+  facebookLink: "//a[contains(@href, 'facebook')]"
+  linkedinLink: "//a[contains(@href, 'linkedin')]"
+
+# Page-specific locators
+loginPage:
+  loginForm: "//form[@id='login-form']"
+  loginTitle: "//div[@class='login_logo']"
+  credentialsInfo: "//div[@id='login_credentials']"
+  passwordInfo: "//div[@class='login_password']"
+
+productsPage:
+  productsTitle: "//span[@class='title' and text()='Products']"
+  inventoryList: "//div[@class='inventory_list']"
+  inventoryItem: "//div[@class='inventory_item']"
+  inventoryItemName: "//div[@class='inventory_item_name']"
+  inventoryItemDesc: "//div[@class='inventory_item_desc']"
+  inventoryItemPrice: "//div[@class='inventory_item_price']"
+
+cartPage:
+  cartTitle: "//span[@class='title' and text()='Your Cart']"
+  cartList: "//div[@class='cart_list']"
+  cartItem: "//div[@class='cart_item']"
+  cartQuantity: "//div[@class='cart_quantity']"
+  checkoutButton: "//button[@id='checkout']"
+  continueShoppingButton: "//button[@id='continue-shopping']"
+
+checkoutPage:
+  checkoutTitle: "//span[@class='title' and text()='Checkout: Your Information']"
+  checkoutForm: "//div[@class='checkout_info']"
+  cancelButton: "//button[@id='cancel']"
+
+checkoutOverviewPage:
+  overviewTitle: "//span[@class='title' and text()='Checkout: Overview']"
+  summaryInfo: "//div[@class='summary_info']"
+  summarySubtotal: "//div[@class='summary_subtotal_label']"
+  summaryTax: "//div[@class='summary_tax_label']"
+  summaryTotal: "//div[@class='summary_total_label']"
+
+checkoutCompletePage:
+  completeTitle: "//span[@class='title' and text()='Checkout: Complete!']"
+  ponyExpress: "//img[@class='pony_express']"
+  backHomeButton: "//button[@id='back-to-products']"
+
+# Registration page locators
+registrationPage:
+  createAccountHeading: "//h1[text()='Create Account']"
+  firstNameField: "//input[@name='firstName']"
+  lastNameField: "//input[@name='lastName']"
+  emailField: "//input[@name='email']"
+  passwordField: "//input[@name='password']"
+  confirmPasswordField: "//input[@name='confirmPassword']"
+  termsCheckbox: "//input[@name='terms']"
+  registerButton: "//button[@type='submit' and text()='Register']"
+  successMessage: "//div[@class='success-message']"
+  
+  # Validation errors
+  firstNameError: "//span[@class='error' and @data-field='firstName']"
+  lastNameError: "//span[@class='error' and @data-field='lastName']"
+  emailError: "//span[@class='error' and @data-field='email']"
+  passwordError: "//span[@class='error' and @data-field='password']"
+  emailFormatError: "//span[@class='error' and contains(text(), 'valid email')]"
+  passwordMismatchError: "//span[@class='error' and contains(text(), 'do not match')]"
+
+# Email verification page locators
+emailVerificationPage:
+  emailVerificationHeading: "//h1[text()='Email Verification']"
+  verificationMessage: "//p[@class='verification-message']"
+  resendButton: "//button[text()='Resend Email']"
+  changeEmailButton: "//button[text()='Change Email']"
+
+# Common UI elements
+commonUI:
+  loadingSpinner: "//div[@class='loading-spinner']"
+  modal: "//div[@class='modal']"
+  modalClose: "//button[@class='modal-close']"
+  toast: "//div[@class='toast']"
+  dropdown: "//select"
+  button: "//button"
+  link: "//a"
+  input: "//input"
+  textarea: "//textarea"
+  checkbox: "//input[@type='checkbox']"
+  radio: "//input[@type='radio']"

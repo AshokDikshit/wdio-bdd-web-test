@@ -1,0 +1,425 @@
+{
+  "tests/support/generate-cucumber-report.ts": {
+    "filename": "generate-cucumber-report.ts",
+    "path": "tests/support/generate-cucumber-report.ts",
+    "version": "1.2",
+    "contextFile": "8baf0f44-context.json",
+    "chunks": {
+      "530bba": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613149,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "3e82c24e",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "530bba",
+        "hash": "e4a8beed",
+        "encoded": "import%20*%20as%20fs%20from%20'fs';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "530bba",
+        "hash": "b42b847f",
+        "encoded": "import%20*%20as%20path%20from%20'path';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "530bba",
+        "hash": "1aa70efb",
+        "encoded": "import%20%7B%20generate%20%7D%20from%20'multiple-cucumber-html-reporter';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "530bba",
+        "hash": "3da07bb7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "530bba",
+        "hash": "e986c356",
+        "encoded": "*%20Generate%20Cucumber%20HTML%20report%20from%20JSON%20results",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "530bba",
+        "hash": "7a873773",
+        "encoded": "*%20Migrated%20from%20WebDriverIO%20report%20generation",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "530bba",
+        "hash": "0ae79b2f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "530bba",
+        "hash": "0995907b",
+        "encoded": "export%20async%20function%20generateReport():%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "530bba",
+        "hash": "62ef0bff",
+        "encoded": "try%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "530bba",
+        "hash": "bfe85e63",
+        "encoded": "console.log('%F0%9F%93%8A%20Generating%20Cucumber%20HTML%20report...');",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "530bba",
+        "hash": "12af53f7",
+        "encoded": "//%20Ensure%20reports%20directory%20exists",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "530bba",
+        "hash": "b17f47f9",
+        "encoded": "const%20reportsDir%20=%20'./reports';",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "530bba",
+        "hash": "2f4ef66c",
+        "encoded": "if%20(!fs.existsSync(reportsDir))%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "530bba",
+        "hash": "f8f77199",
+        "encoded": "fs.mkdirSync(reportsDir,%20%7B%20recursive:%20true%20%7D);",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "530bba",
+        "hash": "0a373349",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "530bba",
+        "hash": "ece7b721",
+        "encoded": "//%20Check%20if%20cucumber%20report%20JSON%20exists",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "530bba",
+        "hash": "78425878",
+        "encoded": "const%20cucumberJsonPath%20=%20path.join(reportsDir,%20'cucumber-report.json');",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "530bba",
+        "hash": "f32cea9d",
+        "encoded": "if%20(!fs.existsSync(cucumberJsonPath))%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "530bba",
+        "hash": "1e8d36b4",
+        "encoded": "console.log('%E2%9A%A0%EF%B8%8F%20%20No%20Cucumber%20JSON%20report%20found,%20skipping%20HTML%20report%20generation');",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "530bba",
+        "hash": "fee19a1f",
+        "encoded": "return;",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "530bba",
+        "hash": "7b3531ab",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "530bba",
+        "hash": "3b63bc1f",
+        "encoded": "//%20Generate%20HTML%20report",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "530bba",
+        "hash": "abc369c4",
+        "encoded": "generate(%7B",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "530bba",
+        "hash": "2e804f10",
+        "encoded": "jsonDir:%20reportsDir,",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "530bba",
+        "hash": "b267cbc3",
+        "encoded": "reportPath:%20reportsDir,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "530bba",
+        "hash": "c630dc62",
+        "encoded": "reportName:%20'Playwright%20BDD%20Test%20Report',",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "530bba",
+        "hash": "190583ec",
+        "encoded": "pageTitle:%20'Playwright%20BDD%20Test%20Results',",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "530bba",
+        "hash": "81b51487",
+        "encoded": "displayDuration:%20true,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "530bba",
+        "hash": "fa51d067",
+        "encoded": "displayReportTime:%20true,",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "530bba",
+        "hash": "5f25c1f8",
+        "encoded": "useCDN:%20false,",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "530bba",
+        "hash": "047a214f",
+        "encoded": "pageFooter:%20'%3Cdiv%3E%3Cp%3EGenerated%20by%20Playwright%20BDD%20Framework%3C/p%3E%3C/div%3E',",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "530bba",
+        "hash": "7dd1fd04",
+        "encoded": "customData:%20%7B",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "530bba",
+        "hash": "167cf141",
+        "encoded": "title:%20'Test%20Execution%20Info',",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "530bba",
+        "hash": "0d97342b",
+        "encoded": "data:%20%5B",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "530bba",
+        "hash": "7a0b6a1e",
+        "encoded": "%7B%20label:%20'Project',%20value:%20'Playwright%20BDD%20Migration'%20%7D,",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "530bba",
+        "hash": "242174a8",
+        "encoded": "%7B%20label:%20'Framework',%20value:%20'Playwright%20+%20Cucumber'%20%7D,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "530bba",
+        "hash": "7cf8f7d7",
+        "encoded": "%7B%20label:%20'Environment',%20value:%20process.env.NODE_ENV%20%7C%7C%20'development'%20%7D,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "530bba",
+        "hash": "98eea19a",
+        "encoded": "%7B%20label:%20'Browser',%20value:%20process.env.BROWSER%20%7C%7C%20'chromium'%20%7D,",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "530bba",
+        "hash": "cca35d6e",
+        "encoded": "%7B%20label:%20'Execution%20Date',%20value:%20new%20Date().toISOString()%20%7D",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "530bba",
+        "hash": "78cd792f",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "530bba",
+        "hash": "82c8ca80",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "530bba",
+        "hash": "3e551826",
+        "encoded": "metadata:%20%7B",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "530bba",
+        "hash": "fb2c1ef0",
+        "encoded": "browser:%20%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "530bba",
+        "hash": "808c65bc",
+        "encoded": "name:%20process.env.BROWSER%20%7C%7C%20'chromium',",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "530bba",
+        "hash": "019cfe5a",
+        "encoded": "version:%20'latest'",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "530bba",
+        "hash": "3171cd21",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "530bba",
+        "hash": "4daa7efc",
+        "encoded": "device:%20process.platform,",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "530bba",
+        "hash": "eccfc963",
+        "encoded": "platform:%20%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "530bba",
+        "hash": "7ad551cb",
+        "encoded": "name:%20process.platform,",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "530bba",
+        "hash": "4a0dd3b6",
+        "encoded": "version:%20process.version",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "530bba",
+        "hash": "5c9d24d4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "530bba",
+        "hash": "2ef1d392",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "530bba",
+        "hash": "4f8dfc51",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "530bba",
+        "hash": "6ffc04cc",
+        "encoded": "console.log('%E2%9C%85%20Cucumber%20HTML%20report%20generated%20successfully');",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "530bba",
+        "hash": "b4ed49d9",
+        "encoded": "console.log(%60%F0%9F%93%81%20Report%20location:%20$%7Bpath.resolve(reportsDir,%20'index.html')%7D%60);",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "530bba",
+        "hash": "16523485",
+        "encoded": "%7D%20catch%20(error)%20%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "530bba",
+        "hash": "25860360",
+        "encoded": "console.error('%E2%9D%8C%20Failed%20to%20generate%20Cucumber%20report:',%20error);",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "530bba",
+        "hash": "2f9cbeb0",
+        "encoded": "throw%20error;",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "530bba",
+        "hash": "48dc6fe2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "530bba",
+        "hash": "912d88e4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "530bba",
+        "hash": "349faf87",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "530bba",
+        "hash": "46ac1557",
+        "encoded": "*%20Generate%20report%20if%20called%20directly",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "530bba",
+        "hash": "91b2d6df",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "530bba",
+        "hash": "79bea7ec",
+        "encoded": "if%20(require.main%20===%20module)%20%7B",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "530bba",
+        "hash": "97232f0a",
+        "encoded": "generateReport().catch(console.error);",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "530bba",
+        "hash": "ae47b750",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

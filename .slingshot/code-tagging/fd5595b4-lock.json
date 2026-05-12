@@ -1,0 +1,227 @@
+{
+  "tests/support/global-setup.ts": {
+    "filename": "global-setup.ts",
+    "path": "tests/support/global-setup.ts",
+    "version": "1.2",
+    "contextFile": "fd5595b4-context.json",
+    "chunks": {
+      "c28732": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613149,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "d0a7188d",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "c28732",
+        "hash": "1d72a7c1",
+        "encoded": "import%20%7B%20chromium,%20FullConfig%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "c28732",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "c28732",
+        "hash": "d4846bf5",
+        "encoded": "*%20Global%20setup%20for%20Playwright%20tests",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "c28732",
+        "hash": "2a424e60",
+        "encoded": "*%20Runs%20once%20before%20all%20tests",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "c28732",
+        "hash": "ed5940e5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "c28732",
+        "hash": "09a6264a",
+        "encoded": "async%20function%20globalSetup(config:%20FullConfig)%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "c28732",
+        "hash": "a5beadf4",
+        "encoded": "console.log('%F0%9F%9A%80%20Starting%20global%20setup%20for%20Playwright%20tests...');",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "c28732",
+        "hash": "bf8f8e68",
+        "encoded": "//%20Create%20necessary%20directories",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "c28732",
+        "hash": "ef98c3d8",
+        "encoded": "const%20fs%20=%20require('fs');",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "c28732",
+        "hash": "afa726d3",
+        "encoded": "const%20path%20=%20require('path');",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "c28732",
+        "hash": "c0bc4d75",
+        "encoded": "const%20dirs%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "c28732",
+        "hash": "388f1f73",
+        "encoded": "'./reports',",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "c28732",
+        "hash": "00189383",
+        "encoded": "'./screenshots',",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "c28732",
+        "hash": "dcb3c45c",
+        "encoded": "'./test-results',",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "c28732",
+        "hash": "f3c202cd",
+        "encoded": "'./test-results-headless',",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "c28732",
+        "hash": "e081b29d",
+        "encoded": "'./logs'",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "c28732",
+        "hash": "16860827",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "c28732",
+        "hash": "9eafd7cb",
+        "encoded": "dirs.forEach(dir%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "c28732",
+        "hash": "8932ebe3",
+        "encoded": "if%20(!fs.existsSync(dir))%20%7B",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "c28732",
+        "hash": "f91ca9c8",
+        "encoded": "fs.mkdirSync(dir,%20%7B%20recursive:%20true%20%7D);",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "c28732",
+        "hash": "4d483b2a",
+        "encoded": "console.log(%60%F0%9F%93%81%20Created%20directory:%20$%7Bdir%7D%60);",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "c28732",
+        "hash": "840004ae",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "c28732",
+        "hash": "1ca2ca1b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "c28732",
+        "hash": "c5ccf6bb",
+        "encoded": "//%20Optional:%20Warm%20up%20browser%20for%20faster%20test%20execution",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "c28732",
+        "hash": "a544670c",
+        "encoded": "if%20(process.env.WARM_UP_BROWSER%20===%20'true')%20%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "c28732",
+        "hash": "e06b5f1e",
+        "encoded": "console.log('%F0%9F%94%A5%20Warming%20up%20browser...');",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "c28732",
+        "hash": "9d77e5c9",
+        "encoded": "const%20browser%20=%20await%20chromium.launch();",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "c28732",
+        "hash": "a1fd9dd5",
+        "encoded": "await%20browser.close();",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "c28732",
+        "hash": "4c6251c7",
+        "encoded": "console.log('%E2%9C%85%20Browser%20warmed%20up');",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "c28732",
+        "hash": "b8d59d8e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "c28732",
+        "hash": "3de9ba4f",
+        "encoded": "console.log('%E2%9C%85%20Global%20setup%20completed');",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "c28732",
+        "hash": "880eeeff",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "c28732",
+        "hash": "c3019995",
+        "encoded": "export%20default%20globalSetup;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

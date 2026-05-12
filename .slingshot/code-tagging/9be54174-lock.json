@@ -1,0 +1,809 @@
+{
+  "tests/locators/web-locators.yaml": {
+    "filename": "web-locators.yaml",
+    "path": "tests/locators/web-locators.yaml",
+    "version": "1.2",
+    "contextFile": null,
+    "chunks": {
+      "4d6f6d": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1776681042,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.3",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "8ef89e97",
+          "files": "7af0acda"
+        },
+        "hash": "b0200463",
+        "messageId": "system_911256b0-3ca3-11f1-a4bb-b712c689e0de",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "eb7112": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "6b0d86a9",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "eb7112",
+        "hash": "3b7dacff",
+        "encoded": "#%20Playwright%20BDD%20Web%20Locators",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "eb7112",
+        "hash": "d94bac86",
+        "encoded": "#%20Migrated%20from%20WebDriverIO%20locator%20definitions",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "eb7112",
+        "hash": "9b51f001",
+        "encoded": "common:",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "eb7112",
+        "hash": "13c06b6a",
+        "encoded": "#%20Products%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "eb7112",
+        "hash": "d192d7f2",
+        "encoded": "inventoryContainer:%20%22//div%5B@id='inventory_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "eb7112",
+        "hash": "60f7bee2",
+        "encoded": "shoppingCartBadge:%20%22//span%5B@class='shopping_cart_badge'%5D%22",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "eb7112",
+        "hash": "1271eb77",
+        "encoded": "shoppingCartLink:%20%22//a%5B@class='shopping_cart_link'%5D%22",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "eb7112",
+        "hash": "40ecf558",
+        "encoded": "#%20Cart%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "eb7112",
+        "hash": "9483eb10",
+        "encoded": "cartContents:%20%22//div%5B@id='cart_contents_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "eb7112",
+        "hash": "7bc90891",
+        "encoded": "menuButton:%20%22//button%5B@id='react-burger-menu-btn'%5D%22",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "eb7112",
+        "hash": "a5655208",
+        "encoded": "#%20Checkout%20Elements",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "eb7112",
+        "hash": "917f66d9",
+        "encoded": "checkoutInfo:%20%22//div%5B@id='checkout_info_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "eb7112",
+        "hash": "1fa88f8e",
+        "encoded": "checkoutSummary:%20%22//div%5B@id='checkout_summary_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "eb7112",
+        "hash": "47218f32",
+        "encoded": "checkoutComplete:%20%22//div%5B@id='checkout_complete_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "eb7112",
+        "hash": "d788ef98",
+        "encoded": "#%20Login%20Elements",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "eb7112",
+        "hash": "55649b6f",
+        "encoded": "usernameField:%20%22//input%5B@id='user-name'%5D%22",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "eb7112",
+        "hash": "080281f3",
+        "encoded": "passwordField:%20%22//input%5B@id='password'%5D%22",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "eb7112",
+        "hash": "c9d1c18d",
+        "encoded": "loginButton:%20%22//input%5B@id='login-button'%5D%22",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "eb7112",
+        "hash": "f04e4ad7",
+        "encoded": "#%20Product%20Elements",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "eb7112",
+        "hash": "69ec7e09",
+        "encoded": "addToCartButton:%20%22//button%5Bcontains(@class,%20'btn_primary')%20and%20contains(@class,%20'btn_inventory')%5D%22",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "eb7112",
+        "hash": "b4048de3",
+        "encoded": "removeButton:%20%22//button%5Bcontains(@class,%20'btn_secondary')%20and%20contains(@class,%20'btn_inventory')%5D%22",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "eb7112",
+        "hash": "6ff9731d",
+        "encoded": "#%20Navigation%20Elements",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "eb7112",
+        "hash": "99a5c144",
+        "encoded": "backToProducts:%20%22//button%5B@id='back-to-products'%5D%22",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "eb7112",
+        "hash": "b4424cac",
+        "encoded": "continueButton:%20%22//input%5B@id='continue'%5D%22",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "eb7112",
+        "hash": "9a6874d1",
+        "encoded": "finishButton:%20%22//button%5B@id='finish'%5D%22",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "eb7112",
+        "hash": "40140e24",
+        "encoded": "#%20Form%20Elements",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "eb7112",
+        "hash": "43428ca9",
+        "encoded": "firstNameField:%20%22//input%5B@id='first-name'%5D%22",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "eb7112",
+        "hash": "e8527333",
+        "encoded": "lastNameField:%20%22//input%5B@id='last-name'%5D%22",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "eb7112",
+        "hash": "b05f7390",
+        "encoded": "postalCodeField:%20%22//input%5B@id='postal-code'%5D%22",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "eb7112",
+        "hash": "c9da7bb5",
+        "encoded": "#%20Error%20Elements",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "eb7112",
+        "hash": "7fea0eea",
+        "encoded": "errorMessage:%20%22//h3%5B@data-test='error'%5D%22",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "eb7112",
+        "hash": "435e3fe8",
+        "encoded": "errorButton:%20%22//button%5B@class='error-button'%5D%22",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "eb7112",
+        "hash": "4667fcf1",
+        "encoded": "#%20Success%20Elements",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "eb7112",
+        "hash": "dd0c27f1",
+        "encoded": "completeHeader:%20%22//h2%5B@class='complete-header'%5D%22",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "eb7112",
+        "hash": "ade2865f",
+        "encoded": "completeText:%20%22//div%5B@class='complete-text'%5D%22",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "eb7112",
+        "hash": "424485d1",
+        "encoded": "#%20Filter%20and%20Sort%20Elements",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "eb7112",
+        "hash": "6a6b1cfd",
+        "encoded": "productSortContainer:%20%22//select%5B@class='product_sort_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "eb7112",
+        "hash": "2597c831",
+        "encoded": "filterButton:%20%22//button%5B@id='filter-button'%5D%22",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "eb7112",
+        "hash": "af2df5ed",
+        "encoded": "#%20Social%20Media%20Links",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "eb7112",
+        "hash": "0f0b374f",
+        "encoded": "twitterLink:%20%22//a%5Bcontains(@href,%20'twitter')%5D%22",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "eb7112",
+        "hash": "d7375fcb",
+        "encoded": "facebookLink:%20%22//a%5Bcontains(@href,%20'facebook')%5D%22",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "eb7112",
+        "hash": "153caaf1",
+        "encoded": "linkedinLink:%20%22//a%5Bcontains(@href,%20'linkedin')%5D%22",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "eb7112",
+        "hash": "dfe8bd4d",
+        "encoded": "#%20Page-specific%20locators",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "eb7112",
+        "hash": "85a5c77f",
+        "encoded": "loginPage:",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "eb7112",
+        "hash": "bf47d78e",
+        "encoded": "loginForm:%20%22//form%5B@id='login-form'%5D%22",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "eb7112",
+        "hash": "7b2ba67d",
+        "encoded": "loginTitle:%20%22//div%5B@class='login_logo'%5D%22",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "eb7112",
+        "hash": "64b93611",
+        "encoded": "credentialsInfo:%20%22//div%5B@id='login_credentials'%5D%22",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "eb7112",
+        "hash": "fda31781",
+        "encoded": "passwordInfo:%20%22//div%5B@class='login_password'%5D%22",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "eb7112",
+        "hash": "d5a9eda5",
+        "encoded": "productsPage:",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "eb7112",
+        "hash": "c6afa3fd",
+        "encoded": "productsTitle:%20%22//span%5B@class='title'%20and%20text()='Products'%5D%22",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "eb7112",
+        "hash": "acc5847c",
+        "encoded": "inventoryList:%20%22//div%5B@class='inventory_list'%5D%22",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "eb7112",
+        "hash": "65589b08",
+        "encoded": "inventoryItem:%20%22//div%5B@class='inventory_item'%5D%22",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "eb7112",
+        "hash": "306647bf",
+        "encoded": "inventoryItemName:%20%22//div%5B@class='inventory_item_name'%5D%22",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "eb7112",
+        "hash": "fea4bf55",
+        "encoded": "inventoryItemDesc:%20%22//div%5B@class='inventory_item_desc'%5D%22",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "eb7112",
+        "hash": "1b8e5a74",
+        "encoded": "inventoryItemPrice:%20%22//div%5B@class='inventory_item_price'%5D%22",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "eb7112",
+        "hash": "6ac54bda",
+        "encoded": "cartPage:",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "eb7112",
+        "hash": "2c043a9d",
+        "encoded": "cartTitle:%20%22//span%5B@class='title'%20and%20text()='Your%20Cart'%5D%22",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "eb7112",
+        "hash": "ebcbc776",
+        "encoded": "cartList:%20%22//div%5B@class='cart_list'%5D%22",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "eb7112",
+        "hash": "f78e12ff",
+        "encoded": "cartItem:%20%22//div%5B@class='cart_item'%5D%22",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "eb7112",
+        "hash": "88d779ba",
+        "encoded": "cartQuantity:%20%22//div%5B@class='cart_quantity'%5D%22",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "eb7112",
+        "hash": "abc865f9",
+        "encoded": "checkoutButton:%20%22//button%5B@id='checkout'%5D%22",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "eb7112",
+        "hash": "9445d652",
+        "encoded": "continueShoppingButton:%20%22//button%5B@id='continue-shopping'%5D%22",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "eb7112",
+        "hash": "64f140d4",
+        "encoded": "checkoutPage:",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "eb7112",
+        "hash": "0bace295",
+        "encoded": "checkoutTitle:%20%22//span%5B@class='title'%20and%20text()='Checkout:%20Your%20Information'%5D%22",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "eb7112",
+        "hash": "3359d4a9",
+        "encoded": "checkoutForm:%20%22//div%5B@class='checkout_info'%5D%22",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "eb7112",
+        "hash": "f87f43ad",
+        "encoded": "cancelButton:%20%22//button%5B@id='cancel'%5D%22",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "eb7112",
+        "hash": "c05a29fb",
+        "encoded": "checkoutOverviewPage:",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "eb7112",
+        "hash": "a3ca7c0a",
+        "encoded": "overviewTitle:%20%22//span%5B@class='title'%20and%20text()='Checkout:%20Overview'%5D%22",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "eb7112",
+        "hash": "75a76db0",
+        "encoded": "summaryInfo:%20%22//div%5B@class='summary_info'%5D%22",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "eb7112",
+        "hash": "b79543fc",
+        "encoded": "summarySubtotal:%20%22//div%5B@class='summary_subtotal_label'%5D%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "eb7112",
+        "hash": "3d3a23da",
+        "encoded": "summaryTax:%20%22//div%5B@class='summary_tax_label'%5D%22",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "eb7112",
+        "hash": "cc29d912",
+        "encoded": "summaryTotal:%20%22//div%5B@class='summary_total_label'%5D%22",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "eb7112",
+        "hash": "f8a57118",
+        "encoded": "checkoutCompletePage:",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "eb7112",
+        "hash": "b5b876e6",
+        "encoded": "completeTitle:%20%22//span%5B@class='title'%20and%20text()='Checkout:%20Complete!'%5D%22",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "eb7112",
+        "hash": "b96a3542",
+        "encoded": "ponyExpress:%20%22//img%5B@class='pony_express'%5D%22",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "eb7112",
+        "hash": "aa1700d0",
+        "encoded": "backHomeButton:%20%22//button%5B@id='back-to-products'%5D%22",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "eb7112",
+        "hash": "a97d6812",
+        "encoded": "#%20Registration%20page%20locators",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "eb7112",
+        "hash": "1865d50b",
+        "encoded": "registrationPage:",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "eb7112",
+        "hash": "3250f95c",
+        "encoded": "createAccountHeading:%20%22//h1%5Btext()='Create%20Account'%5D%22",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "eb7112",
+        "hash": "31073b1e",
+        "encoded": "firstNameField:%20%22//input%5B@name='firstName'%5D%22",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "eb7112",
+        "hash": "258caa30",
+        "encoded": "lastNameField:%20%22//input%5B@name='lastName'%5D%22",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "eb7112",
+        "hash": "8a28005a",
+        "encoded": "emailField:%20%22//input%5B@name='email'%5D%22",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "eb7112",
+        "hash": "291f21d8",
+        "encoded": "passwordField:%20%22//input%5B@name='password'%5D%22",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "eb7112",
+        "hash": "288a757e",
+        "encoded": "confirmPasswordField:%20%22//input%5B@name='confirmPassword'%5D%22",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "eb7112",
+        "hash": "f3a86ac1",
+        "encoded": "termsCheckbox:%20%22//input%5B@name='terms'%5D%22",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "eb7112",
+        "hash": "067f5bae",
+        "encoded": "registerButton:%20%22//button%5B@type='submit'%20and%20text()='Register'%5D%22",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "eb7112",
+        "hash": "98f4013c",
+        "encoded": "successMessage:%20%22//div%5B@class='success-message'%5D%22",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "eb7112",
+        "hash": "4dca87f3",
+        "encoded": "#%20Validation%20errors",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "eb7112",
+        "hash": "3ab27560",
+        "encoded": "firstNameError:%20%22//span%5B@class='error'%20and%20@data-field='firstName'%5D%22",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "eb7112",
+        "hash": "00f8ac81",
+        "encoded": "lastNameError:%20%22//span%5B@class='error'%20and%20@data-field='lastName'%5D%22",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "eb7112",
+        "hash": "b3c002e8",
+        "encoded": "emailError:%20%22//span%5B@class='error'%20and%20@data-field='email'%5D%22",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "eb7112",
+        "hash": "70335eac",
+        "encoded": "passwordError:%20%22//span%5B@class='error'%20and%20@data-field='password'%5D%22",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "eb7112",
+        "hash": "90618d18",
+        "encoded": "emailFormatError:%20%22//span%5B@class='error'%20and%20contains(text(),%20'valid%20email')%5D%22",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "eb7112",
+        "hash": "20b2a91e",
+        "encoded": "passwordMismatchError:%20%22//span%5B@class='error'%20and%20contains(text(),%20'do%20not%20match')%5D%22",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "eb7112",
+        "hash": "7eca4601",
+        "encoded": "#%20Email%20verification%20page%20locators",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "eb7112",
+        "hash": "31a57f1b",
+        "encoded": "emailVerificationPage:",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "eb7112",
+        "hash": "0281396b",
+        "encoded": "emailVerificationHeading:%20%22//h1%5Btext()='Email%20Verification'%5D%22",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "eb7112",
+        "hash": "2ea03ae9",
+        "encoded": "verificationMessage:%20%22//p%5B@class='verification-message'%5D%22",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "eb7112",
+        "hash": "f4480cc2",
+        "encoded": "resendButton:%20%22//button%5Btext()='Resend%20Email'%5D%22",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "eb7112",
+        "hash": "406c6e47",
+        "encoded": "changeEmailButton:%20%22//button%5Btext()='Change%20Email'%5D%22",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "eb7112",
+        "hash": "faeeae15",
+        "encoded": "#%20Common%20UI%20elements",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "eb7112",
+        "hash": "2b9ecf65",
+        "encoded": "commonUI:",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "eb7112",
+        "hash": "f16e6118",
+        "encoded": "loadingSpinner:%20%22//div%5B@class='loading-spinner'%5D%22",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "eb7112",
+        "hash": "07369dd4",
+        "encoded": "modal:%20%22//div%5B@class='modal'%5D%22",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "eb7112",
+        "hash": "1f1068b1",
+        "encoded": "modalClose:%20%22//button%5B@class='modal-close'%5D%22",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "eb7112",
+        "hash": "e005a234",
+        "encoded": "toast:%20%22//div%5B@class='toast'%5D%22",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "eb7112",
+        "hash": "85e301bf",
+        "encoded": "dropdown:%20%22//select%22",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "eb7112",
+        "hash": "da06d543",
+        "encoded": "button:%20%22//button%22",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "eb7112",
+        "hash": "230d4cf3",
+        "encoded": "link:%20%22//a%22",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "eb7112",
+        "hash": "34760d66",
+        "encoded": "input:%20%22//input%22",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "eb7112",
+        "hash": "c735168c",
+        "encoded": "textarea:%20%22//textarea%22",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "eb7112",
+        "hash": "91075166",
+        "encoded": "checkbox:%20%22//input%5B@type='checkbox'%5D%22",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "eb7112",
+        "hash": "797a1798",
+        "encoded": "radio:%20%22//input%5B@type='radio'%5D%22",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "4d6f6d",
+        "hash": "10f00556",
+        "encoded": "#%20All%20locators%20consolidated%20under%20common%20key%20for%20better%20maintainability",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "4d6f6d",
+        "hash": "3e9aa6ee",
+        "encoded": "#%20Organized%20by%20functionality%20for%20easy%20access",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "4d6f6d",
+        "hash": "0edb2a23",
+        "encoded": "common:",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "4d6f6d",
+        "hash": "026f1a73",
+        "encoded": "#%20Products%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "4d6f6d",
+        "hash": "965db387",
+        "encoded": "shoppingCartBadge:%20%22//span%5B@class='shopping_cart_badge'%5D%22",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "4d6f6d",
+        "hash": "fe9f6a02",
+        "encoded": "shoppingCartLink:%20%22//a%5B@class='shopping_cart_link'%5D%22",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "4d6f6d",
+        "hash": "699d644a",
+        "encoded": "#%20Cart%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "4d6f6d",
+        "hash": "170120c0",
+        "encoded": "cartContents:%20%22//div%5B@id='cart_contents_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "4d6f6d",
+        "hash": "50336753",
+        "encoded": "#%20Checkout%20Information%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "4d6f6d",
+        "hash": "c166b43e",
+        "encoded": "checkoutInfo:%20%22//div%5B@id='checkout_info_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "4d6f6d",
+        "hash": "52f51cc2",
+        "encoded": "#%20Checkout%20Overview%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "4d6f6d",
+        "hash": "36bdc4b6",
+        "encoded": "checkoutSummary:%20%22//div%5B@id='checkout_summary_container'%5D%22",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "4d6f6d",
+        "hash": "eb56c5da",
+        "encoded": "#%20Checkout%20Complete%20Page%20Elements",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "4d6f6d",
+        "hash": "4b719913",
+        "encoded": "checkoutComplete:%20%22//div%5B@id='checkout_complete_container'%5D%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

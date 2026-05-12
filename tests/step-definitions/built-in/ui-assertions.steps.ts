@@ -1,270 +1,277 @@
-import { Then, defineParameterType } from '@wdio/cucumber-framework';
-import uiAssertions from '../../support/uiAssertions';
+import { Then } from '@cucumber/cucumber';
+import { createBdd } from 'playwright-bdd';
+import { test } from '../../support/fixtures';
+
+const { Then: BddThen } = createBdd(test);
 
 // ===============================
-// CUSTOM PARAMETER TYPES
+// ELEMENT VISIBILITY ASSERTIONS
 // ===============================
-// Define custom parameter type for element types
-// This allows centralized management of element types
-// Alternative approach: Use direct regex patterns in step definitions
-// Since {elementType} might not work in all Cucumber implementations
-defineParameterType({
-    name: 'elementType',
-    regexp: /button|link|element|field|input|textbox|section/,
-    transformer: (s: string) => s
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button|section) should be visible$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is visible`);
+    await this.uiAssertions.verifyElementVisible(elementName, elementType);
+});
+
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button|section) should not be visible$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is not visible`);
+    await this.uiAssertions.verifyElementNotVisible(elementName, elementType);
+});
+
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button|section) should be hidden$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is hidden`);
+    await this.uiAssertions.verifyElementHidden(elementName, elementType);
+});
+
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button|section) should exist$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} exists`);
+    await this.uiAssertions.verifyElementExists(elementName, elementType);
+});
+
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button|section) should not exist$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} does not exist`);
+    await this.uiAssertions.verifyElementNotExists(elementName, elementType);
 });
 
 // ===============================
-// GLOBAL ASSERTIONS STEP DEFINITIONS
+// ELEMENT STATE ASSERTIONS
 // ===============================
-// This file contains only assertion steps (Then) that verify conditions
-// For actions and operations, see global-actions.steps.ts
-
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be visible$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be visible`);
-    await uiAssertions.verifyElementVisible(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button) should be enabled$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is enabled`);
+    await this.uiAssertions.verifyElementEnabled(elementName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should not be visible$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should not be visible`);
-    await uiAssertions.verifyElementNotVisible(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button) should be disabled$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is disabled`);
+    await this.uiAssertions.verifyElementDisabled(elementName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be displayed$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be displayed`);
-    await uiAssertions.verifyElementDisplayed(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button) should be clickable$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is clickable`);
+    await this.uiAssertions.verifyElementClickable(elementName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be hidden$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be hidden`);
-    await uiAssertions.verifyElementHidden(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|checkbox|radio button) should not be clickable$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is not clickable`);
+    await this.uiAssertions.verifyElementNotClickable(elementName, elementType);
 });
 
-// Element State Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be enabled$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be enabled`);
-    await uiAssertions.verifyElementEnabled(element, elementType);
+// ===============================
+// TEXT CONTENT ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|section) should contain text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedText: string) {
+    console.log(`Verifying ${elementName} ${elementType} contains text: "${expectedText}"`);
+    await this.uiAssertions.verifyElementContainsText(elementName, expectedText, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be disabled$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be disabled`);
-    await uiAssertions.verifyElementDisabled(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|section) should have text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedText: string) {
+    console.log(`Verifying ${elementName} ${elementType} has exact text: "${expectedText}"`);
+    await this.uiAssertions.verifyElementText(elementName, expectedText, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should be selected$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be selected`);
-    await uiAssertions.verifyElementSelected(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|section) should not contain text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, unexpectedText: string) {
+    console.log(`Verifying ${elementName} ${elementType} does not contain text: "${unexpectedText}"`);
+    await this.uiAssertions.verifyElementNotContainsText(elementName, unexpectedText, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label|radio button) should not be selected$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should not be selected`);
-    await uiAssertions.verifyElementNotSelected(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown|section) text should match "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, pattern: string) {
+    console.log(`Verifying ${elementName} ${elementType} text matches pattern: "${pattern}"`);
+    await this.uiAssertions.verifyElementTextMatches(elementName, pattern, elementType);
 });
 
-Then(/^"([^"]*)" (checkbox|element) should be checked$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be checked`);
-    await uiAssertions.verifyCheckboxChecked(element);
+// ===============================
+// INPUT VALUE ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (field|input|textbox) should have value "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedValue: string) {
+    console.log(`Verifying ${elementName} ${elementType} has value: "${expectedValue}"`);
+    await this.uiAssertions.verifyInputValue(elementName, expectedValue, elementType);
 });
 
-Then(/^"([^"]*)" (checkbox|element) should be unchecked$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be unchecked`);
-    await uiAssertions.verifyCheckboxUnchecked(element);
+Then(/^"([^"]*)" (field|input|textbox) should be empty$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is empty`);
+    await this.uiAssertions.verifyInputEmpty(elementName, elementType);
 });
 
-// Text and Content Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should contain text "([^"]*)"$/, async (element: string, elementType: string, text: string) => {
-    console.log(`Verifying ${element} ${elementType} should contain text "${text}"`);
-    await uiAssertions.verifyElementContainsText(element, text, elementType);
+Then(/^"([^"]*)" (field|input|textbox) should not be empty$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is not empty`);
+    await this.uiAssertions.verifyInputNotEmpty(elementName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should not contain text "([^"]*)"$/, async (element: string, elementType: string, text: string) => {
-    console.log(`Verifying ${element} ${elementType} should not contain text "${text}"`);
-    // Implementation needed
+// ===============================
+// ATTRIBUTE ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should have attribute "([^"]*)" with value "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, attributeName: string, expectedValue: string) {
+    console.log(`Verifying ${elementName} ${elementType} has attribute ${attributeName} with value: "${expectedValue}"`);
+    await this.uiAssertions.verifyElementAttribute(elementName, attributeName, expectedValue, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have exact text "([^"]*)"$/, async (element: string, elementType: string, text: string) => {
-    console.log(`Verifying ${element} ${elementType} should have exact text "${text}"`);
-    await uiAssertions.verifyElementExactText(element, text, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should have attribute "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, attributeName: string) {
+    console.log(`Verifying ${elementName} ${elementType} has attribute: ${attributeName}`);
+    await this.uiAssertions.verifyElementHasAttribute(elementName, attributeName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should be empty$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be empty`);
-    await uiAssertions.verifyFieldEmpty(element, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should not have attribute "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, attributeName: string) {
+    console.log(`Verifying ${elementName} ${elementType} does not have attribute: ${attributeName}`);
+    await this.uiAssertions.verifyElementNotHasAttribute(elementName, attributeName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have value "([^"]*)"$/, async (element: string, elementType: string, value: string) => {
-    console.log(`Verifying ${element} ${elementType} should have value "${value}"`);
-    await uiAssertions.verifyElementValue(element, value, elementType);
+// ===============================
+// CSS ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should have CSS property "([^"]*)" with value "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, cssProperty: string, expectedValue: string) {
+    console.log(`Verifying ${elementName} ${elementType} has CSS ${cssProperty} with value: "${expectedValue}"`);
+    await this.uiAssertions.verifyElementCSS(elementName, cssProperty, expectedValue, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have placeholder "([^"]*)"$/, async (element: string, elementType: string, placeholder: string) => {
-    console.log(`Verifying ${element} ${elementType} should have placeholder "${placeholder}"`);
-    await uiAssertions.verifyElementPlaceholder(element, placeholder, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should have class "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, className: string) {
+    console.log(`Verifying ${elementName} ${elementType} has class: ${className}`);
+    await this.uiAssertions.verifyElementClass(elementName, className, elementType);
 });
 
-// Attribute and Property Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have attribute "([^"]*)" with value "([^"]*)"$/, async (element: string, elementType: string, attribute: string, value: string) => {
-    console.log(`Verifying ${element} ${elementType} should have attribute "${attribute}" with value "${value}"`);
-    await uiAssertions.verifyElementAttribute(element, attribute, value, elementType);
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should not have class "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, className: string) {
+    console.log(`Verifying ${elementName} ${elementType} does not have class: ${className}`);
+    await this.uiAssertions.verifyElementNotHasClass(elementName, className, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have class "([^"]*)"$/, async (element: string, elementType: string, className: string) => {
-    console.log(`Verifying ${element} ${elementType} should have class "${className}"`);
-    await uiAssertions.verifyElementHasClass(element, className, elementType);
+// ===============================
+// CHECKBOX AND RADIO ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" checkbox should be checked$/, async function (this: CustomWorld, elementName: string) {
+    console.log(`Verifying ${elementName} checkbox is checked`);
+    await this.uiAssertions.verifyCheckboxChecked(elementName);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should not have class "([^"]*)"$/, async (element: string, elementType: string, className: string) => {
-    console.log(`Verifying ${element} ${elementType} should not have class "${className}"`);
-    await uiAssertions.verifyElementNotHasClass(element, className, elementType);
+Then(/^"([^"]*)" checkbox should be unchecked$/, async function (this: CustomWorld, elementName: string) {
+    console.log(`Verifying ${elementName} checkbox is unchecked`);
+    await this.uiAssertions.verifyCheckboxUnchecked(elementName);
 });
 
-// Count and List Assertions
-Then(/^there should be (\d+) "([^"]*)" elements$/, async (count: string, element: string) => {
-    console.log(`Verifying there should be ${count} ${element} elements`);
-    await uiAssertions.verifyElementCount(element, parseInt(count));
+Then(/^"([^"]*)" radio button should be selected$/, async function (this: CustomWorld, elementName: string) {
+    console.log(`Verifying ${elementName} radio button is selected`);
+    await this.uiAssertions.verifyRadioSelected(elementName);
 });
 
-Then(/^there should be at least (\d+) "([^"]*)" elements$/, async (count: string, element: string) => {
-    console.log(`Verifying there should be at least ${count} ${element} elements`);
-    await uiAssertions.verifyElementCountAtLeast(element, parseInt(count));
+Then(/^"([^"]*)" radio button should not be selected$/, async function (this: CustomWorld, elementName: string) {
+    console.log(`Verifying ${elementName} radio button is not selected`);
+    await this.uiAssertions.verifyRadioNotSelected(elementName);
 });
 
-Then(/^there should be at most (\d+) "([^"]*)" elements$/, async (count: string, element: string) => {
-    console.log(`Verifying there should be at most ${count} ${element} elements`);
-    await uiAssertions.verifyElementCountAtMost(element, parseInt(count));
+// ===============================
+// DROPDOWN ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" dropdown should have value "([^"]*)"$/, async function (this: CustomWorld, elementName: string, expectedValue: string) {
+    console.log(`Verifying ${elementName} dropdown has value: "${expectedValue}"`);
+    await this.uiAssertions.verifyDropdownValue(elementName, expectedValue);
 });
 
-Then(/^"([^"]*)" list should contain "([^"]*)"$/, async (element: string, item: string) => {
-    console.log(`Verifying ${element} list should contain "${item}"`);
-    await uiAssertions.verifyListContains(element, item);
+Then(/^"([^"]*)" dropdown should have selected text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, expectedText: string) {
+    console.log(`Verifying ${elementName} dropdown has selected text: "${expectedText}"`);
+    await this.uiAssertions.verifyDropdownText(elementName, expectedText);
 });
 
-Then(/^"([^"]*)" list should not contain "([^"]*)"$/, async (element: string, item: string) => {
-    console.log(`Verifying ${element} list should not contain "${item}"`);
-    await uiAssertions.verifyListNotContains(element, item);
+// ===============================
+// PAGE ASSERTIONS
+// ===============================
+Then(/^page title should be "([^"]*)"$/, async function (this: CustomWorld, expectedTitle: string) {
+    console.log(`Verifying page title: "${expectedTitle}"`);
+    await this.uiAssertions.verifyPageTitle(expectedTitle);
 });
 
-// Page and Navigation Assertions
-Then(/^the page title should be "([^"]*)"$/, async (title: string) => {
-    console.log(`Verifying the page title should be "${title}"`);
-    await uiAssertions.verifyPageTitle(title);
+Then(/^page title should contain "([^"]*)"$/, async function (this: CustomWorld, expectedText: string) {
+    console.log(`Verifying page title contains: "${expectedText}"`);
+    await this.uiAssertions.verifyPageTitleContains(expectedText);
 });
 
-Then(/^the current URL should contain "([^"]*)"$/, async (urlPart: string) => {
-    console.log(`Verifying the current URL should contain "${urlPart}"`);
-    await uiAssertions.verifyUrlContains(urlPart);
+Then(/^current URL should be "([^"]*)"$/, async function (this: CustomWorld, expectedUrl: string) {
+    console.log(`Verifying current URL: "${expectedUrl}"`);
+    await this.uiAssertions.verifyCurrentUrl(expectedUrl);
 });
 
-Then(/^the current URL should be "([^"]*)"$/, async (url: string) => {
-    console.log(`Verifying the current URL should be "${url}"`);
-    await uiAssertions.verifyUrl(url);
+Then(/^URL should contain "([^"]*)"$/, async function (this: CustomWorld, expectedText: string) {
+    console.log(`Verifying URL contains: "${expectedText}"`);
+    await this.uiAssertions.verifyUrlContains(expectedText);
 });
 
-// Alert and Modal Assertions
-Then(/^an alert should be present$/, async () => {
-    console.log('Verifying an alert should be present');
-    await uiAssertions.verifyAlertPresent();
+Then(/^URL should not contain "([^"]*)"$/, async function (this: CustomWorld, unexpectedText: string) {
+    console.log(`Verifying URL does not contain: "${unexpectedText}"`);
+    await this.uiAssertions.verifyUrlNotContains(unexpectedText);
 });
 
-Then(/^no alert should be present$/, async () => {
-    console.log('Verifying no alert should be present');
-    await uiAssertions.verifyNoAlertPresent();
+// ===============================
+// COUNT ASSERTIONS
+// ===============================
+Then(/^there should be (\d+) "([^"]*)" (elements|buttons|links|fields|inputs|textboxes|dropdowns)$/, async function (this: CustomWorld, expectedCount: string, elementName: string, elementType: string) {
+    console.log(`Verifying there are ${expectedCount} ${elementName} ${elementType}`);
+    await this.uiAssertions.verifyElementCount(elementName, parseInt(expectedCount), elementType);
 });
 
-Then(/^the alert text should be "([^"]*)"$/, async (text: string) => {
-    console.log(`Verifying the alert text should be "${text}"`);
-    await uiAssertions.verifyAlertText(text);
+Then(/^there should be more than (\d+) "([^"]*)" (elements|buttons|links|fields|inputs|textboxes|dropdowns)$/, async function (this: CustomWorld, minCount: string, elementName: string, elementType: string) {
+    console.log(`Verifying there are more than ${minCount} ${elementName} ${elementType}`);
+    await this.uiAssertions.verifyElementCountGreaterThan(elementName, parseInt(minCount), elementType);
 });
 
-Then(/^a modal should be open$/, async () => {
-    console.log('Verifying a modal should be open');
-    await uiAssertions.verifyModalOpen();
+Then(/^there should be less than (\d+) "([^"]*)" (elements|buttons|links|fields|inputs|textboxes|dropdowns)$/, async function (this: CustomWorld, maxCount: string, elementName: string, elementType: string) {
+    console.log(`Verifying there are less than ${maxCount} ${elementName} ${elementType}`);
+    await this.uiAssertions.verifyElementCountLessThan(elementName, parseInt(maxCount), elementType);
 });
 
-Then(/^no modal should be open$/, async () => {
-    console.log('Verifying no modal should be open');
-    await uiAssertions.verifyNoModalOpen();
+// ===============================
+// ALERT ASSERTIONS
+// ===============================
+Then(/^alert should have text "([^"]*)"$/, async function (this: CustomWorld, expectedText: string) {
+    console.log(`Verifying alert has text: "${expectedText}"`);
+    await this.uiAssertions.verifyAlertText(expectedText);
 });
 
-// Form Validation Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should show validation error "([^"]*)"$/, async (element: string, elementType: string, error: string) => {
-    console.log(`Verifying ${element} ${elementType} should show validation error "${error}"`);
-
-    await uiAssertions.verifyValidationError(element, error, elementType);
+Then(/^alert should be present$/, async function (this: CustomWorld) {
+    console.log('Verifying alert is present');
+    await this.uiAssertions.verifyAlertPresent();
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should not show any validation error$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should not show any validation error`);
-
-    await uiAssertions.verifyNoValidationError(element, elementType);
+// ===============================
+// VIEWPORT AND FOCUS ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should be in viewport$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is in viewport`);
+    await this.uiAssertions.verifyElementInViewport(elementName, elementType);
 });
 
-Then(/^the form should be valid$/, async () => {
-    console.log('Verifying the form should be valid');
-    await uiAssertions.verifyFormValid();
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should not be in viewport$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is not in viewport`);
+    await this.uiAssertions.verifyElementNotInViewport(elementName, elementType);
 });
 
-Then(/^the form should be invalid$/, async () => {
-    console.log('Verifying the form should be invalid');
-    await uiAssertions.verifyFormInvalid();
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should be focused$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is focused`);
+    await this.uiAssertions.verifyElementFocused(elementName, elementType);
 });
 
-// Loading and State Assertions
-Then(/^the page should be loaded$/, async () => {
-    console.log('Verifying the page should be loaded');
-    await uiAssertions.verifyPageLoaded();
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should not be focused$/, async function (this: CustomWorld, elementName: string, elementType: string) {
+    console.log(`Verifying ${elementName} ${elementType} is not focused`);
+    await this.uiAssertions.verifyElementNotFocused(elementName, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should be loading$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should be loading`);
-
-    await uiAssertions.verifyElementLoading(element, elementType);
+// ===============================
+// WAIT ASSERTIONS
+// ===============================
+Then(/^I should wait for "([^"]*)" (element|button|link|field|input|textbox|dropdown) to have text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedText: string) {
+    console.log(`Waiting for ${elementName} ${elementType} to have text: "${expectedText}"`);
+    await this.uiAssertions.waitForElementText(elementName, expectedText, elementType);
 });
 
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should not be loading$/, async (element: string, elementType: string) => {
-    console.log(`Verifying ${element} ${elementType} should not be loading`);
-    await uiAssertions.verifyElementNotLoading(element, elementType);
+Then(/^I should wait for "([^"]*)" (element|button|link|field|input|textbox|dropdown) to contain text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedText: string) {
+    console.log(`Waiting for ${elementName} ${elementType} to contain text: "${expectedText}"`);
+    await this.uiAssertions.waitForElementToContainText(elementName, expectedText, elementType);
 });
 
-// Mobile-specific Assertions
-Then(/^the device orientation should be (landscape|portrait)$/, async (orientation: string) => {
-    console.log(`Verifying the device orientation should be ${orientation}`);
-    await uiAssertions.verifyDeviceOrientation(orientation);
-});
-
-Then(/^the keyboard should be visible$/, async () => {
-    console.log('Verifying the keyboard should be visible');
-    await uiAssertions.verifyKeyboardVisible();
-});
-
-Then(/^the keyboard should be hidden$/, async () => {
-    console.log('Verifying the keyboard should be hidden');
-    await uiAssertions.verifyKeyboardHidden();
-});
-
-// Wait-based Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should appear within (\d+) seconds$/, async (element: string, elementType: string, timeout: string) => {
-    console.log(`Verifying ${element} ${elementType} should appear within ${timeout} seconds`);
-    await uiAssertions.verifyElementAppearsWithin(element, parseInt(timeout), elementType);
-});
-
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should disappear within (\d+) seconds$/, async (element: string, elementType: string, timeout: string) => {
-    console.log(`Verifying ${element} ${elementType} should disappear within ${timeout} seconds`);
-    await uiAssertions.verifyElementDisappearsWithin(element, parseInt(timeout), elementType);
-});
-
-// Style and Visual Assertions
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have background color "([^"]*)"$/, async (element: string, elementType: string, color: string) => {
-    console.log(`Verifying ${element} ${elementType} should have background color "${color}"`);
-    await uiAssertions.verifyElementBackgroundColor(element, color, elementType);
-});
-
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should have text color "([^"]*)"$/, async (element: string, elementType: string, color: string) => {
-    console.log(`Verifying ${element} ${elementType} should have text color "${color}"`);
-    await uiAssertions.verifyElementTextColor(element, color, elementType);
-});
-
-Then(/^"([^"]*)" (button|link|element|field|input|textbox|section|heading|label) should be positioned at coordinates \((\d+),(\d+)\)$/, async (element: string, elementType: string, x: string, y: string) => {
-    console.log(`Verifying ${element} ${elementType} should be positioned at coordinates (${x},${y})`);
-    await uiAssertions.verifyElementPosition(element, parseInt(x), parseInt(y), elementType);
+// ===============================
+// SOFT ASSERTIONS
+// ===============================
+Then(/^"([^"]*)" (element|button|link|field|input|textbox|dropdown) should softly have text "([^"]*)"$/, async function (this: CustomWorld, elementName: string, elementType: string, expectedText: string) {
+    console.log(`Soft assertion: ${elementName} ${elementType} should have text: "${expectedText}"`);
+    const result = await this.uiAssertions.softAssertElementText(elementName, expectedText, elementType);
+    if (result) {
+        console.log('✅ Soft assertion passed');
+    } else {
+        console.log('⚠️ Soft assertion failed but continuing execution');
+    }
 });

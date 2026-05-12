@@ -1,0 +1,467 @@
+{
+  "tests/support/env.ts": {
+    "filename": "env.ts",
+    "path": "tests/support/env.ts",
+    "version": "1.2",
+    "contextFile": "962474d9-context.json",
+    "chunks": {
+      "5150b6": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613149,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "58fd746a",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5150b6",
+        "hash": "48c76aad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "5150b6",
+        "hash": "aef2a62a",
+        "encoded": "*%20Environment%20configuration%20for%20Playwright%20BDD%20tests",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "5150b6",
+        "hash": "6708254f",
+        "encoded": "*%20Centralizes%20environment%20variable%20handling",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "5150b6",
+        "hash": "7c9e86a6",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "5150b6",
+        "hash": "2dab57ca",
+        "encoded": "export%20interface%20TestEnvironment%20%7B",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "5150b6",
+        "hash": "ec9c36f1",
+        "encoded": "baseUrl:%20string;",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "5150b6",
+        "hash": "0023c972",
+        "encoded": "browser:%20'chromium'%20%7C%20'firefox'%20%7C%20'webkit';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "5150b6",
+        "hash": "8c0559aa",
+        "encoded": "headless:%20boolean;",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "5150b6",
+        "hash": "37947ae5",
+        "encoded": "viewport:%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "5150b6",
+        "hash": "d79c2123",
+        "encoded": "width:%20number;",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "5150b6",
+        "hash": "e66eb946",
+        "encoded": "height:%20number;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "5150b6",
+        "hash": "088615cc",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "5150b6",
+        "hash": "d9df42d4",
+        "encoded": "timeout:%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "5150b6",
+        "hash": "225fc993",
+        "encoded": "action:%20number;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "5150b6",
+        "hash": "965d3d8e",
+        "encoded": "navigation:%20number;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "5150b6",
+        "hash": "48d158c6",
+        "encoded": "test:%20number;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "5150b6",
+        "hash": "146d9b82",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "5150b6",
+        "hash": "71dbe870",
+        "encoded": "retries:%20number;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "5150b6",
+        "hash": "986a8ca3",
+        "encoded": "workers:%20number;",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "5150b6",
+        "hash": "3bd97824",
+        "encoded": "screenshots:%20boolean;",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "5150b6",
+        "hash": "50512c8f",
+        "encoded": "videos:%20boolean;",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "5150b6",
+        "hash": "d02e7529",
+        "encoded": "traces:%20boolean;",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "5150b6",
+        "hash": "7b3531ab",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "5150b6",
+        "hash": "9ae119a6",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "5150b6",
+        "hash": "bc636542",
+        "encoded": "*%20Get%20test%20environment%20configuration",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "5150b6",
+        "hash": "d7e56af4",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "5150b6",
+        "hash": "05bbea96",
+        "encoded": "export%20function%20getTestEnvironment():%20TestEnvironment%20%7B",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "5150b6",
+        "hash": "6743be93",
+        "encoded": "return%20%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "5150b6",
+        "hash": "ea51e666",
+        "encoded": "baseUrl:%20process.env.BASE_URL%20%7C%7C%20'https://www.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "5150b6",
+        "hash": "948a47c4",
+        "encoded": "browser:%20(process.env.BROWSER%20as%20any)%20%7C%7C%20'chromium',",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "5150b6",
+        "hash": "a188db84",
+        "encoded": "headless:%20process.env.HEADLESS%20!==%20'false',",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "5150b6",
+        "hash": "e07c03d1",
+        "encoded": "viewport:%20%7B",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "5150b6",
+        "hash": "efc29f09",
+        "encoded": "width:%20parseInt(process.env.VIEWPORT_WIDTH%20%7C%7C%20'1920'),",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "5150b6",
+        "hash": "caf15303",
+        "encoded": "height:%20parseInt(process.env.VIEWPORT_HEIGHT%20%7C%7C%20'1080')",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "5150b6",
+        "hash": "6bb93cd8",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "5150b6",
+        "hash": "c394b645",
+        "encoded": "timeout:%20%7B",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "5150b6",
+        "hash": "5f3892d8",
+        "encoded": "action:%20parseInt(process.env.ACTION_TIMEOUT%20%7C%7C%20'10000'),",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "5150b6",
+        "hash": "6be1042b",
+        "encoded": "navigation:%20parseInt(process.env.NAVIGATION_TIMEOUT%20%7C%7C%20'30000'),",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "5150b6",
+        "hash": "8d60c789",
+        "encoded": "test:%20parseInt(process.env.TEST_TIMEOUT%20%7C%7C%20'60000')",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "5150b6",
+        "hash": "179b30c9",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "5150b6",
+        "hash": "791cc72f",
+        "encoded": "retries:%20parseInt(process.env.RETRIES%20%7C%7C%20'0'),",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "5150b6",
+        "hash": "a64b18af",
+        "encoded": "workers:%20parseInt(process.env.WORKERS%20%7C%7C%20'1'),",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "5150b6",
+        "hash": "f36a838a",
+        "encoded": "screenshots:%20process.env.SCREENSHOTS%20!==%20'false',",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "5150b6",
+        "hash": "ae13cc4f",
+        "encoded": "videos:%20process.env.VIDEOS%20===%20'true',",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "5150b6",
+        "hash": "a7de2a69",
+        "encoded": "traces:%20process.env.TRACES%20===%20'true'",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "5150b6",
+        "hash": "6fab5950",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "5150b6",
+        "hash": "d90811a0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "5150b6",
+        "hash": "8ff6f0eb",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "5150b6",
+        "hash": "6ae9c18f",
+        "encoded": "*%20Environment-specific%20configurations",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "5150b6",
+        "hash": "d89601c8",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "5150b6",
+        "hash": "75eea460",
+        "encoded": "export%20const%20environments%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "5150b6",
+        "hash": "b1263806",
+        "encoded": "development:%20%7B",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "5150b6",
+        "hash": "682a5933",
+        "encoded": "baseUrl:%20'https://www.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "5150b6",
+        "hash": "0b61636b",
+        "encoded": "headless:%20false,",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "5150b6",
+        "hash": "99b27273",
+        "encoded": "retries:%200",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "5150b6",
+        "hash": "f31f7ed2",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "5150b6",
+        "hash": "3a4fe3cb",
+        "encoded": "staging:%20%7B",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "5150b6",
+        "hash": "f0f113b7",
+        "encoded": "baseUrl:%20'https://staging.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "5150b6",
+        "hash": "843c6418",
+        "encoded": "headless:%20true,",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "5150b6",
+        "hash": "23e76121",
+        "encoded": "retries:%201",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "5150b6",
+        "hash": "a7917065",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "5150b6",
+        "hash": "68871030",
+        "encoded": "production:%20%7B",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "5150b6",
+        "hash": "442a5365",
+        "encoded": "baseUrl:%20'https://www.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "5150b6",
+        "hash": "fb0073fd",
+        "encoded": "headless:%20true,",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "5150b6",
+        "hash": "4261e2d8",
+        "encoded": "retries:%202",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "5150b6",
+        "hash": "e4d82fa4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "5150b6",
+        "hash": "be8eb4db",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "5150b6",
+        "hash": "c462b373",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "5150b6",
+        "hash": "2ab79bf9",
+        "encoded": "*%20Get%20configuration%20for%20specific%20environment",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "5150b6",
+        "hash": "fe9dbdbf",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "5150b6",
+        "hash": "cf044c33",
+        "encoded": "export%20function%20getEnvironmentConfig(env:%20keyof%20typeof%20environments)%20%7B",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "5150b6",
+        "hash": "96a0dc69",
+        "encoded": "return%20environments%5Benv%5D%20%7C%7C%20environments.development;",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "5150b6",
+        "hash": "88f18366",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

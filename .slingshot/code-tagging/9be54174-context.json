@@ -1,0 +1,45 @@
+{
+  "filename": "web-locators.yaml",
+  "path": "tests/locators/web-locators.yaml",
+  "version": "1.1",
+  "files": {
+    "7af0acda": {
+      "value": [
+        {
+          "programming_language": "",
+          "fileName": "web-locators.yaml",
+          "relativeFilePath": "tests/locators/web-locators.yaml",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            89
+          ]
+        },
+        {
+          "programming_language": "",
+          "fileName": "web-demo.feature",
+          "relativeFilePath": "tests/features/web-demo.feature",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            60
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "8ef89e97": {
+      "value": "Remove all locators which are not being used in this feature file"
+    },
+    "aa41b429": {
+      "value": "@Workspace Can you refer workspance understand the wdio framework and covert it into playwright framework using TypeScript. I need all build-in step definition and support to work as it is. Only I need to migrated/convert the wdio framework into playwright executable framework. Make changes to the files and create new file if needed"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

@@ -1,0 +1,239 @@
+{
+  "tests/features/tests/features/sample-test.feature": {
+    "filename": "sample-test.feature",
+    "path": "tests/features/tests/features/sample-test.feature",
+    "version": "1.2",
+    "contextFile": "368deb88-context.json",
+    "chunks": {
+      "3c37ee": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778615502,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "5e2bddc1",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3c37ee",
+        "hash": "4bf931b2",
+        "encoded": "Feature:%20Sample%20Test%20for%20Playwright%20Migration",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "3c37ee",
+        "hash": "407cd9f1",
+        "encoded": "As%20a%20test%20automation%20engineer",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "3c37ee",
+        "hash": "8c592e89",
+        "encoded": "I%20want%20to%20verify%20that%20the%20migrated%20Playwright%20framework%20works%20correctly",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "3c37ee",
+        "hash": "6b5390ef",
+        "encoded": "So%20that%20I%20can%20ensure%20all%20functionality%20has%20been%20preserved",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "3c37ee",
+        "hash": "b93dac7c",
+        "encoded": "@smoke",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "3c37ee",
+        "hash": "2ec0288d",
+        "encoded": "Scenario:%20Navigate%20to%20demo%20website%20and%20verify%20title",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "3c37ee",
+        "hash": "c03cfbd5",
+        "encoded": "Given%20I%20navigate%20to%20%22https://www.saucedemo.com%22",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3c37ee",
+        "hash": "982908d2",
+        "encoded": "Then%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "3c37ee",
+        "hash": "5d57b7b8",
+        "encoded": "And%20I%20verify%20page%20title%20contains%20%22Swag%20Labs%22",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "3c37ee",
+        "hash": "f692d045",
+        "encoded": "@regression",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3c37ee",
+        "hash": "ef42abfe",
+        "encoded": "Scenario:%20Test%20basic%20UI%20interactions",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "3c37ee",
+        "hash": "cab10d98",
+        "encoded": "Given%20I%20navigate%20to%20%22https://www.saucedemo.com%22",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3c37ee",
+        "hash": "5b5eeddd",
+        "encoded": "When%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "3c37ee",
+        "hash": "86aeff5d",
+        "encoded": "And%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "3c37ee",
+        "hash": "5f4ad4cc",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "3c37ee",
+        "hash": "e94fd654",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3c37ee",
+        "hash": "8f62d53f",
+        "encoded": "Then%20I%20wait%20for%20%22Products%22%20element%20to%20be%20visible",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "3c37ee",
+        "hash": "6cb76083",
+        "encoded": "And%20I%20verify%20element%20%22Products%22%20is%20visible",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3c37ee",
+        "hash": "2b90767d",
+        "encoded": "@positive",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3c37ee",
+        "hash": "69e32832",
+        "encoded": "Scenario:%20Test%20form%20interactions%20and%20assertions",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "3c37ee",
+        "hash": "faeea2e3",
+        "encoded": "Given%20I%20navigate%20to%20%22https://www.saucedemo.com%22",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "3c37ee",
+        "hash": "3bbed098",
+        "encoded": "When%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "3c37ee",
+        "hash": "3900f2ab",
+        "encoded": "And%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3c37ee",
+        "hash": "f2dfa363",
+        "encoded": "Then%20I%20verify%20input%20%22Username%22%20has%20value%20%22standard_user%22",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3c37ee",
+        "hash": "599eaab1",
+        "encoded": "When%20I%20clear%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "3c37ee",
+        "hash": "71715cfa",
+        "encoded": "Then%20I%20verify%20input%20%22Username%22%20is%20empty",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "3c37ee",
+        "hash": "de16d03e",
+        "encoded": "@negative",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "3c37ee",
+        "hash": "71ae5876",
+        "encoded": "Scenario:%20Test%20invalid%20login",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "3c37ee",
+        "hash": "e611fbc5",
+        "encoded": "Given%20I%20navigate%20to%20%22https://www.saucedemo.com%22",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "3c37ee",
+        "hash": "7e6779d1",
+        "encoded": "When%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "3c37ee",
+        "hash": "087d426a",
+        "encoded": "And%20I%20type%20%22invalid_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "3c37ee",
+        "hash": "91db56f0",
+        "encoded": "And%20I%20type%20%22invalid_password%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "3c37ee",
+        "hash": "41f4508c",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "3c37ee",
+        "hash": "814dc257",
+        "encoded": "Then%20I%20wait%20for%20%22Error%22%20element%20to%20be%20visible",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "3c37ee",
+        "hash": "3508afc6",
+        "encoded": "And%20I%20verify%20element%20%22Error%22%20contains%20text%20%22Username%20and%20password%20do%20not%20match%22",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

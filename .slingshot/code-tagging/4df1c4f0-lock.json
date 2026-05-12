@@ -1,0 +1,138 @@
+{
+  "tests/support/generate-cucumber-report.js": {
+    "filename": "generate-cucumber-report.js",
+    "path": "tests/support/generate-cucumber-report.js",
+    "version": "1.2",
+    "contextFile": "4df1c4f0-context.json",
+    "chunks": {
+      "ab1c16": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1776692030,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.3.3",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "496da44e",
+          "files": "1f076449"
+        },
+        "hash": "7a3ecc3a",
+        "messageId": "system_0c26c930-3cbd-11f1-a4bb-b712c689e0de",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ab1c16",
+        "hash": "e83ec136",
+        "encoded": "import%20report%20from%20'multiple-cucumber-html-reporter';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "ab1c16",
+        "hash": "1cc8f4b4",
+        "encoded": "import%20fs%20from%20'fs';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "ab1c16",
+        "hash": "8c670867",
+        "encoded": "import%20path%20from%20'path';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ab1c16",
+        "hash": "1f04c73e",
+        "encoded": "//%20Check%20if%20test%20results%20directory%20exists",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "ab1c16",
+        "hash": "d959516d",
+        "encoded": "const%20testResultsDir%20=%20'./reports';",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "ab1c16",
+        "hash": "dd83a729",
+        "encoded": "if%20(!fs.existsSync(testResultsDir))%20%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "ab1c16",
+        "hash": "83f98b6b",
+        "encoded": "console.log('No%20test%20results%20found.%20Please%20run%20tests%20first.');",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "ab1c16",
+        "hash": "9116f982",
+        "encoded": "process.exit(1);",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "ab1c16",
+        "hash": "2ce165fa",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "ab1c16",
+        "hash": "9bf2cee8",
+        "encoded": "//%20Check%20if%20cucumber%20JSON%20report%20exists",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "ab1c16",
+        "hash": "76f00369",
+        "encoded": "const%20jsonReportPath%20=%20path.join(testResultsDir,%20'cucumber-report.json');",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "ab1c16",
+        "hash": "1884f378",
+        "encoded": "if%20(!fs.existsSync(jsonReportPath))%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "ab1c16",
+        "hash": "deab99ec",
+        "encoded": "console.log('No%20Cucumber%20JSON%20report%20found.%20Please%20run%20tests%20first.');",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "ab1c16",
+        "hash": "e17c82ff",
+        "encoded": "process.exit(1);",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "ab1c16",
+        "hash": "0a373349",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "ab1c16",
+        "hash": "98f83ab6",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "ab1c16",
+        "hash": "4a566a56",
+        "encoded": "console.log('Cucumber%20HTML%20report%20generated%20successfully%20in%20./cucumber-html-report%20directory');",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "ab1c16",
+        "hash": "7a750655",
+        "encoded": "console.log('Open%20./cucumber-html-report/index.html%20in%20your%20browser%20to%20view%20the%20report.');",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

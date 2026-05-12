@@ -1,0 +1,767 @@
+{
+  "playwright-shared.config.ts": {
+    "filename": "playwright-shared.config.ts",
+    "path": "playwright-shared.config.ts",
+    "version": "1.2",
+    "contextFile": "dcd8b0e6-context.json",
+    "chunks": {
+      "d9262c": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778022762,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "c6cc6428",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "d9262c",
+        "hash": "548c135e",
+        "encoded": "import%20%7B%20PlaywrightTestConfig%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "d9262c",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "d9262c",
+        "hash": "e40cd997",
+        "encoded": "*%20Shared%20configuration%20for%20all%20Playwright%20test%20environments",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "d9262c",
+        "hash": "dceb3c93",
+        "encoded": "*%20Contains%20common%20properties%20used%20across%20different%20browser%20configurations",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "d9262c",
+        "hash": "af529f89",
+        "encoded": "*%20Migrated%20from%20WebDriverIO%20shared%20configuration",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "d9262c",
+        "hash": "f2ad3d4c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "d9262c",
+        "hash": "595e8500",
+        "encoded": "export%20const%20sharedConfig:%20Partial%3CPlaywrightTestConfig%3E%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "d9262c",
+        "hash": "abe37031",
+        "encoded": "/*%20Global%20test%20timeout%20*/",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "d9262c",
+        "hash": "4de8bd7f",
+        "encoded": "timeout:%2060000,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "d9262c",
+        "hash": "bb410da2",
+        "encoded": "/*%20Global%20expect%20timeout%20*/",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "d9262c",
+        "hash": "88f5c9f4",
+        "encoded": "expect:%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "d9262c",
+        "hash": "2f1b04fe",
+        "encoded": "timeout:%2010000",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "d9262c",
+        "hash": "aaa19923",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "d9262c",
+        "hash": "48084b9c",
+        "encoded": "/*%20Shared%20test%20settings%20*/",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "d9262c",
+        "hash": "dc89010f",
+        "encoded": "use:%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "d9262c",
+        "hash": "c0ca1c20",
+        "encoded": "/*%20Base%20URL%20for%20tests%20*/",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "d9262c",
+        "hash": "a119605b",
+        "encoded": "baseURL:%20process.env.BASE_URL%20%7C%7C%20'https://www.saucedemo.com',",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "d9262c",
+        "hash": "c469ca2d",
+        "encoded": "/*%20Global%20action%20timeout%20*/",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "d9262c",
+        "hash": "1c3cf9af",
+        "encoded": "actionTimeout:%2010000,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "d9262c",
+        "hash": "9db10fc0",
+        "encoded": "/*%20Global%20navigation%20timeout%20*/",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "d9262c",
+        "hash": "4ceb05a3",
+        "encoded": "navigationTimeout:%2030000,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "d9262c",
+        "hash": "5b1b8a5a",
+        "encoded": "/*%20Ignore%20HTTPS%20errors%20*/",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "d9262c",
+        "hash": "8819506f",
+        "encoded": "ignoreHTTPSErrors:%20true,",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "d9262c",
+        "hash": "3bc60d0e",
+        "encoded": "/*%20Capture%20screenshot%20on%20failure%20*/",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "d9262c",
+        "hash": "4f200db2",
+        "encoded": "screenshot:%20'only-on-failure',",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "d9262c",
+        "hash": "96f3c4cb",
+        "encoded": "/*%20Record%20video%20on%20failure%20*/",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "d9262c",
+        "hash": "c6cef4c9",
+        "encoded": "video:%20'retain-on-failure',",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "d9262c",
+        "hash": "ee6f90cf",
+        "encoded": "/*%20Collect%20trace%20when%20retrying%20the%20failed%20test%20*/",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "d9262c",
+        "hash": "8a8dd6a2",
+        "encoded": "trace:%20'on-first-retry',",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "d9262c",
+        "hash": "ca75e77a",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "d9262c",
+        "hash": "e697ae31",
+        "encoded": "/*%20Shared%20reporter%20configuration%20*/",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "d9262c",
+        "hash": "42cd9f0e",
+        "encoded": "reporter:%20%5B",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "d9262c",
+        "hash": "a4450a9f",
+        "encoded": "%5B'html'%5D,",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "d9262c",
+        "hash": "a2fe9077",
+        "encoded": "%5B'json',%20%7B%20outputFile:%20'reports/test-results.json'%20%7D%5D,",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "d9262c",
+        "hash": "3e31cd1c",
+        "encoded": "%5B'junit',%20%7B%20outputFile:%20'reports/junit-results.xml'%20%7D%5D,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "d9262c",
+        "hash": "854d7cea",
+        "encoded": "%5B'list'%5D",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "d9262c",
+        "hash": "69d98308",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "d9262c",
+        "hash": "ddcb723a",
+        "encoded": "/*%20Output%20directory%20for%20test%20artifacts%20*/",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "d9262c",
+        "hash": "9c79742d",
+        "encoded": "outputDir:%20'test-results/',",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "d9262c",
+        "hash": "b6653400",
+        "encoded": "/*%20Retry%20configuration%20*/",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "d9262c",
+        "hash": "8bdb8998",
+        "encoded": "retries:%20process.env.CI%20?%202%20:%200,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "d9262c",
+        "hash": "21a80f61",
+        "encoded": "/*%20Worker%20configuration%20*/",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "d9262c",
+        "hash": "6e480fb0",
+        "encoded": "workers:%20process.env.CI%20?%201%20:%20undefined,",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "d9262c",
+        "hash": "460bb38f",
+        "encoded": "/*%20Parallel%20execution%20*/",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "d9262c",
+        "hash": "e5bbdb2d",
+        "encoded": "fullyParallel:%20true,",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "d9262c",
+        "hash": "5e0bf05b",
+        "encoded": "/*%20Fail%20the%20build%20on%20CI%20if%20you%20accidentally%20left%20test.only%20*/",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "d9262c",
+        "hash": "edd315ba",
+        "encoded": "forbidOnly:%20!!process.env.CI,",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "d9262c",
+        "hash": "d9e6891f",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "d9262c",
+        "hash": "3f19ed05",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "d9262c",
+        "hash": "f4432dbc",
+        "encoded": "*%20Utility%20function%20to%20merge%20configurations",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "d9262c",
+        "hash": "75f5977c",
+        "encoded": "*%20@param%20baseConfig%20Base%20configuration",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "d9262c",
+        "hash": "737ee0c9",
+        "encoded": "*%20@param%20configs%20Additional%20configurations%20to%20merge",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "d9262c",
+        "hash": "f94004bf",
+        "encoded": "*%20@returns%20Merged%20configuration",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "d9262c",
+        "hash": "91b2d6df",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "d9262c",
+        "hash": "3b195ef0",
+        "encoded": "export%20function%20mergeConfigs(",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "d9262c",
+        "hash": "3b07273a",
+        "encoded": "baseConfig:%20Partial%3CPlaywrightTestConfig%3E,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "d9262c",
+        "hash": "56cf28fb",
+        "encoded": "...configs:%20Partial%3CPlaywrightTestConfig%3E%5B%5D",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "d9262c",
+        "hash": "b1f75648",
+        "encoded": "):%20PlaywrightTestConfig%20%7B",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "d9262c",
+        "hash": "c69a101f",
+        "encoded": "return%20configs.reduce((merged,%20config)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "d9262c",
+        "hash": "040a6a4d",
+        "encoded": "return%20%7B",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "d9262c",
+        "hash": "a333718f",
+        "encoded": "...merged,",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "d9262c",
+        "hash": "00fb8462",
+        "encoded": "...config,",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "d9262c",
+        "hash": "0c9866f0",
+        "encoded": "//%20Deep%20merge%20for%20nested%20objects",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "d9262c",
+        "hash": "7cfac7d8",
+        "encoded": "use:%20%7B",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "d9262c",
+        "hash": "04382a8e",
+        "encoded": "...merged.use,",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "d9262c",
+        "hash": "9d321437",
+        "encoded": "...config.use,",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "d9262c",
+        "hash": "96dd72e8",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "d9262c",
+        "hash": "166d3167",
+        "encoded": "expect:%20%7B",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "d9262c",
+        "hash": "8d90484f",
+        "encoded": "...merged.expect,",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "d9262c",
+        "hash": "c2d07af1",
+        "encoded": "...config.expect,",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "d9262c",
+        "hash": "4aad17c4",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "d9262c",
+        "hash": "59dba837",
+        "encoded": "reporter:%20config.reporter%20%7C%7C%20merged.reporter,",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "d9262c",
+        "hash": "00dd637d",
+        "encoded": "projects:%20config.projects%20%7C%7C%20merged.projects,",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "d9262c",
+        "hash": "07fbdddc",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "d9262c",
+        "hash": "6f793e79",
+        "encoded": "%7D,%20baseConfig)%20as%20PlaywrightTestConfig;",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "d9262c",
+        "hash": "70416dc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "d9262c",
+        "hash": "b7b4eba7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "d9262c",
+        "hash": "36feb573",
+        "encoded": "*%20Common%20browser%20launch%20options",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "d9262c",
+        "hash": "46534e49",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "d9262c",
+        "hash": "6c6736d6",
+        "encoded": "export%20const%20commonLaunchOptions%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "d9262c",
+        "hash": "dea2fe67",
+        "encoded": "chrome:%20%7B",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "d9262c",
+        "hash": "0524d89f",
+        "encoded": "args:%20%5B",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "d9262c",
+        "hash": "8c642133",
+        "encoded": "'--no-sandbox',",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "d9262c",
+        "hash": "b15fca45",
+        "encoded": "'--disable-dev-shm-usage',",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "d9262c",
+        "hash": "f440bb20",
+        "encoded": "'--disable-web-security',",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "d9262c",
+        "hash": "cb2d49a7",
+        "encoded": "'--disable-features=VizDisplayCompositor',",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "d9262c",
+        "hash": "cdc8f907",
+        "encoded": "'--window-size=1920,1080'",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "d9262c",
+        "hash": "bbcebf1b",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "d9262c",
+        "hash": "71d64ea8",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "d9262c",
+        "hash": "52c8e054",
+        "encoded": "chromeHeadless:%20%7B",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "d9262c",
+        "hash": "c7892888",
+        "encoded": "args:%20%5B",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "d9262c",
+        "hash": "ef939880",
+        "encoded": "'--headless=new',",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "d9262c",
+        "hash": "c8476017",
+        "encoded": "'--no-sandbox',",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "d9262c",
+        "hash": "3d8ef84f",
+        "encoded": "'--disable-dev-shm-usage',",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "d9262c",
+        "hash": "44752568",
+        "encoded": "'--disable-web-security',",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "d9262c",
+        "hash": "3cf1db26",
+        "encoded": "'--disable-features=VizDisplayCompositor',",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "d9262c",
+        "hash": "34afbe55",
+        "encoded": "'--disable-gpu',",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "d9262c",
+        "hash": "935d7ff7",
+        "encoded": "'--disable-extensions',",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "d9262c",
+        "hash": "31e1bd4a",
+        "encoded": "'--disable-plugins',",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "d9262c",
+        "hash": "a10aa6fb",
+        "encoded": "'--disable-images',",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "d9262c",
+        "hash": "7b22a691",
+        "encoded": "'--disable-background-timer-throttling',",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "d9262c",
+        "hash": "0ec7453d",
+        "encoded": "'--disable-backgrounding-occluded-windows',",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "d9262c",
+        "hash": "cac377c6",
+        "encoded": "'--disable-renderer-backgrounding',",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "d9262c",
+        "hash": "24481040",
+        "encoded": "'--window-size=1920,1080'",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "d9262c",
+        "hash": "dc15d449",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "d9262c",
+        "hash": "7330c39c",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "d9262c",
+        "hash": "06efec9a",
+        "encoded": "firefox:%20%7B",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "d9262c",
+        "hash": "63e1933e",
+        "encoded": "firefoxUserPrefs:%20%7B",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "d9262c",
+        "hash": "aa04a581",
+        "encoded": "'security.tls.insecure_fallback_hosts':%20'localhost',",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "d9262c",
+        "hash": "85bd510a",
+        "encoded": "'security.tls.insecure_fallback_hosts_use_subdomain':%20true,",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "d9262c",
+        "hash": "16406caf",
+        "encoded": "'media.navigator.streams.fake':%20true,",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "d9262c",
+        "hash": "3e06e37a",
+        "encoded": "'media.navigator.permission.disabled':%20true",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "d9262c",
+        "hash": "c1055582",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "d9262c",
+        "hash": "59e86bfa",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "d9262c",
+        "hash": "6eabdee8",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "d9262c",
+        "hash": "2f646a43",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "d9262c",
+        "hash": "66486fcf",
+        "encoded": "*%20Common%20viewport%20sizes",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "d9262c",
+        "hash": "2d7cb1a0",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "d9262c",
+        "hash": "2d5affb5",
+        "encoded": "export%20const%20viewports%20=%20%7B",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "d9262c",
+        "hash": "f69a3393",
+        "encoded": "desktop:%20%7B%20width:%201920,%20height:%201080%20%7D,",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "d9262c",
+        "hash": "868c7df6",
+        "encoded": "tablet:%20%7B%20width:%20768,%20height:%201024%20%7D,",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "d9262c",
+        "hash": "564eea60",
+        "encoded": "mobile:%20%7B%20width:%20375,%20height:%20667%20%7D",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "d9262c",
+        "hash": "8ca94f89",
+        "encoded": "%7D;",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

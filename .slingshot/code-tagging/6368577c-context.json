@@ -1,0 +1,15 @@
+{
+  "filename": "ui-assertions.steps.ts",
+  "path": "tests/step-definitions/built-in/tests/step-definitions/built-in/ui-assertions.steps.ts",
+  "version": "1.1",
+  "files": {},
+  "promptMessage": {
+    "f3357661": {
+      "value": "@Workspace: can you reexecute the previous prompt and make the remaining changes"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

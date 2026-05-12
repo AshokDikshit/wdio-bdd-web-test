@@ -1,0 +1,293 @@
+{
+  "tests/support/index.ts": {
+    "filename": "index.ts",
+    "path": "tests/support/index.ts",
+    "version": "1.2",
+    "contextFile": "6d26a28b-context.json",
+    "chunks": {
+      "deabf2": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "63d0863f",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "deabf2",
+        "hash": "48c76aad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "deabf2",
+        "hash": "bd8e8492",
+        "encoded": "*%20Support%20utilities%20index%20file",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "deabf2",
+        "hash": "a1dd6325",
+        "encoded": "*%20Exports%20all%20support%20utilities%20for%20easy%20importing",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "deabf2",
+        "hash": "7c9e86a6",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "deabf2",
+        "hash": "e4b2b525",
+        "encoded": "//%20Core%20utilities",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "deabf2",
+        "hash": "caaa104c",
+        "encoded": "export%20%7B%20CommonUIUtils%20%7D%20from%20'./commonUtils';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "deabf2",
+        "hash": "ddfa743e",
+        "encoded": "export%20%7B%20UIActions%20%7D%20from%20'./uiActions';",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "deabf2",
+        "hash": "22aab219",
+        "encoded": "export%20%7B%20UIAssertions%20%7D%20from%20'./uiAssertions';",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "deabf2",
+        "hash": "d571c198",
+        "encoded": "export%20%7B%20LocatorManager%20%7D%20from%20'./locatorManager';",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "deabf2",
+        "hash": "2b1d9bc2",
+        "encoded": "//%20Test%20fixtures%20and%20world",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "deabf2",
+        "hash": "25da9f1d",
+        "encoded": "export%20%7B%20test,%20expect,%20TestFixtures%20%7D%20from%20'./fixtures';",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "deabf2",
+        "hash": "c168d17a",
+        "encoded": "export%20%7B%20CustomWorld%20%7D%20from%20'./world';",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "deabf2",
+        "hash": "23732d2f",
+        "encoded": "//%20Configuration%20and%20environment",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "deabf2",
+        "hash": "128b8ea9",
+        "encoded": "export%20%7B%20getTestEnvironment,%20getEnvironmentConfig,%20TestEnvironment%20%7D%20from%20'./env';",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "deabf2",
+        "hash": "d59e260c",
+        "encoded": "export%20*%20from%20'./constants';",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "deabf2",
+        "hash": "a049cb37",
+        "encoded": "export%20*%20from%20'./types';",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "deabf2",
+        "hash": "140c3ddf",
+        "encoded": "export%20*%20as%20utils%20from%20'./utils';",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "deabf2",
+        "hash": "6257e6db",
+        "encoded": "//%20Report%20generation",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "deabf2",
+        "hash": "f4eb743b",
+        "encoded": "export%20%7B%20generateReport%20%7D%20from%20'./generate-cucumber-report';",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "deabf2",
+        "hash": "629d653f",
+        "encoded": "//%20Global%20setup%20and%20teardown",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "deabf2",
+        "hash": "c21940a8",
+        "encoded": "export%20%7B%20default%20as%20globalSetup%20%7D%20from%20'./global-setup';",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "deabf2",
+        "hash": "19426dd1",
+        "encoded": "export%20%7B%20default%20as%20globalTeardown%20%7D%20from%20'./global-teardown';",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "deabf2",
+        "hash": "3b6f9550",
+        "encoded": "//%20Hooks",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "deabf2",
+        "hash": "006db88a",
+        "encoded": "export%20*%20from%20'./hooks';",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "deabf2",
+        "hash": "367a56c1",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "deabf2",
+        "hash": "9d465ea5",
+        "encoded": "*%20Re-export%20commonly%20used%20Playwright%20types",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "deabf2",
+        "hash": "25af1a60",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "deabf2",
+        "hash": "c8428013",
+        "encoded": "export%20type%20%7B",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "deabf2",
+        "hash": "519a51be",
+        "encoded": "Page,",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "deabf2",
+        "hash": "c3c6c698",
+        "encoded": "BrowserContext,",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "deabf2",
+        "hash": "aa7a0635",
+        "encoded": "Browser,",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "deabf2",
+        "hash": "ff8a16e6",
+        "encoded": "Locator,",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "deabf2",
+        "hash": "3e3cfa15",
+        "encoded": "ElementHandle,",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "deabf2",
+        "hash": "32e2883d",
+        "encoded": "Response,",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "deabf2",
+        "hash": "1c845485",
+        "encoded": "Request",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "deabf2",
+        "hash": "d928285d",
+        "encoded": "%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "deabf2",
+        "hash": "acdd418f",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "deabf2",
+        "hash": "abf92e69",
+        "encoded": "*%20Re-export%20Cucumber%20types",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "deabf2",
+        "hash": "de284ca5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "deabf2",
+        "hash": "45685eda",
+        "encoded": "export%20type%20%7B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "deabf2",
+        "hash": "e9affe9f",
+        "encoded": "World,",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "deabf2",
+        "hash": "d12ed030",
+        "encoded": "IWorldOptions,",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "deabf2",
+        "hash": "a1c72134",
+        "encoded": "DataTable",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "deabf2",
+        "hash": "723ba3f9",
+        "encoded": "%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "filename": "generate-cucumber-report.js",
+  "path": "tests/support/generate-cucumber-report.js",
+  "version": "1.1",
+  "files": {
+    "1f076449": {
+      "value": [
+        {
+          "programming_language": "JavaScript",
+          "fileName": "generate-cucumber-report.js",
+          "relativeFilePath": "tests/support/generate-cucumber-report.js",
+          "startLine": [
+            1
+          ],
+          "endLine": [
+            46
+          ]
+        }
+      ]
+    }
+  },
+  "promptMessage": {
+    "496da44e": {
+      "value": "what is this error ?alled \"config\" found. Make sure you export the config object via `export.config = { ... }` when using CommonJS or `export const config = { ... }` when using ESM. Read more on this on https://webdriver.io/docs/configurationfile !\n2026-04-20T13:28:44.884Z ERROR @wdio/config:ConfigParser: Failed loading configuration file: file:///Users/ashdiksh/Documents/Automation/web/wdio-bdd-web-test/tests/support/generate-cucumber-report.js: No named export object called \"config\" found. Mak"
+    }
+  },
+  "localPrompts": {},
+  "remotePrompts": {},
+  "figma": {},
+  "jira": {}
+}

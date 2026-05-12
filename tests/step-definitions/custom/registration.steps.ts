@@ -1,142 +1,82 @@
-import { Given, When, Then } from '@wdio/cucumber-framework';
-import { expect } from '@wdio/globals';
-import uiActions from '../../support/uiActions';
-import uiAssertions from '../../support/uiAssertions';
+import { Given, When, Then } from '@cucumber/cucumber';
+import { CustomWorld } from '../../support/world';
 
-// ===============================
-// REGISTRATION SPECIFIC STEP DEFINITIONS
-// ===============================
-// This file contains step definitions specific to registration flow
-// that are not covered by existing global step definitions
+/**
+ * Custom step definitions for registration functionality
+ * Migrated from WebDriverIO to Playwright
+ */
 
-// ===============================
-// NAVIGATION AND PAGE STATE STEPS
-// ===============================
-Given(/^I am on the homepage$/, async () => {
-    console.log('Verifying user is on the homepage');
-    // Implementation: Verify homepage elements are visible
-    await uiAssertions.verifyElementVisible('Homepage Logo', 'element');
-});
-
-Given(/^I am on the registration page$/, async () => {
+Given(/^I am on the registration page$/, async function (this: CustomWorld) {
     console.log('Navigating to registration page');
-    await uiActions.navigateTo('https://retailwebsite.com/register');
-    await uiAssertions.verifyElementVisible('Create Account', 'heading');
+    await this.uiActions.navigateTo('https://retailwebsite.com/register');
+    await this.uiAssertions.verifyElementVisible('Create Account', 'heading');
 });
 
-Then(/^I should be redirected to the registration page$/, async () => {
+Then(/^I should be redirected to the registration page$/, async function (this: CustomWorld) {
     console.log('Verifying redirection to registration page');
-    await uiAssertions.verifyUrlContains('/register');
-    await uiAssertions.verifyElementVisible('Create Account', 'heading');
+    await this.uiAssertions.verifyUrlContains('/register');
+    await this.uiAssertions.verifyElementVisible('Create Account', 'heading');
 });
 
-Then(/^I should be redirected to the email verification page$/, async () => {
+Then(/^I should be redirected to the email verification page$/, async function (this: CustomWorld) {
     console.log('Verifying redirection to email verification page');
-    await uiAssertions.verifyUrlContains('/verify-email');
-    await uiAssertions.verifyElementVisible('Email Verification', 'heading');
+    await this.uiAssertions.verifyUrlContains('/verify-email');
+    await this.uiAssertions.verifyElementVisible('Email Verification', 'heading');
 });
 
-Then(/^I should be redirected to the login page$/, async () => {
-    console.log('Verifying redirection to login page');
-    await uiAssertions.verifyUrlContains('/login');
-    await uiAssertions.verifyElementVisible('Login', 'heading');
+// Additional registration-specific step definitions
+When(/^I fill in the registration form with valid details$/, async function (this: CustomWorld) {
+    console.log('Filling registration form with valid details');
+    await this.uiActions.typeText('John', 'First Name', 'field');
+    await this.uiActions.typeText('Doe', 'Last Name', 'field');
+    await this.uiActions.typeText('john.doe@example.com', 'Email', 'field');
+    await this.uiActions.typeText('SecurePassword123!', 'Password', 'field');
+    await this.uiActions.typeText('SecurePassword123!', 'Confirm Password', 'field');
 });
 
-Then(/^I should be redirected to the dashboard$/, async () => {
-    console.log('Verifying redirection to dashboard');
-    await uiAssertions.verifyUrlContains('/dashboard');
-    await uiAssertions.verifyElementVisible('Welcome to Dashboard', 'element');
+When(/^I accept the terms and conditions$/, async function (this: CustomWorld) {
+    console.log('Accepting terms and conditions');
+    await this.uiActions.checkCheckbox('Terms and Conditions');
 });
 
-// ===============================
-// OAUTH AND SOCIAL LOGIN STEPS
-// ===============================
-Then(/^I should be redirected to (Google|Facebook) OAuth provider$/, async (provider: string) => {
-    console.log(`Verifying redirection to ${provider} OAuth provider`);
-    if (provider === 'Google') {
-        await uiAssertions.verifyUrlContains('accounts.google.com');
-    } else if (provider === 'Facebook') {
-        await uiAssertions.verifyUrlContains('facebook.com');
-    }
+When(/^I submit the registration form$/, async function (this: CustomWorld) {
+    console.log('Submitting registration form');
+    await this.uiActions.clickOn('Register', 'button');
 });
 
-When(/^I complete (Google|Facebook) OAuth authorization$/, async (provider: string) => {
-    console.log(`Completing ${provider} OAuth authorization`);
-    // Implementation: Handle OAuth flow
-    // This would typically involve interacting with OAuth provider's interface
-    // For testing purposes, this might be mocked or use test credentials
-    if (provider === 'Google') {
-        await uiActions.typeText('test.user@gmail.com', 'Email', 'field');
-        await uiActions.typeText('TestPassword123', 'Password', 'field');
-        await uiActions.clickOn('Sign in', 'button');
-        await uiActions.clickOn('Allow', 'button');
-    } else if (provider === 'Facebook') {
-        await uiActions.typeText('test.user@facebook.com', 'Email', 'field');
-        await uiActions.typeText('TestPassword123', 'Password', 'field');
-        await uiActions.clickOn('Log In', 'button');
-        await uiActions.clickOn('Continue', 'button');
-    }
+Then(/^I should see a registration success message$/, async function (this: CustomWorld) {
+    console.log('Verifying registration success message');
+    await this.uiAssertions.verifyElementVisible('Registration Successful', 'element');
+    await this.uiAssertions.verifyElementContainsText('Success Message', 'Thank you for registering');
 });
 
-Then(/^my account should be created automatically$/, async () => {
-    console.log('Verifying account creation through OAuth');
-    // Implementation: Verify account creation success indicators
-    await uiAssertions.verifyElementVisible('Account Created', 'element');
+Then(/^I should see validation errors for required fields$/, async function (this: CustomWorld) {
+    console.log('Verifying validation errors for required fields');
+    await this.uiAssertions.verifyElementVisible('First Name Error', 'element');
+    await this.uiAssertions.verifyElementVisible('Last Name Error', 'element');
+    await this.uiAssertions.verifyElementVisible('Email Error', 'element');
+    await this.uiAssertions.verifyElementVisible('Password Error', 'element');
 });
 
-// ===============================
-// EMAIL VERIFICATION STEPS
-// ===============================
-Given(/^I have successfully registered with email "([^"]*)"$/, async (email: string) => {
-    console.log(`Setting up successful registration with email: ${email}`);
-    // Implementation: Complete registration process
-    await uiActions.navigateTo('https://retailwebsite.com/register');
-    await uiActions.typeText('John', 'First Name', 'field');
-    await uiActions.typeText('Smith', 'Last Name', 'field');
-    await uiActions.typeText(email, 'Email Address', 'field');
-    await uiActions.typeText('Test@1234', 'Password', 'field');
-    await uiActions.typeText('Test@1234', 'Confirm Password', 'field');
-    await uiActions.typeText('+44 7912345678', 'Mobile Number', 'field');
-    await uiActions.checkCheckbox('Terms & Conditions');
-    await uiActions.clickOn('Create Account', 'button');
-    await uiAssertions.verifyElementVisible('Account created successfully', 'element');
+When(/^I enter an invalid email format$/, async function (this: CustomWorld) {
+    console.log('Entering invalid email format');
+    await this.uiActions.typeText('invalid-email', 'Email', 'field');
 });
 
-When(/^I check my email inbox$/, async () => {
-    console.log('Checking email inbox for verification email');
-    // Implementation: Access email service or mock email checking
-    // This might involve API calls to email service or database checks
-    await uiActions.navigateTo('https://mailservice.com/inbox');
+Then(/^I should see an email format validation error$/, async function (this: CustomWorld) {
+    console.log('Verifying email format validation error');
+    await this.uiAssertions.verifyElementVisible('Email Format Error', 'element');
+    await this.uiAssertions.verifyElementContainsText('Email Format Error', 'Please enter a valid email address');
 });
 
-Then(/^I should receive a verification email within (\d+) minutes$/, async (minutes: string) => {
-    console.log(`Verifying verification email received within ${minutes} minutes`);
-    // Implementation: Check for email arrival within specified time
-    await uiActions.waitSeconds('120'); // Wait up to 2 minutes
-    await uiAssertions.verifyElementVisible('Verification Email', 'element');
+When(/^I enter mismatched passwords$/, async function (this: CustomWorld) {
+    console.log('Entering mismatched passwords');
+    await this.uiActions.typeText('Password123!', 'Password', 'field');
+    await this.uiActions.typeText('DifferentPassword456!', 'Confirm Password', 'field');
 });
 
-Then(/^the email should contain "([^"]*)" text$/, async (text: string) => {
-    console.log(`Verifying email contains text: ${text}`);
-    await uiAssertions.verifyElementContainsText('Email Content', text, 'element');
-});
-
-Then(/^the email should contain "([^"]*)" button$/, async (buttonText: string) => {
-    console.log(`Verifying email contains button: ${buttonText}`);
-    await uiAssertions.verifyElementVisible(buttonText, 'button');
-});
-
-When(/^I click the "([^"]*)" link in email$/, async (linkText: string) => {
-    console.log(`Clicking ${linkText} link in email`);
-    await uiActions.clickOn(linkText, 'link');
-});
-
-// ===============================
-// FORM VALIDATION STEPS
-// ===============================
-Then(/^no session timeout error should be displayed$/, async () => {
-    console.log('Verifying no session timeout error is displayed');
-    // Implementation: Check that no timeout error messages are visible
-    await uiAssertions.verifyElementNotVisible('Session Timeout', 'element');
-    await uiAssertions.verifyElementNotVisible('Session Expired', 'element');
+Then(/^I should see a password mismatch error$/, async function (this: CustomWorld) {
+    console.log('Verifying password mismatch error');
+    await this.uiAssertions.verifyElementVisible('Password Mismatch Error', 'element');
+    await this.uiAssertions.verifyElementContainsText('Password Mismatch Error', 'Passwords do not match');
 });

@@ -1,0 +1,1283 @@
+{
+  "tests/support/locatorManager.ts": {
+    "filename": "locatorManager.ts",
+    "path": "tests/support/locatorManager.ts",
+    "version": "1.2",
+    "contextFile": "0789b64d-context.json",
+    "chunks": {
+      "b0bf14": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "97725ea0",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "b0bf14",
+        "hash": "e4a8beed",
+        "encoded": "import%20*%20as%20fs%20from%20'fs';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "b0bf14",
+        "hash": "b42b847f",
+        "encoded": "import%20*%20as%20path%20from%20'path';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "b0bf14",
+        "hash": "de01871e",
+        "encoded": "import%20*%20as%20yaml%20from%20'js-yaml';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "b0bf14",
+        "hash": "3da07bb7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "b0bf14",
+        "hash": "94ad1398",
+        "encoded": "*%20Locator%20Manager%20for%20Playwright",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b0bf14",
+        "hash": "887670d1",
+        "encoded": "*%20Migrated%20from%20WebDriverIO%20locator%20management%20system",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b0bf14",
+        "hash": "0ae79b2f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "b0bf14",
+        "hash": "79116f82",
+        "encoded": "export%20class%20LocatorManager%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "b0bf14",
+        "hash": "31101a5c",
+        "encoded": "private%20locators:%20Map%3Cstring,%20any%3E%20=%20new%20Map();",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b0bf14",
+        "hash": "91a74537",
+        "encoded": "private%20locatorFiles:%20string%5B%5D%20=%20%5B%5D;",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b0bf14",
+        "hash": "fb529175",
+        "encoded": "constructor()%20%7B",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "b0bf14",
+        "hash": "71ba62b5",
+        "encoded": "this.loadLocators();",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "b0bf14",
+        "hash": "66d45cc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "b0bf14",
+        "hash": "8e163d57",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "b0bf14",
+        "hash": "713b5292",
+        "encoded": "*%20Load%20locators%20from%20YAML%20files",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "b0bf14",
+        "hash": "f12acb0c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "b0bf14",
+        "hash": "13d9a1e4",
+        "encoded": "private%20loadLocators():%20void%20%7B",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "b0bf14",
+        "hash": "4737ec8a",
+        "encoded": "try%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "b0bf14",
+        "hash": "51adee03",
+        "encoded": "const%20locatorsDir%20=%20'./tests/locators';",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "b0bf14",
+        "hash": "909d3a51",
+        "encoded": "if%20(fs.existsSync(locatorsDir))%20%7B",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "b0bf14",
+        "hash": "26a7defa",
+        "encoded": "const%20files%20=%20fs.readdirSync(locatorsDir)",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "b0bf14",
+        "hash": "84332acb",
+        "encoded": ".filter(file%20=%3E%20file.endsWith('.yaml')%20%7C%7C%20file.endsWith('.yml'));",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "b0bf14",
+        "hash": "847ba017",
+        "encoded": "files.forEach(file%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "b0bf14",
+        "hash": "dd17deb4",
+        "encoded": "const%20filePath%20=%20path.join(locatorsDir,%20file);",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "b0bf14",
+        "hash": "80984c3f",
+        "encoded": "const%20content%20=%20fs.readFileSync(filePath,%20'utf8');",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "b0bf14",
+        "hash": "13239258",
+        "encoded": "const%20locatorData%20=%20yaml.load(content)%20as%20any;",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "b0bf14",
+        "hash": "5c72f7a0",
+        "encoded": "if%20(locatorData)%20%7B",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "b0bf14",
+        "hash": "eefdf9b0",
+        "encoded": "Object.keys(locatorData).forEach(category%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "b0bf14",
+        "hash": "82d234b4",
+        "encoded": "this.locators.set(category,%20locatorData%5Bcategory%5D);",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "b0bf14",
+        "hash": "8c01c10e",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "b0bf14",
+        "hash": "3dd2a7c8",
+        "encoded": "this.locatorFiles.push(file);",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "b0bf14",
+        "hash": "880eeeff",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "b0bf14",
+        "hash": "3b202ec2",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "b0bf14",
+        "hash": "129fdfe7",
+        "encoded": "console.log(%60Loaded%20locators%20from%20$%7Bfiles.length%7D%20files:%60,%20files);",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "b0bf14",
+        "hash": "2ff9c98d",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "b0bf14",
+        "hash": "f141673b",
+        "encoded": "console.warn('Locators%20directory%20not%20found,%20using%20dynamic%20locators%20only');",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "b0bf14",
+        "hash": "d6071ac7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "b0bf14",
+        "hash": "b32cc7c0",
+        "encoded": "%7D%20catch%20(error)%20%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "b0bf14",
+        "hash": "04c2561b",
+        "encoded": "console.warn('Failed%20to%20load%20locators:',%20error);",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "b0bf14",
+        "hash": "f9b2449c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "b0bf14",
+        "hash": "57c5213d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "b0bf14",
+        "hash": "9c0519d4",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "b0bf14",
+        "hash": "9d2b0a0f",
+        "encoded": "*%20Get%20selector%20for%20an%20element",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "b0bf14",
+        "hash": "d70b152d",
+        "encoded": "*%20@param%20elementName%20-%20Name%20of%20the%20element",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "b0bf14",
+        "hash": "f751665b",
+        "encoded": "*%20@param%20elementType%20-%20Type%20of%20element%20(optional)",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "b0bf14",
+        "hash": "002fcf36",
+        "encoded": "*%20@returns%20CSS%20selector%20or%20XPath",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "b0bf14",
+        "hash": "43449f3f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "b0bf14",
+        "hash": "2c59ec1e",
+        "encoded": "async%20getSelector(elementName:%20string,%20elementType?:%20string):%20Promise%3Cstring%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "b0bf14",
+        "hash": "61d6a78c",
+        "encoded": "//%20First%20try%20to%20find%20in%20saved%20locators",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "b0bf14",
+        "hash": "ec2f0c15",
+        "encoded": "const%20savedLocator%20=%20this.getSavedLocator(elementName);",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "b0bf14",
+        "hash": "5e28a04b",
+        "encoded": "if%20(savedLocator)%20%7B",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "b0bf14",
+        "hash": "59c32622",
+        "encoded": "return%20savedLocator;",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "b0bf14",
+        "hash": "42f7c135",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "b0bf14",
+        "hash": "27dcf1cd",
+        "encoded": "//%20Generate%20dynamic%20locator%20based%20on%20text",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "b0bf14",
+        "hash": "eadafc10",
+        "encoded": "return%20this.generateDynamicLocator(elementName,%20elementType);",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "b0bf14",
+        "hash": "48dc6fe2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "b0bf14",
+        "hash": "731c559b",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "b0bf14",
+        "hash": "60baa60d",
+        "encoded": "*%20Get%20saved%20locator%20from%20YAML%20files",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "b0bf14",
+        "hash": "d6541efe",
+        "encoded": "*%20@param%20elementName%20-%20Name%20of%20the%20element",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "b0bf14",
+        "hash": "73f24fac",
+        "encoded": "*%20@returns%20Locator%20string%20or%20null",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "b0bf14",
+        "hash": "72f2e141",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "b0bf14",
+        "hash": "968af418",
+        "encoded": "private%20getSavedLocator(elementName:%20string):%20string%20%7C%20null%20%7B",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "b0bf14",
+        "hash": "6d7ac05a",
+        "encoded": "for%20(const%20%5Bcategory,%20locatorGroup%5D%20of%20this.locators)%20%7B",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "b0bf14",
+        "hash": "779b7f0f",
+        "encoded": "if%20(locatorGroup%20&&%20typeof%20locatorGroup%20===%20'object')%20%7B",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "b0bf14",
+        "hash": "f9a10f3f",
+        "encoded": "//%20Check%20direct%20match",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "b0bf14",
+        "hash": "6b7fc9ef",
+        "encoded": "if%20(locatorGroup%5BelementName%5D)%20%7B",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "b0bf14",
+        "hash": "1f140d64",
+        "encoded": "return%20locatorGroup%5BelementName%5D;",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "b0bf14",
+        "hash": "20d59727",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "b0bf14",
+        "hash": "2f1bb8ea",
+        "encoded": "//%20Check%20case-insensitive%20match",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "b0bf14",
+        "hash": "a067daa0",
+        "encoded": "const%20keys%20=%20Object.keys(locatorGroup);",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "b0bf14",
+        "hash": "a2abfd94",
+        "encoded": "const%20matchingKey%20=%20keys.find(key%20=%3E",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "b0bf14",
+        "hash": "6cde2199",
+        "encoded": "key.toLowerCase()%20===%20elementName.toLowerCase()",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "b0bf14",
+        "hash": "637b06b0",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "b0bf14",
+        "hash": "057d9eaf",
+        "encoded": "if%20(matchingKey)%20%7B",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "b0bf14",
+        "hash": "4db4c0e2",
+        "encoded": "return%20locatorGroup%5BmatchingKey%5D;",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "b0bf14",
+        "hash": "f4ff50cd",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "b0bf14",
+        "hash": "726efa75",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "b0bf14",
+        "hash": "9b477039",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "b0bf14",
+        "hash": "f9937066",
+        "encoded": "return%20null;",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "b0bf14",
+        "hash": "70416dc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "b0bf14",
+        "hash": "b7b4eba7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "b0bf14",
+        "hash": "877cd3b2",
+        "encoded": "*%20Generate%20dynamic%20locator%20based%20on%20text%20and%20element%20type",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "b0bf14",
+        "hash": "c2206c82",
+        "encoded": "*%20@param%20text%20-%20Text%20to%20search%20for",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "b0bf14",
+        "hash": "a9fe21c1",
+        "encoded": "*%20@param%20elementType%20-%20Type%20of%20element",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "b0bf14",
+        "hash": "854c6b97",
+        "encoded": "*%20@returns%20XPath%20or%20CSS%20selector",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "b0bf14",
+        "hash": "34ec0146",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "b0bf14",
+        "hash": "200dd18b",
+        "encoded": "private%20generateDynamicLocator(text:%20string,%20elementType?:%20string):%20string%20%7B",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "b0bf14",
+        "hash": "f52d7f41",
+        "encoded": "//%20Text-based%20dynamic%20locators%20with%20multiple%20fallback%20strategies",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "b0bf14",
+        "hash": "6379fba3",
+        "encoded": "const%20textSelectors%20=%20%5B",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "b0bf14",
+        "hash": "f11d9a88",
+        "encoded": "//%20Exact%20text%20match",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "b0bf14",
+        "hash": "bfc9e28b",
+        "encoded": "%60//*%5Btext()='$%7Btext%7D'%5D%60,",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "b0bf14",
+        "hash": "afa2d7a7",
+        "encoded": "//%20Contains%20text",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "b0bf14",
+        "hash": "0020549c",
+        "encoded": "%60//*%5Bcontains(text(),'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "b0bf14",
+        "hash": "f29cd055",
+        "encoded": "//%20Placeholder%20attribute",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "b0bf14",
+        "hash": "665e922f",
+        "encoded": "%60//*%5Bcontains(@placeholder,'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "b0bf14",
+        "hash": "944377de",
+        "encoded": "//%20Title%20attribute",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "b0bf14",
+        "hash": "c36cb1ec",
+        "encoded": "%60//*%5Bcontains(@title,'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "b0bf14",
+        "hash": "0e2b9fca",
+        "encoded": "//%20Name%20attribute",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "b0bf14",
+        "hash": "37e81be9",
+        "encoded": "%60//*%5Bcontains(@name,'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "b0bf14",
+        "hash": "bb9d2aac",
+        "encoded": "//%20Data-testid%20attribute",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "b0bf14",
+        "hash": "ee61cd89",
+        "encoded": "%60//*%5Bcontains(@data-testid,'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "b0bf14",
+        "hash": "706e403e",
+        "encoded": "//%20Value%20attribute",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "b0bf14",
+        "hash": "aab756b1",
+        "encoded": "%60//*%5Bcontains(@value,'$%7Btext%7D')%5D%60,",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "b0bf14",
+        "hash": "147de9cb",
+        "encoded": "//%20Label%20text",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "b0bf14",
+        "hash": "a3414631",
+        "encoded": "%60//label%5Bcontains(text(),'$%7Btext%7D')%5D//following::*%5B1%5D%60,",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "b0bf14",
+        "hash": "4eef70b1",
+        "encoded": "//%20Aria-label",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "b0bf14",
+        "hash": "6d672ab5",
+        "encoded": "%60//*%5Bcontains(@aria-label,'$%7Btext%7D')%5D%60",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "b0bf14",
+        "hash": "283bde71",
+        "encoded": "%5D;",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "b0bf14",
+        "hash": "ecc54a64",
+        "encoded": "//%20Element%20type%20specific%20selectors",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "b0bf14",
+        "hash": "f562e7ee",
+        "encoded": "if%20(elementType)%20%7B",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "b0bf14",
+        "hash": "f0a4dfed",
+        "encoded": "switch%20(elementType.toLowerCase())%20%7B",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "b0bf14",
+        "hash": "77220f69",
+        "encoded": "case%20'button':",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "b0bf14",
+        "hash": "d6fcefd5",
+        "encoded": "return%20%60//button%5Bcontains(text(),'$%7Btext%7D')%5D%20%7C%20//input%5B@type='button'%20and%20contains(@value,'$%7Btext%7D')%5D%20%7C%20//*%5B@role='button'%20and%20contains(text(),'$%7Btext%7D')%5D%60;",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "b0bf14",
+        "hash": "8725c083",
+        "encoded": "case%20'link':",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "b0bf14",
+        "hash": "d76fad7f",
+        "encoded": "return%20%60//a%5Bcontains(text(),'$%7Btext%7D')%5D%20%7C%20//*%5B@role='link'%20and%20contains(text(),'$%7Btext%7D')%5D%60;",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "b0bf14",
+        "hash": "86127971",
+        "encoded": "case%20'field':",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "b0bf14",
+        "hash": "56b6ceb2",
+        "encoded": "case%20'input':",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "b0bf14",
+        "hash": "e45eb96e",
+        "encoded": "case%20'textbox':",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "b0bf14",
+        "hash": "046c88c4",
+        "encoded": "return%20%60//input%5Bcontains(@placeholder,'$%7Btext%7D')%5D%20%7C%20//input%5Bcontains(@name,'$%7Btext%7D')%5D%20%7C%20//textarea%5Bcontains(@placeholder,'$%7Btext%7D')%5D%20%7C%20//label%5Bcontains(text(),'$%7Btext%7D')%5D//following::input%5B1%5D%60;",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "b0bf14",
+        "hash": "e24aeff4",
+        "encoded": "case%20'dropdown':",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "b0bf14",
+        "hash": "22b66e64",
+        "encoded": "case%20'select':",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "b0bf14",
+        "hash": "9a5af379",
+        "encoded": "return%20%60//select%5Bcontains(@name,'$%7Btext%7D')%5D%20%7C%20//label%5Bcontains(text(),'$%7Btext%7D')%5D//following::select%5B1%5D%20%7C%20//*%5B@role='combobox'%20and%20contains(@aria-label,'$%7Btext%7D')%5D%60;",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "b0bf14",
+        "hash": "a92ff6df",
+        "encoded": "case%20'checkbox':",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "b0bf14",
+        "hash": "85bac097",
+        "encoded": "return%20%60//input%5B@type='checkbox'%20and%20contains(@name,'$%7Btext%7D')%5D%20%7C%20//label%5Bcontains(text(),'$%7Btext%7D')%5D//input%5B@type='checkbox'%5D%60;",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "b0bf14",
+        "hash": "8aee5c64",
+        "encoded": "case%20'radio':",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "b0bf14",
+        "hash": "ba9f95a9",
+        "encoded": "case%20'radio%20button':",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "b0bf14",
+        "hash": "fa6b0ffd",
+        "encoded": "return%20%60//input%5B@type='radio'%20and%20contains(@name,'$%7Btext%7D')%5D%20%7C%20//label%5Bcontains(text(),'$%7Btext%7D')%5D//input%5B@type='radio'%5D%60;",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "b0bf14",
+        "hash": "6018fdb7",
+        "encoded": "case%20'element':",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "b0bf14",
+        "hash": "e6d6da01",
+        "encoded": "case%20'section':",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "b0bf14",
+        "hash": "5be8d467",
+        "encoded": "default:",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "b0bf14",
+        "hash": "fdb006f1",
+        "encoded": "return%20textSelectors.join('%20%7C%20');",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "b0bf14",
+        "hash": "5a35ac4c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "b0bf14",
+        "hash": "bbf48fdf",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "b0bf14",
+        "hash": "bb3ebdf0",
+        "encoded": "//%20Default:%20combine%20all%20text-based%20selectors",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "b0bf14",
+        "hash": "1e9c0b0f",
+        "encoded": "return%20textSelectors.join('%20%7C%20');",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "b0bf14",
+        "hash": "c2938672",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "b0bf14",
+        "hash": "be488223",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "b0bf14",
+        "hash": "003139f9",
+        "encoded": "*%20Add%20custom%20locator",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "b0bf14",
+        "hash": "016ae0ef",
+        "encoded": "*%20@param%20name%20-%20Locator%20name",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "b0bf14",
+        "hash": "2f0c8da8",
+        "encoded": "*%20@param%20selector%20-%20Selector%20string",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "b0bf14",
+        "hash": "2fb8704f",
+        "encoded": "*%20@param%20category%20-%20Category%20name",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "b0bf14",
+        "hash": "f0ce86bc",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "b0bf14",
+        "hash": "459a4ecc",
+        "encoded": "addCustomLocator(name:%20string,%20selector:%20string,%20category:%20string%20=%20'custom'):%20void%20%7B",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "b0bf14",
+        "hash": "5bdba31f",
+        "encoded": "if%20(!this.locators.has(category))%20%7B",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "b0bf14",
+        "hash": "378d2a92",
+        "encoded": "this.locators.set(category,%20%7B%7D);",
+        "prevChunkIds": []
+      },
+      "167": {
+        "chunkId": "b0bf14",
+        "hash": "73b8c9b4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "b0bf14",
+        "hash": "4e146961",
+        "encoded": "const%20categoryLocators%20=%20this.locators.get(category);",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "b0bf14",
+        "hash": "6f0af25d",
+        "encoded": "if%20(categoryLocators)%20%7B",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "b0bf14",
+        "hash": "ccd17e7a",
+        "encoded": "categoryLocators%5Bname%5D%20=%20selector;",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "b0bf14",
+        "hash": "6577ae4e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "b0bf14",
+        "hash": "52e3405b",
+        "encoded": "console.log(%60Added%20custom%20locator:%20$%7Bcategory%7D.$%7Bname%7D%20=%20$%7Bselector%7D%60);",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "b0bf14",
+        "hash": "cc7af933",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "b0bf14",
+        "hash": "c40554e4",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "b0bf14",
+        "hash": "436ac60a",
+        "encoded": "*%20Get%20locators%20by%20category",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "b0bf14",
+        "hash": "9883b1fd",
+        "encoded": "*%20@param%20category%20-%20Category%20name",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "b0bf14",
+        "hash": "13cf672c",
+        "encoded": "*%20@returns%20Locators%20object",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "b0bf14",
+        "hash": "68078d53",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "b0bf14",
+        "hash": "9e1ac189",
+        "encoded": "getLocatorsByCategory(category:%20string):%20any%20%7B",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "b0bf14",
+        "hash": "84131462",
+        "encoded": "return%20this.locators.get(category)%20%7C%7C%20%7B%7D;",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "b0bf14",
+        "hash": "b1bdb938",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "b0bf14",
+        "hash": "07d81c5e",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "b0bf14",
+        "hash": "97a4f569",
+        "encoded": "*%20Get%20all%20available%20categories",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "b0bf14",
+        "hash": "53e82201",
+        "encoded": "*%20@returns%20Array%20of%20category%20names",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "b0bf14",
+        "hash": "8beaf36f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "b0bf14",
+        "hash": "a18393e9",
+        "encoded": "getAvailableCategories():%20string%5B%5D%20%7B",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "b0bf14",
+        "hash": "1e8c575c",
+        "encoded": "return%20Array.from(this.locators.keys());",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "b0bf14",
+        "hash": "bd24004b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "b0bf14",
+        "hash": "6b26878e",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "b0bf14",
+        "hash": "558744b0",
+        "encoded": "*%20Get%20all%20locators",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "b0bf14",
+        "hash": "6984c400",
+        "encoded": "*%20@returns%20Map%20of%20all%20locators",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "b0bf14",
+        "hash": "29ce41fc",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "b0bf14",
+        "hash": "28806734",
+        "encoded": "getAllLocators():%20Map%3Cstring,%20any%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "b0bf14",
+        "hash": "37ad51a4",
+        "encoded": "return%20this.locators;",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "b0bf14",
+        "hash": "5c0d681d",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "b0bf14",
+        "hash": "4aa6255d",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "b0bf14",
+        "hash": "0dc523cd",
+        "encoded": "*%20Check%20if%20locator%20exists",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "b0bf14",
+        "hash": "2aa46457",
+        "encoded": "*%20@param%20elementName%20-%20Element%20name",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "b0bf14",
+        "hash": "02c86b08",
+        "encoded": "*%20@param%20category%20-%20Category%20name%20(optional)",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "b0bf14",
+        "hash": "6dfcd019",
+        "encoded": "*%20@returns%20Boolean",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "b0bf14",
+        "hash": "0cb86d90",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "b0bf14",
+        "hash": "e01b1f4e",
+        "encoded": "hasLocator(elementName:%20string,%20category?:%20string):%20boolean%20%7B",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "b0bf14",
+        "hash": "255d7c80",
+        "encoded": "if%20(category)%20%7B",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "b0bf14",
+        "hash": "8c679ca0",
+        "encoded": "const%20categoryLocators%20=%20this.locators.get(category);",
+        "prevChunkIds": []
+      },
+      "211": {
+        "chunkId": "b0bf14",
+        "hash": "3678943b",
+        "encoded": "return%20categoryLocators%20&&%20categoryLocators%5BelementName%5D%20!==%20undefined;",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "b0bf14",
+        "hash": "8e01390a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "b0bf14",
+        "hash": "4b4571d7",
+        "encoded": "//%20Check%20all%20categories",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "b0bf14",
+        "hash": "7b8765a8",
+        "encoded": "for%20(const%20%5B,%20locatorGroup%5D%20of%20this.locators)%20%7B",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "b0bf14",
+        "hash": "269b268a",
+        "encoded": "if%20(locatorGroup%20&&%20locatorGroup%5BelementName%5D)%20%7B",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "b0bf14",
+        "hash": "25171862",
+        "encoded": "return%20true;",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "b0bf14",
+        "hash": "f83f30dc",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "219": {
+        "chunkId": "b0bf14",
+        "hash": "7b57fe24",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "b0bf14",
+        "hash": "d29f950b",
+        "encoded": "return%20false;",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "b0bf14",
+        "hash": "0a685fe7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "224": {
+        "chunkId": "b0bf14",
+        "hash": "32a36971",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "b0bf14",
+        "hash": "b7fcbc70",
+        "encoded": "*%20Reload%20locators%20from%20files",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "b0bf14",
+        "hash": "aeda83e1",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "b0bf14",
+        "hash": "3bf2ed54",
+        "encoded": "reloadLocators():%20void%20%7B",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "b0bf14",
+        "hash": "a73490fe",
+        "encoded": "this.locators.clear();",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "b0bf14",
+        "hash": "33d7777a",
+        "encoded": "this.locatorFiles%20=%20%5B%5D;",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "b0bf14",
+        "hash": "c4050a34",
+        "encoded": "this.loadLocators();",
+        "prevChunkIds": []
+      },
+      "231": {
+        "chunkId": "b0bf14",
+        "hash": "9d1eb832",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "b0bf14",
+        "hash": "c110fd36",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "234": {
+        "chunkId": "b0bf14",
+        "hash": "67aa344a",
+        "encoded": "*%20Get%20loaded%20locator%20files",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "b0bf14",
+        "hash": "b1e0b1bf",
+        "encoded": "*%20@returns%20Array%20of%20loaded%20file%20names",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "b0bf14",
+        "hash": "95b1a2fd",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "237": {
+        "chunkId": "b0bf14",
+        "hash": "8a200ea3",
+        "encoded": "getLoadedFiles():%20string%5B%5D%20%7B",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "b0bf14",
+        "hash": "8d4f496a",
+        "encoded": "return%20%5B...this.locatorFiles%5D;",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "b0bf14",
+        "hash": "f6a01e4c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "240": {
+        "chunkId": "b0bf14",
+        "hash": "b7fe04d4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

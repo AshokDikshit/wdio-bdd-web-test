@@ -1,0 +1,704 @@
+{
+  "tests/support/hooks.ts": {
+    "filename": "hooks.ts",
+    "path": "tests/support/hooks.ts",
+    "version": "1.2",
+    "contextFile": "0812bb1d-context.json",
+    "chunks": {
+      "1d4da7": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613149,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "a4aed9c2",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "8c28af": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614138,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "ad8535c3",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "9f5e59": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778614152,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "00000000",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "ac05a9": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778615777,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "00000000",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "8c28af",
+        "hash": "48c76aad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "8c28af",
+        "hash": "8dc2f429",
+        "encoded": "*%20Playwright%20BDD%20Hooks",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "8c28af",
+        "hash": "485d14f9",
+        "encoded": "*%20Note:%20Playwright%20BDD%20handles%20browser%20lifecycle%20through%20fixtures",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "8c28af",
+        "hash": "3ad3dbfc",
+        "encoded": "*%20These%20hooks%20are%20mainly%20for%20logging%20and%20cleanup",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "8c28af",
+        "hash": "2755171d",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "8c28af",
+        "hash": "70462c46",
+        "encoded": "import%20%7B%20Before,%20After%20%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "8c28af",
+        "hash": "6aab29d8",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "8c28af",
+        "hash": "3a750d8e",
+        "encoded": "*%20Before%20each%20scenario%20-%20handled%20by%20Playwright%20fixtures",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "8c28af",
+        "hash": "7c8b9e0c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "8c28af",
+        "hash": "8c25d53d",
+        "encoded": "Before(async%20function%20(scenario)%20%7B",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "8c28af",
+        "hash": "d5e7a10e",
+        "encoded": "console.log(%60%F0%9F%A7%AA%20Starting%20scenario:%20$%7Bscenario.pickle.name%7D%60);",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "8c28af",
+        "hash": "70287d6a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "8c28af",
+        "hash": "f847a38b",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "8c28af",
+        "hash": "7b1f76a4",
+        "encoded": "*%20After%20each%20scenario%20-%20for%20logging%20and%20cleanup",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "8c28af",
+        "hash": "7ca1406f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "8c28af",
+        "hash": "a09be166",
+        "encoded": "After(async%20function%20(scenario)%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "8c28af",
+        "hash": "33163c08",
+        "encoded": "const%20scenarioName%20=%20scenario.pickle.name;",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "8c28af",
+        "hash": "a1a270bd",
+        "encoded": "const%20scenarioStatus%20=%20scenario.result?.status;",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "8c28af",
+        "hash": "23d89e10",
+        "encoded": "if%20(scenarioStatus%20===%20'FAILED')%20%7B",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "8c28af",
+        "hash": "ae40d2d6",
+        "encoded": "console.log(%60%E2%9D%8C%20Scenario%20failed:%20$%7BscenarioName%7D%60);",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "8c28af",
+        "hash": "14eb3b15",
+        "encoded": "//%20Screenshot%20is%20automatically%20taken%20by%20Playwright%20on%20failure",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "8c28af",
+        "hash": "9dbf365c",
+        "encoded": "console.log('%F0%9F%93%B7%20Screenshot%20automatically%20saved%20by%20Playwright');",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "8c28af",
+        "hash": "b90f0f88",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "8c28af",
+        "hash": "dbfae670",
+        "encoded": "console.log(%60%E2%9C%85%20Scenario%20passed:%20$%7BscenarioName%7D%60);",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "8c28af",
+        "hash": "a7947416",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "8c28af",
+        "hash": "56683f82",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "1d4da7",
+        "hash": "0494c827",
+        "encoded": "import%20%7B%20chromium,%20Browser%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "1d4da7",
+        "hash": "55fb5683",
+        "encoded": "import%20%7B%20CustomWorld%20%7D%20from%20'./world';",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "1d4da7",
+        "hash": "99ac7954",
+        "encoded": "let%20browser:%20Browser;",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "1d4da7",
+        "hash": "af8dad32",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "1d4da7",
+        "hash": "9622982f",
+        "encoded": "*%20Global%20setup%20-%20runs%20once%20before%20all%20scenarios",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "1d4da7",
+        "hash": "ca9f8ba0",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "1d4da7",
+        "hash": "6e9b96fb",
+        "encoded": "BeforeAll(async%20function%20()%20%7B",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "1d4da7",
+        "hash": "88a5a83d",
+        "encoded": "console.log('%F0%9F%9A%80%20Starting%20Playwright%20browser...');",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "1d4da7",
+        "hash": "bcc157c4",
+        "encoded": "//%20Launch%20browser%20based%20on%20environment%20variable%20or%20default%20to%20chromium",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "1d4da7",
+        "hash": "510f55e4",
+        "encoded": "const%20browserType%20=%20process.env.BROWSER%20%7C%7C%20'chromium';",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "1d4da7",
+        "hash": "e9070a80",
+        "encoded": "const%20headless%20=%20process.env.HEADLESS%20!==%20'false';",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "1d4da7",
+        "hash": "b2c0d0c0",
+        "encoded": "browser%20=%20await%20chromium.launch(%7B",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "1d4da7",
+        "hash": "bd1f9a90",
+        "encoded": "headless,",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "1d4da7",
+        "hash": "df0bab21",
+        "encoded": "args:%20%5B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "1d4da7",
+        "hash": "fa9bdb38",
+        "encoded": "'--no-sandbox',",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "1d4da7",
+        "hash": "0c23df3b",
+        "encoded": "'--disable-dev-shm-usage',",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "1d4da7",
+        "hash": "6d19baf0",
+        "encoded": "'--disable-web-security',",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "1d4da7",
+        "hash": "b193cc6f",
+        "encoded": "'--disable-features=VizDisplayCompositor'",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "1d4da7",
+        "hash": "4791e426",
+        "encoded": "%5D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "1d4da7",
+        "hash": "cd261499",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "1d4da7",
+        "hash": "d21d75f3",
+        "encoded": "console.log(%60%E2%9C%85%20Browser%20launched:%20$%7BbrowserType%7D%20(headless:%20$%7Bheadless%7D)%60);",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "1d4da7",
+        "hash": "6fa269f0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "1d4da7",
+        "hash": "5987bfad",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "1d4da7",
+        "hash": "42914ef8",
+        "encoded": "*%20Global%20teardown%20-%20runs%20once%20after%20all%20scenarios",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "1d4da7",
+        "hash": "1c9b97a2",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "1d4da7",
+        "hash": "20c2b9bb",
+        "encoded": "AfterAll(async%20function%20()%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "1d4da7",
+        "hash": "9610f17a",
+        "encoded": "console.log('%F0%9F%A7%B9%20Closing%20Playwright%20browser...');",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "1d4da7",
+        "hash": "92b34b79",
+        "encoded": "if%20(browser)%20%7B",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "1d4da7",
+        "hash": "f37a483b",
+        "encoded": "await%20browser.close();",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "1d4da7",
+        "hash": "354943c3",
+        "encoded": "console.log('%E2%9C%85%20Browser%20closed');",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "1d4da7",
+        "hash": "f706ff69",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "1d4da7",
+        "hash": "a36c1ae7",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "1d4da7",
+        "hash": "696a5ca4",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "1d4da7",
+        "hash": "81313c42",
+        "encoded": "*%20Before%20each%20scenario",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "1d4da7",
+        "hash": "848553ec",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "1d4da7",
+        "hash": "0c94ab18",
+        "encoded": "Before(async%20function%20(this:%20CustomWorld,%20scenario)%20%7B",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "1d4da7",
+        "hash": "dac30bbc",
+        "encoded": "console.log(%60%F0%9F%A7%AA%20Starting%20scenario:%20$%7Bscenario.pickle.name%7D%60);",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "1d4da7",
+        "hash": "00cecf1f",
+        "encoded": "//%20Initialize%20the%20world%20with%20browser%20context%20and%20page",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "1d4da7",
+        "hash": "d94042e9",
+        "encoded": "await%20this.init(browser);",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "1d4da7",
+        "hash": "5aa4a9de",
+        "encoded": "//%20Set%20base%20URL%20if%20provided",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "1d4da7",
+        "hash": "9ee552d2",
+        "encoded": "const%20baseUrl%20=%20process.env.BASE_URL%20%7C%7C%20'https://www.saucedemo.com';",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "1d4da7",
+        "hash": "926e922f",
+        "encoded": "this.parameters%20=%20%7B%20...this.parameters,%20baseUrl%20%7D;",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "1d4da7",
+        "hash": "afbb28ea",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "1d4da7",
+        "hash": "665c720b",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "1d4da7",
+        "hash": "2b57b2c3",
+        "encoded": "*%20After%20each%20scenario",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "1d4da7",
+        "hash": "e8909fac",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "1d4da7",
+        "hash": "b133406e",
+        "encoded": "After(async%20function%20(this:%20CustomWorld,%20scenario)%20%7B",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "1d4da7",
+        "hash": "9c02e949",
+        "encoded": "const%20scenarioName%20=%20scenario.pickle.name;",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "1d4da7",
+        "hash": "d1d3d13e",
+        "encoded": "const%20scenarioStatus%20=%20scenario.result?.status;",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "1d4da7",
+        "hash": "3ab681cf",
+        "encoded": "if%20(scenarioStatus%20===%20Status.FAILED)%20%7B",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "1d4da7",
+        "hash": "111587d5",
+        "encoded": "console.log(%60%E2%9D%8C%20Scenario%20failed:%20$%7BscenarioName%7D%60);",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "1d4da7",
+        "hash": "12b645ac",
+        "encoded": "//%20Take%20screenshot%20on%20failure",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "1d4da7",
+        "hash": "c1b873e0",
+        "encoded": "try%20%7B",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "1d4da7",
+        "hash": "69c189a6",
+        "encoded": "const%20screenshotName%20=%20await%20this.takeScreenshot(",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "1d4da7",
+        "hash": "bc2d8a89",
+        "encoded": "%60failed-$%7BscenarioName.replace(/%5B%5Ea-zA-Z0-9%5D/g,%20'-')%7D-$%7BDate.now()%7D.png%60",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "1d4da7",
+        "hash": "ae271f8c",
+        "encoded": ");",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "1d4da7",
+        "hash": "1775821f",
+        "encoded": "console.log(%60%F0%9F%93%B7%20Screenshot%20saved:%20$%7BscreenshotName%7D%60);",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "1d4da7",
+        "hash": "9de3bdbc",
+        "encoded": "//%20Attach%20screenshot%20to%20report%20if%20supported",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "1d4da7",
+        "hash": "0319cc02",
+        "encoded": "if%20(this.attach)%20%7B",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "1d4da7",
+        "hash": "71b16d99",
+        "encoded": "const%20screenshot%20=%20await%20this.page.screenshot(%7B%20fullPage:%20true%20%7D);",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "1d4da7",
+        "hash": "557e6821",
+        "encoded": "this.attach(screenshot,%20'image/png');",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "1d4da7",
+        "hash": "7a43bd29",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "1d4da7",
+        "hash": "173ee758",
+        "encoded": "%7D%20catch%20(error)%20%7B",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "1d4da7",
+        "hash": "2d49986c",
+        "encoded": "console.log('%E2%9A%A0%EF%B8%8F%20%20Could%20not%20take%20screenshot:',%20error);",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "1d4da7",
+        "hash": "8c67c4cf",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "1d4da7",
+        "hash": "6a25c5cc",
+        "encoded": "//%20Log%20page%20URL%20and%20title%20for%20debugging",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "1d4da7",
+        "hash": "2ef794af",
+        "encoded": "try%20%7B",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "1d4da7",
+        "hash": "53e30e13",
+        "encoded": "console.log(%60%F0%9F%8C%90%20Current%20URL:%20$%7Bthis.getCurrentUrl()%7D%60);",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "1d4da7",
+        "hash": "a585aaaa",
+        "encoded": "console.log(%60%F0%9F%93%84%20Page%20title:%20$%7Bawait%20this.getPageTitle()%7D%60);",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "1d4da7",
+        "hash": "f8d345e2",
+        "encoded": "%7D%20catch%20(error)%20%7B",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "1d4da7",
+        "hash": "0d5dc4e5",
+        "encoded": "console.log('%E2%9A%A0%EF%B8%8F%20%20Could%20not%20get%20page%20details:',%20error);",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "1d4da7",
+        "hash": "a9314f3f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "1d4da7",
+        "hash": "4cc8ab6d",
+        "encoded": "%7D%20else%20%7B",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "1d4da7",
+        "hash": "205085ae",
+        "encoded": "console.log(%60%E2%9C%85%20Scenario%20passed:%20$%7BscenarioName%7D%60);",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "1d4da7",
+        "hash": "715028b0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "1d4da7",
+        "hash": "ae377754",
+        "encoded": "//%20Clean%20up%20resources",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "1d4da7",
+        "hash": "e515e7f5",
+        "encoded": "await%20this.cleanup();",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "1d4da7",
+        "hash": "67470cbd",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

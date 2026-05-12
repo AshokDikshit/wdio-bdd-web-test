@@ -1,0 +1,443 @@
+{
+  "tests/step-definitions/custom/registration.steps.ts": {
+    "filename": "registration.steps.ts",
+    "path": "tests/step-definitions/custom/registration.steps.ts",
+    "version": "1.2",
+    "contextFile": "6e429ecc-context.json",
+    "chunks": {
+      "3e223a": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "44f8e350",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "3e223a",
+        "hash": "2e2fed18",
+        "encoded": "import%20%7B%20Given,%20When,%20Then%20%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "3e223a",
+        "hash": "751e8d87",
+        "encoded": "import%20%7B%20CustomWorld%20%7D%20from%20'../../support/world';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "3e223a",
+        "hash": "62512d72",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "3e223a",
+        "hash": "469f4fe4",
+        "encoded": "*%20Custom%20step%20definitions%20for%20registration%20functionality",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "3e223a",
+        "hash": "514c8384",
+        "encoded": "*%20Migrated%20from%20WebDriverIO%20to%20Playwright",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "3e223a",
+        "hash": "f2ad3d4c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "3e223a",
+        "hash": "3d7da5b4",
+        "encoded": "Given(/%5EI%20am%20on%20the%20registration%20page$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "3e223a",
+        "hash": "6d1a5509",
+        "encoded": "console.log('Navigating%20to%20registration%20page');",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "3e223a",
+        "hash": "d06cb1f7",
+        "encoded": "await%20this.uiActions.navigateTo('https://retailwebsite.com/register');",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "3e223a",
+        "hash": "ca819246",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Create%20Account',%20'heading');",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "3e223a",
+        "hash": "70287d6a",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "3e223a",
+        "hash": "5b6a8749",
+        "encoded": "Then(/%5EI%20should%20be%20redirected%20to%20the%20registration%20page$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "3e223a",
+        "hash": "4767b069",
+        "encoded": "console.log('Verifying%20redirection%20to%20registration%20page');",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "3e223a",
+        "hash": "4b698702",
+        "encoded": "await%20this.uiAssertions.verifyUrlContains('/register');",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "3e223a",
+        "hash": "1e90439d",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Create%20Account',%20'heading');",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "3e223a",
+        "hash": "ff07c7b3",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "3e223a",
+        "hash": "48391e3b",
+        "encoded": "Then(/%5EI%20should%20be%20redirected%20to%20the%20email%20verification%20page$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "3e223a",
+        "hash": "e3c13cb3",
+        "encoded": "console.log('Verifying%20redirection%20to%20email%20verification%20page');",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "3e223a",
+        "hash": "9c93f9d4",
+        "encoded": "await%20this.uiAssertions.verifyUrlContains('/verify-email');",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "3e223a",
+        "hash": "684b83f9",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Email%20Verification',%20'heading');",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "3e223a",
+        "hash": "a16f8640",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "3e223a",
+        "hash": "457020ca",
+        "encoded": "//%20Additional%20registration-specific%20step%20definitions",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "3e223a",
+        "hash": "7c1c197e",
+        "encoded": "When(/%5EI%20fill%20in%20the%20registration%20form%20with%20valid%20details$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "3e223a",
+        "hash": "12e52486",
+        "encoded": "console.log('Filling%20registration%20form%20with%20valid%20details');",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "3e223a",
+        "hash": "1087873f",
+        "encoded": "await%20this.uiActions.typeText('John',%20'First%20Name',%20'field');",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "3e223a",
+        "hash": "e78780d2",
+        "encoded": "await%20this.uiActions.typeText('Doe',%20'Last%20Name',%20'field');",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "3e223a",
+        "hash": "113710fc",
+        "encoded": "await%20this.uiActions.typeText('john.doe@example.com',%20'Email',%20'field');",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "3e223a",
+        "hash": "7d0894a1",
+        "encoded": "await%20this.uiActions.typeText('SecurePassword123!',%20'Password',%20'field');",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "3e223a",
+        "hash": "26c8504f",
+        "encoded": "await%20this.uiActions.typeText('SecurePassword123!',%20'Confirm%20Password',%20'field');",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "3e223a",
+        "hash": "8522c245",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "3e223a",
+        "hash": "a4969a14",
+        "encoded": "When(/%5EI%20accept%20the%20terms%20and%20conditions$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "3e223a",
+        "hash": "23e6cb96",
+        "encoded": "console.log('Accepting%20terms%20and%20conditions');",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "3e223a",
+        "hash": "cfb8a56f",
+        "encoded": "await%20this.uiActions.checkCheckbox('Terms%20and%20Conditions');",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "3e223a",
+        "hash": "03c250ed",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "3e223a",
+        "hash": "bde08306",
+        "encoded": "When(/%5EI%20submit%20the%20registration%20form$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "3e223a",
+        "hash": "14775f3f",
+        "encoded": "console.log('Submitting%20registration%20form');",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "3e223a",
+        "hash": "2bbb1480",
+        "encoded": "await%20this.uiActions.clickOn('Register',%20'button');",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "3e223a",
+        "hash": "39fe36a7",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "3e223a",
+        "hash": "365cda10",
+        "encoded": "Then(/%5EI%20should%20see%20a%20registration%20success%20message$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "3e223a",
+        "hash": "4e70837d",
+        "encoded": "console.log('Verifying%20registration%20success%20message');",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "3e223a",
+        "hash": "09d3ff93",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Registration%20Successful',%20'element');",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "3e223a",
+        "hash": "e6f3838e",
+        "encoded": "await%20this.uiAssertions.verifyElementContainsText('Success%20Message',%20'Thank%20you%20for%20registering');",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "3e223a",
+        "hash": "d4fc8746",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "3e223a",
+        "hash": "7b9046cc",
+        "encoded": "Then(/%5EI%20should%20see%20validation%20errors%20for%20required%20fields$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "3e223a",
+        "hash": "1d67ab35",
+        "encoded": "console.log('Verifying%20validation%20errors%20for%20required%20fields');",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "3e223a",
+        "hash": "0445d94a",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('First%20Name%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "3e223a",
+        "hash": "a5a58513",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Last%20Name%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "3e223a",
+        "hash": "77d4eb18",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Email%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "3e223a",
+        "hash": "0bec4973",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Password%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "3e223a",
+        "hash": "9d5cdb20",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "3e223a",
+        "hash": "395e547a",
+        "encoded": "When(/%5EI%20enter%20an%20invalid%20email%20format$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "3e223a",
+        "hash": "2fde939e",
+        "encoded": "console.log('Entering%20invalid%20email%20format');",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "3e223a",
+        "hash": "d7fa7945",
+        "encoded": "await%20this.uiActions.typeText('invalid-email',%20'Email',%20'field');",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "3e223a",
+        "hash": "841a9c8c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "3e223a",
+        "hash": "9959a5d9",
+        "encoded": "Then(/%5EI%20should%20see%20an%20email%20format%20validation%20error$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "3e223a",
+        "hash": "0dfe93d1",
+        "encoded": "console.log('Verifying%20email%20format%20validation%20error');",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "3e223a",
+        "hash": "41da27d5",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Email%20Format%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "3e223a",
+        "hash": "3b3fbb3c",
+        "encoded": "await%20this.uiAssertions.verifyElementContainsText('Email%20Format%20Error',%20'Please%20enter%20a%20valid%20email%20address');",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "3e223a",
+        "hash": "abd57649",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "3e223a",
+        "hash": "9a2534f7",
+        "encoded": "When(/%5EI%20enter%20mismatched%20passwords$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "3e223a",
+        "hash": "a23cdc82",
+        "encoded": "console.log('Entering%20mismatched%20passwords');",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "3e223a",
+        "hash": "2805c3e1",
+        "encoded": "await%20this.uiActions.typeText('Password123!',%20'Password',%20'field');",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "3e223a",
+        "hash": "ee440559",
+        "encoded": "await%20this.uiActions.typeText('DifferentPassword456!',%20'Confirm%20Password',%20'field');",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "3e223a",
+        "hash": "6538520c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "3e223a",
+        "hash": "dd56f9f8",
+        "encoded": "Then(/%5EI%20should%20see%20a%20password%20mismatch%20error$/,%20async%20function%20(this:%20CustomWorld)%20%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "3e223a",
+        "hash": "66965c43",
+        "encoded": "console.log('Verifying%20password%20mismatch%20error');",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "3e223a",
+        "hash": "a5b06c7c",
+        "encoded": "await%20this.uiAssertions.verifyElementVisible('Password%20Mismatch%20Error',%20'element');",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "3e223a",
+        "hash": "418e9623",
+        "encoded": "await%20this.uiAssertions.verifyElementContainsText('Password%20Mismatch%20Error',%20'Passwords%20do%20not%20match');",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "3e223a",
+        "hash": "afbb28ea",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

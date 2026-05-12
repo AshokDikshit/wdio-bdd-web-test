@@ -1,0 +1,989 @@
+{
+  "README-MIGRATION.md": {
+    "filename": "README-MIGRATION.md",
+    "path": "README-MIGRATION.md",
+    "version": "1.2",
+    "contextFile": "3aa53077-context.json",
+    "chunks": {
+      "34ee74": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778627408,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "f2dbd242",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "34ee74",
+        "hash": "b7bf828f",
+        "encoded": "#%20WebdriverIO%20to%20Playwright%20Migration%20Guide",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "34ee74",
+        "hash": "5ac33061",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "34ee74",
+        "hash": "ee84a86c",
+        "encoded": "This%20document%20outlines%20the%20migration%20from%20WebdriverIO%20to%20Playwright%20BDD%20framework.%20The%20migration%20maintains%20all%20existing%20step%20definitions%20and%20functionality%20while%20leveraging%20Playwright's%20superior%20performance%20and%20reliability.",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "34ee74",
+        "hash": "c11839d0",
+        "encoded": "##%20Migration%20Summary",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "34ee74",
+        "hash": "f416024c",
+        "encoded": "###%20%E2%9C%85%20Completed%20Tasks",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "34ee74",
+        "hash": "ba9619dc",
+        "encoded": "1.%20**Framework%20Analysis**%20-%20Analyzed%20existing%20WebdriverIO%20structure",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "34ee74",
+        "hash": "dfaee37c",
+        "encoded": "2.%20**Playwright%20Setup**%20-%20Installed%20and%20configured%20Playwright%20with%20BDD%20support",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "34ee74",
+        "hash": "189a7af4",
+        "encoded": "3.%20**Step%20Definitions%20Migration**%20-%20Converted%20all%20WebdriverIO%20step%20definitions%20to%20Playwright%20BDD",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "34ee74",
+        "hash": "a6c0917c",
+        "encoded": "4.%20**Page%20Object%20Migration**%20-%20Updated%20utilities%20and%20page%20objects%20to%20use%20Playwright%20API",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "34ee74",
+        "hash": "a8cd6af3",
+        "encoded": "5.%20**Test%20Structure%20Migration**%20-%20Updated%20hooks%20and%20test%20fixtures",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "34ee74",
+        "hash": "e44ba900",
+        "encoded": "6.%20**TypeScript%20Configuration**%20-%20Updated%20for%20Playwright%20compatibility",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "34ee74",
+        "hash": "b4a3ced1",
+        "encoded": "7.%20**Test%20Suite%20Creation**%20-%20Created%20comprehensive%20test%20scenarios",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "34ee74",
+        "hash": "6e02972b",
+        "encoded": "###%20%E2%9A%A0%EF%B8%8F%20Known%20Issues",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "34ee74",
+        "hash": "627697f3",
+        "encoded": "1.%20**BDD%20Generation%20Issues**%20-%20playwright-bdd%20package%20has%20compatibility%20issues%20with%20current%20Node.js%20version",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "34ee74",
+        "hash": "cfe89a04",
+        "encoded": "2.%20**TypeScript%20Compilation**%20-%20Some%20legacy%20WebdriverIO%20files%20still%20present%20causing%20type%20errors",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "34ee74",
+        "hash": "be6d7156",
+        "encoded": "3.%20**Configuration%20Conflicts**%20-%20Multiple%20config%20files%20need%20cleanup",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "34ee74",
+        "hash": "05d1b4f6",
+        "encoded": "##%20Key%20Changes",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "34ee74",
+        "hash": "be7a45d3",
+        "encoded": "###%20Dependencies",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "34ee74",
+        "hash": "996f0628",
+        "encoded": "**Added:**",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "34ee74",
+        "hash": "42efb908",
+        "encoded": "-%20%60@playwright/test%60%20-%20Core%20Playwright%20testing%20framework",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "34ee74",
+        "hash": "b1aa6e9f",
+        "encoded": "-%20%60playwright-bdd%60%20-%20BDD%20support%20for%20Playwright",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "34ee74",
+        "hash": "d7c3bdf3",
+        "encoded": "-%20%60@cucumber/cucumber%60%20-%20Cucumber%20integration",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "34ee74",
+        "hash": "ddd6540b",
+        "encoded": "-%20%60multiple-cucumber-html-reporter%60%20-%20HTML%20reporting",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "34ee74",
+        "hash": "74864ed2",
+        "encoded": "**Removed:**",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "34ee74",
+        "hash": "96d3ef3a",
+        "encoded": "-%20%60@wdio/cli%60%20and%20related%20WebdriverIO%20packages",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "34ee74",
+        "hash": "17fadf1d",
+        "encoded": "-%20%60webdriverio%60%20core%20package",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "34ee74",
+        "hash": "68bd7556",
+        "encoded": "-%20WebdriverIO-specific%20reporters%20and%20services",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "34ee74",
+        "hash": "cc74e17f",
+        "encoded": "###%20File%20Structure",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "34ee74",
+        "hash": "8c4e1488",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "34ee74",
+        "hash": "cb31143f",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20playwright.config.ts%20%20%20%20%20%20%20%20%20%20#%20Main%20Playwright%20configuration",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "34ee74",
+        "hash": "06b0bf40",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20tests/",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "34ee74",
+        "hash": "b1125c34",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20features/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Gherkin%20feature%20files",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "34ee74",
+        "hash": "b199ab7f",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20sample-test.feature%20%20%20#%20Sample%20test%20scenarios",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "34ee74",
+        "hash": "4c35f505",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20step-definitions/%20%20%20%20%20%20%20%20%20%20#%20Step%20definition%20files",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "34ee74",
+        "hash": "aec71319",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20built-in/",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "34ee74",
+        "hash": "f26381c4",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%20%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20ui-actions.steps.ts%20%20%20%20#%20Action%20step%20definitions",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "34ee74",
+        "hash": "83387e6b",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%20%20%20%20%E2%94%94%E2%94%80%E2%94%80%20ui-assertions.steps.ts%20#%20Assertion%20step%20definitions",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "34ee74",
+        "hash": "f6bdb27b",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20support/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Support%20utilities",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "34ee74",
+        "hash": "857e723e",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20fixtures.ts%20%20%20%20%20%20%20%20%20%20%20#%20Playwright%20test%20fixtures",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "34ee74",
+        "hash": "1ef66479",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20uiActions.ts%20%20%20%20%20%20%20%20%20%20#%20UI%20action%20utilities",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "34ee74",
+        "hash": "febfd319",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20uiAssertions.ts%20%20%20%20%20%20%20#%20UI%20assertion%20utilities",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "34ee74",
+        "hash": "f345989f",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20commonUtils.ts%20%20%20%20%20%20%20%20#%20Common%20utilities",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "34ee74",
+        "hash": "76c34142",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20locatorManager.ts%20%20%20%20%20#%20Element%20locator%20management",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "34ee74",
+        "hash": "e62cc2b5",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20constants.ts%20%20%20%20%20%20%20%20%20%20#%20Framework%20constants",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "34ee74",
+        "hash": "bda49a31",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20hooks.ts%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Test%20hooks",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "34ee74",
+        "hash": "0a312379",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20global-setup.ts%20%20%20%20%20%20%20#%20Global%20setup",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "34ee74",
+        "hash": "39b3ea02",
+        "encoded": "%E2%94%82%20%20%20%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20global-teardown.ts%20%20%20%20#%20Global%20teardown",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "34ee74",
+        "hash": "5725eee4",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20locators/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Element%20locator%20files",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "34ee74",
+        "hash": "7b95d7b5",
+        "encoded": "%E2%94%82%20%20%20%20%20%20%20%E2%94%94%E2%94%80%E2%94%80%20demo-site.yaml%20%20%20%20%20%20%20%20#%20Sample%20locators",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "34ee74",
+        "hash": "3fc23d7f",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20package.json%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Updated%20dependencies",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "34ee74",
+        "hash": "666504fe",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "34ee74",
+        "hash": "ead37631",
+        "encoded": "###%20Configuration%20Changes",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "34ee74",
+        "hash": "b255458d",
+        "encoded": "####%20Playwright%20Configuration%20(%60playwright.config.ts%60)",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "34ee74",
+        "hash": "3ea86053",
+        "encoded": "-%20Multi-browser%20support%20(Chromium,%20Firefox,%20WebKit)",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "34ee74",
+        "hash": "ac61912b",
+        "encoded": "-%20BDD%20integration%20with%20playwright-bdd",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "34ee74",
+        "hash": "20829717",
+        "encoded": "-%20Screenshot%20and%20video%20capture%20on%20failure",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "34ee74",
+        "hash": "eccd82ac",
+        "encoded": "-%20Parallel%20test%20execution",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "34ee74",
+        "hash": "c68f19aa",
+        "encoded": "-%20HTML%20and%20JSON%20reporting",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "34ee74",
+        "hash": "01b67574",
+        "encoded": "####%20Test%20Fixtures%20(%60tests/support/fixtures.ts%60)",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "34ee74",
+        "hash": "04c33285",
+        "encoded": "-%20Page%20object%20injection",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "34ee74",
+        "hash": "f6dd5243",
+        "encoded": "-%20Common%20utilities%20setup",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "34ee74",
+        "hash": "bc69fb28",
+        "encoded": "-%20UI%20actions%20and%20assertions%20setup",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "34ee74",
+        "hash": "fa307d3d",
+        "encoded": "-%20Automatic%20cleanup",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "34ee74",
+        "hash": "d398b45c",
+        "encoded": "###%20Step%20Definition%20Migration",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "34ee74",
+        "hash": "fd4b0741",
+        "encoded": "**Before%20(WebdriverIO):**",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "34ee74",
+        "hash": "c9d7c06d",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "34ee74",
+        "hash": "22207a98",
+        "encoded": "When(/%5EI%20click%20on%20%22(%5B%5E%22%5D*)%22%20button$/,%20async%20function%20(this:%20CustomWorld,%20elementName:%20string)%20%7B",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "34ee74",
+        "hash": "7d28ac30",
+        "encoded": "await%20this.uiActions.clickOn(elementName,%20'button');",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "34ee74",
+        "hash": "82716009",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "34ee74",
+        "hash": "4d9b1499",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "34ee74",
+        "hash": "24240f87",
+        "encoded": "**After%20(Playwright%20BDD):**",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "34ee74",
+        "hash": "c4ccc831",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "34ee74",
+        "hash": "56528962",
+        "encoded": "BddWhen(/%5EI%20click%20on%20%22(%5B%5E%22%5D*)%22%20button$/,%20async%20(%7B%20uiActions%20%7D,%20elementName:%20string)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "34ee74",
+        "hash": "8a6c57a8",
+        "encoded": "await%20uiActions.clickOn(elementName,%20'button');",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "34ee74",
+        "hash": "2f7a06b9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "34ee74",
+        "hash": "a0ce97e1",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "34ee74",
+        "hash": "59a48ef6",
+        "encoded": "###%20Key%20API%20Changes",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "34ee74",
+        "hash": "1703257f",
+        "encoded": "%7C%20WebdriverIO%20%7C%20Playwright%20%7C",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "34ee74",
+        "hash": "11f50276",
+        "encoded": "%7C-------------%7C------------%7C",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "34ee74",
+        "hash": "3d31df0b",
+        "encoded": "%7C%20%60browser.url()%60%20%7C%20%60page.goto()%60%20%7C",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "34ee74",
+        "hash": "af81131f",
+        "encoded": "%7C%20%60element.click()%60%20%7C%20%60locator.click()%60%20%7C",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "34ee74",
+        "hash": "6dde2d94",
+        "encoded": "%7C%20%60element.setValue()%60%20%7C%20%60locator.fill()%60%20%7C",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "34ee74",
+        "hash": "7b081c9b",
+        "encoded": "%7C%20%60element.waitForDisplayed()%60%20%7C%20%60locator.waitFor(%7B%20state:%20'visible'%20%7D)%60%20%7C",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "34ee74",
+        "hash": "10e11d81",
+        "encoded": "%7C%20%60browser.takeScreenshot()%60%20%7C%20%60page.screenshot()%60%20%7C",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "34ee74",
+        "hash": "2423c8e2",
+        "encoded": "##%20Running%20Tests",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "34ee74",
+        "hash": "9b376c50",
+        "encoded": "###%20Available%20Scripts",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "34ee74",
+        "hash": "70748c9a",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "34ee74",
+        "hash": "48e4f53c",
+        "encoded": "#%20Run%20all%20tests",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "34ee74",
+        "hash": "325d4602",
+        "encoded": "npm%20run%20test",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "34ee74",
+        "hash": "32286302",
+        "encoded": "#%20Run%20tests%20in%20headed%20mode",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "34ee74",
+        "hash": "92c5c410",
+        "encoded": "npm%20run%20test:headed",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "34ee74",
+        "hash": "0393847c",
+        "encoded": "#%20Run%20tests%20with%20UI%20mode",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "34ee74",
+        "hash": "090fc98e",
+        "encoded": "npm%20run%20test:ui",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "34ee74",
+        "hash": "89ae4e56",
+        "encoded": "#%20Run%20specific%20browser%20tests",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "34ee74",
+        "hash": "f21a3a23",
+        "encoded": "npm%20run%20test:chromium",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "34ee74",
+        "hash": "90d21154",
+        "encoded": "npm%20run%20test:firefox",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "34ee74",
+        "hash": "18143e72",
+        "encoded": "npm%20run%20test:webkit",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "34ee74",
+        "hash": "e82f0b94",
+        "encoded": "#%20Run%20tests%20by%20tags",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "34ee74",
+        "hash": "d4ba70df",
+        "encoded": "npm%20run%20test:smoke",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "34ee74",
+        "hash": "72bfa39e",
+        "encoded": "npm%20run%20test:regression",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "34ee74",
+        "hash": "c688cc24",
+        "encoded": "#%20Generate%20BDD%20tests%20(when%20working)",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "34ee74",
+        "hash": "27e099d4",
+        "encoded": "npm%20run%20bdd:generate",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "34ee74",
+        "hash": "0527a7ec",
+        "encoded": "#%20Type%20checking",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "34ee74",
+        "hash": "61fe0269",
+        "encoded": "npm%20run%20type-check",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "34ee74",
+        "hash": "9b53aec9",
+        "encoded": "#%20Generate%20reports",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "34ee74",
+        "hash": "11715fca",
+        "encoded": "npm%20run%20reports",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "34ee74",
+        "hash": "f5522d99",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "34ee74",
+        "hash": "fe8798ba",
+        "encoded": "###%20Sample%20Test%20Execution",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "34ee74",
+        "hash": "4b73da55",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "34ee74",
+        "hash": "a1ac5878",
+        "encoded": "#%20Install%20dependencies",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "34ee74",
+        "hash": "911a3bb4",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "34ee74",
+        "hash": "b11b93d9",
+        "encoded": "#%20Install%20Playwright%20browsers",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "34ee74",
+        "hash": "2a8cb62c",
+        "encoded": "npm%20run%20install:browsers",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "34ee74",
+        "hash": "51b76051",
+        "encoded": "#%20Run%20type%20checking",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "34ee74",
+        "hash": "4ce13ae0",
+        "encoded": "npm%20run%20type-check",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "34ee74",
+        "hash": "3935ca8d",
+        "encoded": "#%20Run%20tests",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "34ee74",
+        "hash": "341f7842",
+        "encoded": "npm%20run%20test",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "34ee74",
+        "hash": "95e4a90e",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "34ee74",
+        "hash": "5030739b",
+        "encoded": "##%20Migration%20Benefits",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "34ee74",
+        "hash": "d8c1e7d0",
+        "encoded": "1.%20**Performance**%20-%20Faster%20test%20execution%20with%20Playwright's%20architecture",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "34ee74",
+        "hash": "ad79b13b",
+        "encoded": "2.%20**Reliability**%20-%20Better%20element%20waiting%20and%20auto-retry%20mechanisms",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "34ee74",
+        "hash": "f9ee96be",
+        "encoded": "3.%20**Multi-browser**%20-%20Native%20support%20for%20Chromium,%20Firefox,%20and%20WebKit",
+        "prevChunkIds": []
+      },
+      "160": {
+        "chunkId": "34ee74",
+        "hash": "4a9653bb",
+        "encoded": "4.%20**Modern%20APIs**%20-%20More%20intuitive%20and%20powerful%20API%20design",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "34ee74",
+        "hash": "faf7be23",
+        "encoded": "5.%20**Better%20Debugging**%20-%20Enhanced%20debugging%20capabilities%20with%20trace%20viewer",
+        "prevChunkIds": []
+      },
+      "162": {
+        "chunkId": "34ee74",
+        "hash": "8acd9072",
+        "encoded": "6.%20**Mobile%20Testing**%20-%20Built-in%20mobile%20device%20emulation",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "34ee74",
+        "hash": "46e5b669",
+        "encoded": "##%20Troubleshooting",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "34ee74",
+        "hash": "46b9023d",
+        "encoded": "###%20Common%20Issues",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "34ee74",
+        "hash": "4ba8dfec",
+        "encoded": "1.%20**BDD%20Generation%20Fails**",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "34ee74",
+        "hash": "2b799ae1",
+        "encoded": "-%20Issue:%20playwright-bdd%20compatibility%20with%20Node.js%20v22",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "34ee74",
+        "hash": "3abeed08",
+        "encoded": "-%20Workaround:%20Use%20direct%20Playwright%20tests%20or%20downgrade%20Node.js",
+        "prevChunkIds": []
+      },
+      "172": {
+        "chunkId": "34ee74",
+        "hash": "4db47089",
+        "encoded": "2.%20**TypeScript%20Errors**",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "34ee74",
+        "hash": "de21d11f",
+        "encoded": "-%20Issue:%20Legacy%20WebdriverIO%20type%20definitions",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "34ee74",
+        "hash": "1312cde4",
+        "encoded": "-%20Solution:%20Remove%20old%20WebdriverIO%20config%20files",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "34ee74",
+        "hash": "9154e2ff",
+        "encoded": "3.%20**Element%20Not%20Found**",
+        "prevChunkIds": []
+      },
+      "177": {
+        "chunkId": "34ee74",
+        "hash": "4176cf43",
+        "encoded": "-%20Issue:%20Locator%20strategy%20differences",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "34ee74",
+        "hash": "6f421b79",
+        "encoded": "-%20Solution:%20Update%20locators%20in%20YAML%20files",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "34ee74",
+        "hash": "396d6376",
+        "encoded": "###%20Cleanup%20Tasks",
+        "prevChunkIds": []
+      },
+      "182": {
+        "chunkId": "34ee74",
+        "hash": "95152c0a",
+        "encoded": "To%20complete%20the%20migration:",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "34ee74",
+        "hash": "8789da98",
+        "encoded": "1.%20Remove%20legacy%20WebdriverIO%20configuration%20files:",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "34ee74",
+        "hash": "01fc465c",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "34ee74",
+        "hash": "4c4641ca",
+        "encoded": "rm%20wdio.conf.ts%20wdio.shared.conf.ts%20wdio.web.conf.ts%20wdio.web.headless.conf.ts",
+        "prevChunkIds": []
+      },
+      "187": {
+        "chunkId": "34ee74",
+        "hash": "01a8494f",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "189": {
+        "chunkId": "34ee74",
+        "hash": "9f1ae40a",
+        "encoded": "2.%20Update%20TypeScript%20configuration%20to%20exclude%20WebdriverIO%20files",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "34ee74",
+        "hash": "afe5317d",
+        "encoded": "3.%20Fix%20remaining%20TypeScript%20compilation%20errors",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "34ee74",
+        "hash": "05e59207",
+        "encoded": "4.%20Test%20BDD%20generation%20with%20updated%20playwright-bdd%20version",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "34ee74",
+        "hash": "ccfd7ce5",
+        "encoded": "##%20Next%20Steps",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "34ee74",
+        "hash": "b7fe048c",
+        "encoded": "1.%20**Complete%20Cleanup**%20-%20Remove%20all%20WebdriverIO%20remnants",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "34ee74",
+        "hash": "19ee0b13",
+        "encoded": "2.%20**Fix%20BDD%20Integration**%20-%20Resolve%20playwright-bdd%20compatibility%20issues",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "34ee74",
+        "hash": "044d7f59",
+        "encoded": "3.%20**Add%20More%20Tests**%20-%20Expand%20test%20coverage%20with%20new%20scenarios",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "34ee74",
+        "hash": "ee03e331",
+        "encoded": "4.%20**CI/CD%20Integration**%20-%20Set%20up%20continuous%20integration",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "34ee74",
+        "hash": "85ed1f5a",
+        "encoded": "5.%20**Performance%20Optimization**%20-%20Fine-tune%20test%20execution%20settings",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "34ee74",
+        "hash": "821f08b6",
+        "encoded": "##%20Support",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "34ee74",
+        "hash": "c416e3ed",
+        "encoded": "For%20issues%20related%20to%20this%20migration:",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "34ee74",
+        "hash": "6fa0a165",
+        "encoded": "1.%20Check%20Playwright%20documentation:%20https://playwright.dev/",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "34ee74",
+        "hash": "161784e9",
+        "encoded": "2.%20Review%20playwright-bdd%20documentation:%20https://github.com/vitalets/playwright-bdd",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "34ee74",
+        "hash": "8382516c",
+        "encoded": "3.%20Consult%20the%20migration%20logs%20and%20error%20messages",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "34ee74",
+        "hash": "3760ea63",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "34ee74",
+        "hash": "4915bf28",
+        "encoded": "**Migration%20Status**:%20%F0%9F%9F%A1%20Partially%20Complete",
+        "prevChunkIds": []
+      },
+      "213": {
+        "chunkId": "34ee74",
+        "hash": "5ccac221",
+        "encoded": "**Framework**:%20Playwright%20+%20BDD",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "34ee74",
+        "hash": "3b85bfe7",
+        "encoded": "**Last%20Updated**:%20May%206,%202026",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

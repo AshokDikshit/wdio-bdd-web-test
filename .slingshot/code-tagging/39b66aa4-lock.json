@@ -1,0 +1,563 @@
+{
+  "tests/support/world.ts": {
+    "filename": "world.ts",
+    "path": "tests/support/world.ts",
+    "version": "1.2",
+    "contextFile": "39b66aa4-context.json",
+    "chunks": {
+      "a3c471": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613149,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "eb4f61bb",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "a3c471",
+        "hash": "6022820a",
+        "encoded": "import%20%7B%20Page,%20BrowserContext,%20Browser%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "a3c471",
+        "hash": "742ec096",
+        "encoded": "import%20%7B%20IWorldOptions,%20World,%20setWorldConstructor%20%7D%20from%20'@cucumber/cucumber';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "a3c471",
+        "hash": "cff382fb",
+        "encoded": "import%20%7B%20CommonUIUtils%20%7D%20from%20'./commonUtils';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "a3c471",
+        "hash": "e35b38c4",
+        "encoded": "import%20%7B%20UIActions%20%7D%20from%20'./uiActions';",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "a3c471",
+        "hash": "14b0da1c",
+        "encoded": "import%20%7B%20UIAssertions%20%7D%20from%20'./uiAssertions';",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "a3c471",
+        "hash": "b75a9ee8",
+        "encoded": "import%20%7B%20LocatorManager%20%7D%20from%20'./locatorManager';",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "a3c471",
+        "hash": "6aab29d8",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "a3c471",
+        "hash": "1cc6608a",
+        "encoded": "*%20Custom%20World%20class%20for%20Cucumber%20tests%20with%20Playwright",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "a3c471",
+        "hash": "f75db7da",
+        "encoded": "*%20Provides%20access%20to%20browser,%20page,%20and%20utility%20classes",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "a3c471",
+        "hash": "f398d74c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "a3c471",
+        "hash": "696564af",
+        "encoded": "export%20class%20CustomWorld%20extends%20World%20%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "a3c471",
+        "hash": "aa9c9130",
+        "encoded": "public%20browser!:%20Browser;",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "a3c471",
+        "hash": "d61fc0d5",
+        "encoded": "public%20context!:%20BrowserContext;",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "a3c471",
+        "hash": "cf841d44",
+        "encoded": "public%20page!:%20Page;",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "a3c471",
+        "hash": "9ed17e7a",
+        "encoded": "public%20commonUtils!:%20CommonUIUtils;",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "a3c471",
+        "hash": "bb50d66e",
+        "encoded": "public%20uiActions!:%20UIActions;",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "a3c471",
+        "hash": "cecb394f",
+        "encoded": "public%20uiAssertions!:%20UIAssertions;",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "a3c471",
+        "hash": "1a4317c3",
+        "encoded": "public%20locatorManager!:%20LocatorManager;",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "a3c471",
+        "hash": "7fb73c71",
+        "encoded": "constructor(options:%20IWorldOptions)%20%7B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "a3c471",
+        "hash": "13ad2518",
+        "encoded": "super(options);",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "a3c471",
+        "hash": "4c3814eb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "a3c471",
+        "hash": "a1f7b1b8",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "a3c471",
+        "hash": "c3f02308",
+        "encoded": "*%20Initialize%20the%20world%20with%20browser,%20context,%20and%20page",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "a3c471",
+        "hash": "97550845",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "a3c471",
+        "hash": "c64d291e",
+        "encoded": "async%20init(browser:%20Browser)%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "a3c471",
+        "hash": "9dc9a273",
+        "encoded": "this.browser%20=%20browser;",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "a3c471",
+        "hash": "980c1e65",
+        "encoded": "this.context%20=%20await%20browser.newContext(%7B",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "a3c471",
+        "hash": "4a93adcc",
+        "encoded": "viewport:%20%7B%20width:%201920,%20height:%201080%20%7D,",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "a3c471",
+        "hash": "595d1f2d",
+        "encoded": "ignoreHTTPSErrors:%20true,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "a3c471",
+        "hash": "25c863d9",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "a3c471",
+        "hash": "5d523d26",
+        "encoded": "this.page%20=%20await%20this.context.newPage();",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "a3c471",
+        "hash": "fc35cb51",
+        "encoded": "//%20Initialize%20utility%20classes",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "a3c471",
+        "hash": "b83ff822",
+        "encoded": "this.commonUtils%20=%20new%20CommonUIUtils(this.page);",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "a3c471",
+        "hash": "605b5552",
+        "encoded": "this.uiActions%20=%20new%20UIActions(this.page,%20this.commonUtils);",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "a3c471",
+        "hash": "40b1356b",
+        "encoded": "this.uiAssertions%20=%20new%20UIAssertions(this.page,%20this.commonUtils);",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "a3c471",
+        "hash": "4783878c",
+        "encoded": "this.locatorManager%20=%20new%20LocatorManager();",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "a3c471",
+        "hash": "cafcde91",
+        "encoded": "//%20Set%20default%20timeouts",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "a3c471",
+        "hash": "33326783",
+        "encoded": "this.page.setDefaultTimeout(30000);",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "a3c471",
+        "hash": "474731b4",
+        "encoded": "this.page.setDefaultNavigationTimeout(30000);",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "a3c471",
+        "hash": "ff043c2d",
+        "encoded": "//%20Add%20console%20listener%20for%20debugging",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "a3c471",
+        "hash": "5c40f8ed",
+        "encoded": "this.page.on('console',%20msg%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "a3c471",
+        "hash": "c59c8c1b",
+        "encoded": "if%20(msg.type()%20===%20'error')%20%7B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "a3c471",
+        "hash": "7f9d7371",
+        "encoded": "console.log('Browser%20console%20error:',%20msg.text());",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "a3c471",
+        "hash": "0b4804f7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "a3c471",
+        "hash": "d4fc8746",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "a3c471",
+        "hash": "418ce0b8",
+        "encoded": "//%20Add%20error%20listener",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "a3c471",
+        "hash": "795b26ba",
+        "encoded": "this.page.on('pageerror',%20error%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "a3c471",
+        "hash": "db7dc3ba",
+        "encoded": "console.log('Page%20error:',%20error.message);",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "a3c471",
+        "hash": "6fa269f0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "a3c471",
+        "hash": "cdb7b2a0",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "a3c471",
+        "hash": "0172b7c5",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "a3c471",
+        "hash": "21f7d0b8",
+        "encoded": "*%20Clean%20up%20resources",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "a3c471",
+        "hash": "3de85b9d",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "a3c471",
+        "hash": "4cee4a24",
+        "encoded": "async%20cleanup()%20%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "a3c471",
+        "hash": "b8c3b299",
+        "encoded": "if%20(this.page)%20%7B",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "a3c471",
+        "hash": "19ea736f",
+        "encoded": "await%20this.page.close();",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "a3c471",
+        "hash": "48dc6fe2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "a3c471",
+        "hash": "5a07289d",
+        "encoded": "if%20(this.context)%20%7B",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "a3c471",
+        "hash": "12b39902",
+        "encoded": "await%20this.context.close();",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "a3c471",
+        "hash": "bf862585",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "a3c471",
+        "hash": "e4d82fa4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "a3c471",
+        "hash": "b5d2d83c",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "a3c471",
+        "hash": "4b72d6bd",
+        "encoded": "*%20Take%20screenshot%20with%20timestamp",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "a3c471",
+        "hash": "b8b760f8",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "a3c471",
+        "hash": "437e17e5",
+        "encoded": "async%20takeScreenshot(filename?:%20string):%20Promise%3Cstring%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "a3c471",
+        "hash": "506e136b",
+        "encoded": "const%20timestamp%20=%20new%20Date().toISOString().replace(/%5B:.%5D/g,%20'-');",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "a3c471",
+        "hash": "43e17ddd",
+        "encoded": "const%20screenshotName%20=%20filename%20%7C%7C%20%60screenshot-$%7Btimestamp%7D.png%60;",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "a3c471",
+        "hash": "b79148e2",
+        "encoded": "const%20screenshotPath%20=%20%60./screenshots/$%7BscreenshotName%7D%60;",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "a3c471",
+        "hash": "47b24802",
+        "encoded": "await%20this.page.screenshot(%7B",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "a3c471",
+        "hash": "bc2ef20a",
+        "encoded": "path:%20screenshotPath,",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "a3c471",
+        "hash": "55cb7b76",
+        "encoded": "fullPage:%20true",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "a3c471",
+        "hash": "afbb28ea",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "a3c471",
+        "hash": "375f4f7c",
+        "encoded": "return%20screenshotName;",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "a3c471",
+        "hash": "d7cd7257",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "a3c471",
+        "hash": "0c8c5ee6",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "a3c471",
+        "hash": "490c9991",
+        "encoded": "*%20Get%20current%20URL",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "a3c471",
+        "hash": "6f88d05c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "a3c471",
+        "hash": "9713ea28",
+        "encoded": "getCurrentUrl():%20string%20%7B",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "a3c471",
+        "hash": "b8e1e2a4",
+        "encoded": "return%20this.page.url();",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "a3c471",
+        "hash": "70416dc1",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "a3c471",
+        "hash": "b7b4eba7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "a3c471",
+        "hash": "1d18c0aa",
+        "encoded": "*%20Get%20page%20title",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "a3c471",
+        "hash": "46534e49",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "a3c471",
+        "hash": "742d1e7b",
+        "encoded": "async%20getPageTitle():%20Promise%3Cstring%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "a3c471",
+        "hash": "4273835a",
+        "encoded": "return%20await%20this.page.title();",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "a3c471",
+        "hash": "998d938c",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "a3c471",
+        "hash": "22a07c3b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "a3c471",
+        "hash": "6742aae2",
+        "encoded": "//%20Set%20the%20custom%20world%20constructor",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "a3c471",
+        "hash": "9b0e8e4f",
+        "encoded": "setWorldConstructor(CustomWorld);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

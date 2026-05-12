@@ -1,0 +1,221 @@
+{
+  "tests/locators/tests/locators/demo-site.yaml": {
+    "filename": "demo-site.yaml",
+    "path": "tests/locators/tests/locators/demo-site.yaml",
+    "version": "1.2",
+    "contextFile": "739470e9-context.json",
+    "chunks": {
+      "a5f1c7": {
+        "user": "Ashok Kumar Dikshit",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778615502,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "f3357661"
+        },
+        "hash": "47751c1d",
+        "messageId": "system_d9ba45e0-4e36-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "a5f1c7",
+        "hash": "729eba78",
+        "encoded": "#%20Demo%20site%20locators%20for%20Playwright%20migration%20testing",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "a5f1c7",
+        "hash": "dfa214fa",
+        "encoded": "#%20SauceDemo%20website%20element%20locators",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "a5f1c7",
+        "hash": "4ddcb417",
+        "encoded": "login_page:",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "a5f1c7",
+        "hash": "6855d105",
+        "encoded": "Username:%20'%5Bdata-test=%22username%22%5D'",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "a5f1c7",
+        "hash": "f21342c3",
+        "encoded": "Password:%20'%5Bdata-test=%22password%22%5D'",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "a5f1c7",
+        "hash": "e57b7e64",
+        "encoded": "Login:%20'%5Bdata-test=%22login-button%22%5D'",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "a5f1c7",
+        "hash": "e8113642",
+        "encoded": "Error:%20'%5Bdata-test=%22error%22%5D'",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "a5f1c7",
+        "hash": "ed828860",
+        "encoded": "products_page:",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "a5f1c7",
+        "hash": "9ccd92b6",
+        "encoded": "Products:%20'.title'",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "a5f1c7",
+        "hash": "f1c0101d",
+        "encoded": "Inventory:%20'.inventory_list'",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "a5f1c7",
+        "hash": "a851f945",
+        "encoded": "AddToCart:%20'%5Bdata-test=%22add-to-cart-sauce-labs-backpack%22%5D'",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "a5f1c7",
+        "hash": "83872b0e",
+        "encoded": "ShoppingCart:%20'.shopping_cart_link'",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "a5f1c7",
+        "hash": "d9b67335",
+        "encoded": "Menu:%20'#react-burger-menu-btn'",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "a5f1c7",
+        "hash": "6f95824d",
+        "encoded": "Logout:%20'#logout_sidebar_link'",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "a5f1c7",
+        "hash": "1523bad8",
+        "encoded": "common_elements:",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "a5f1c7",
+        "hash": "6d52b004",
+        "encoded": "Header:%20'.header_label'",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "a5f1c7",
+        "hash": "3162d227",
+        "encoded": "Footer:%20'.footer'",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "a5f1c7",
+        "hash": "cfac0ed4",
+        "encoded": "Loading:%20'.loading'",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "a5f1c7",
+        "hash": "60f440b3",
+        "encoded": "Modal:%20'.modal'",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "a5f1c7",
+        "hash": "42bd67b4",
+        "encoded": "CloseButton:%20'.close'",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "a5f1c7",
+        "hash": "be177a20",
+        "encoded": "SubmitButton:%20'%5Btype=%22submit%22%5D'",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "a5f1c7",
+        "hash": "7092aee8",
+        "encoded": "CancelButton:%20'.btn_secondary'",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "a5f1c7",
+        "hash": "e7b08785",
+        "encoded": "form_elements:",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "a5f1c7",
+        "hash": "9e2e2d0d",
+        "encoded": "FirstName:%20'%5Bdata-test=%22firstName%22%5D'",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "a5f1c7",
+        "hash": "d2b33c38",
+        "encoded": "LastName:%20'%5Bdata-test=%22lastName%22%5D'",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "a5f1c7",
+        "hash": "d45bbc22",
+        "encoded": "PostalCode:%20'%5Bdata-test=%22postalCode%22%5D'",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "a5f1c7",
+        "hash": "c3f08a47",
+        "encoded": "Continue:%20'%5Bdata-test=%22continue%22%5D'",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "a5f1c7",
+        "hash": "d49f7b62",
+        "encoded": "Finish:%20'%5Bdata-test=%22finish%22%5D'",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "a5f1c7",
+        "hash": "d9dd7740",
+        "encoded": "navigation:",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "a5f1c7",
+        "hash": "3cd0204a",
+        "encoded": "BackToProducts:%20'%5Bdata-test=%22back-to-products%22%5D'",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "a5f1c7",
+        "hash": "1694dd5b",
+        "encoded": "Checkout:%20'%5Bdata-test=%22checkout%22%5D'",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "a5f1c7",
+        "hash": "219c22f6",
+        "encoded": "Remove:%20'%5Bdata-test=%22remove-sauce-labs-backpack%22%5D'",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

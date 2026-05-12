@@ -1,0 +1,905 @@
+{
+  "tests/features/web-demo.feature": {
+    "filename": "web-demo.feature",
+    "path": "tests/features/web-demo.feature",
+    "version": "1.2",
+    "contextFile": "b8241801-context.json",
+    "chunks": {
+      "b38989": {
+        "user": "You",
+        "model": "claude-sonnet-4@20250514",
+        "timestamp": 1778613150,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.4.1",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "aa41b429"
+        },
+        "hash": "e85ea04c",
+        "messageId": "system_123afbe0-48d7-11f1-9191-a9a0681d437d",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "b38989",
+        "hash": "7ab96fce",
+        "encoded": "#%20Playwright%20BDD%20Web%20Demo%20Feature",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "b38989",
+        "hash": "00fc03a2",
+        "encoded": "#%20Migrated%20from%20WebDriverIO%20BDD%20feature%20file",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "b38989",
+        "hash": "7fc9ebff",
+        "encoded": "@web%20@regression",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "b38989",
+        "hash": "ca9640fc",
+        "encoded": "Feature:%20Web%20Application%20Testing%20with%20Playwright%20BDD",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "b38989",
+        "hash": "b1ed23ed",
+        "encoded": "As%20a%20user%20of%20the%20web%20application",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "b38989",
+        "hash": "db6e7c5e",
+        "encoded": "I%20want%20to%20perform%20various%20actions%20and%20validations",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "b38989",
+        "hash": "aeb59bb1",
+        "encoded": "So%20that%20I%20can%20ensure%20the%20application%20works%20correctly",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "b38989",
+        "hash": "15389c88",
+        "encoded": "Background:",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "b38989",
+        "hash": "17777e90",
+        "encoded": "Given%20I%20navigate%20to%20%22https://www.saucedemo.com/%22",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "b38989",
+        "hash": "a2c0fbdf",
+        "encoded": "@smoke%20@positive",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "b38989",
+        "hash": "a1455ccf",
+        "encoded": "Scenario:%20Successful%20login%20with%20valid%20credentials",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "b38989",
+        "hash": "b4ed6442",
+        "encoded": "When%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "b38989",
+        "hash": "3dfebbcf",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "b38989",
+        "hash": "156a3144",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "b38989",
+        "hash": "5134ba3a",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "b38989",
+        "hash": "0ba9dd25",
+        "encoded": "And%20page%20title%20should%20contain%20%22Swag%20Labs%22",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "b38989",
+        "hash": "b3620601",
+        "encoded": "And%20URL%20should%20contain%20%22/inventory.html%22",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "b38989",
+        "hash": "01e57974",
+        "encoded": "@negative",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "b38989",
+        "hash": "a70d281b",
+        "encoded": "Scenario:%20Login%20failure%20with%20invalid%20credentials",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "b38989",
+        "hash": "74f77b04",
+        "encoded": "When%20I%20type%20%22invalid_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "b38989",
+        "hash": "ba28f0ac",
+        "encoded": "And%20I%20type%20%22wrong_password%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "b38989",
+        "hash": "544beab9",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "b38989",
+        "hash": "e42d8f64",
+        "encoded": "Then%20%22Epic%20sadface:%20Username%20and%20password%20do%20not%20match%20any%20user%20in%20this%20service%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "b38989",
+        "hash": "d6daabb1",
+        "encoded": "And%20%22Username%22%20field%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "b38989",
+        "hash": "f583665f",
+        "encoded": "And%20%22Password%22%20field%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "b38989",
+        "hash": "6f8a9f5b",
+        "encoded": "@positive%20@e2e",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "b38989",
+        "hash": "fe5bbb75",
+        "encoded": "Scenario:%20Complete%20purchase%20flow",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "b38989",
+        "hash": "5bbbcd02",
+        "encoded": "When%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "b38989",
+        "hash": "6b7cf9d0",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "b38989",
+        "hash": "497ebff8",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "b38989",
+        "hash": "e519ae6a",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "b38989",
+        "hash": "3eae3980",
+        "encoded": "When%20I%20click%20on%20%22Add%20to%20cart%22%20button",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "b38989",
+        "hash": "9310753c",
+        "encoded": "And%20I%20click%20on%20%22shoppingCartLink%22%20element",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "b38989",
+        "hash": "508a8309",
+        "encoded": "And%20I%20click%20on%20%22Checkout%22%20button",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "b38989",
+        "hash": "c2f8c96a",
+        "encoded": "Then%20%22checkoutInfo%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "b38989",
+        "hash": "ab393f4d",
+        "encoded": "When%20I%20type%20%22John%22%20into%20%22First%20Name%22%20field",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "b38989",
+        "hash": "17b2b776",
+        "encoded": "And%20I%20type%20%22Doe%22%20into%20%22Last%20Name%22%20field",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "b38989",
+        "hash": "391bacbe",
+        "encoded": "And%20I%20type%20%2212345%22%20into%20%22Postal%20Code%22%20field",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "b38989",
+        "hash": "c15eba1e",
+        "encoded": "And%20I%20click%20on%20%22Continue%22%20button",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "b38989",
+        "hash": "5afb432f",
+        "encoded": "Then%20%22checkoutSummary%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "b38989",
+        "hash": "fbd449fa",
+        "encoded": "When%20I%20click%20on%20%22Finish%22%20button",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "b38989",
+        "hash": "a77a6de3",
+        "encoded": "Then%20%22checkoutComplete%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "b38989",
+        "hash": "44c43868",
+        "encoded": "And%20%22Thank%20you%20for%20your%20order!%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "b38989",
+        "hash": "97030c71",
+        "encoded": "@positive",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "b38989",
+        "hash": "596cabe3",
+        "encoded": "Scenario:%20Add%20multiple%20items%20to%20cart",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "b38989",
+        "hash": "2614a03c",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "b38989",
+        "hash": "80026138",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "b38989",
+        "hash": "99db6f43",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "b38989",
+        "hash": "24dbf0da",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "b38989",
+        "hash": "eb047c1f",
+        "encoded": "When%20I%20click%20on%20%22Add%20to%20cart%22%20button",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "b38989",
+        "hash": "765e0c33",
+        "encoded": "And%20I%20wait%20for%20%22shoppingCartBadge%22%20element%20to%20be%20visible",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "b38989",
+        "hash": "d78cf406",
+        "encoded": "Then%20%22shoppingCartBadge%22%20element%20should%20contain%20text%20%221%22",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "b38989",
+        "hash": "50d9465e",
+        "encoded": "When%20I%20scroll%20to%20%22Sauce%20Labs%20Bolt%20T-Shirt%22%20element",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "b38989",
+        "hash": "254b960a",
+        "encoded": "And%20I%20click%20on%20%22Add%20to%20cart%22%20button",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "b38989",
+        "hash": "fd287858",
+        "encoded": "Then%20%22shoppingCartBadge%22%20element%20should%20contain%20text%20%222%22",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "b38989",
+        "hash": "a94a5d09",
+        "encoded": "@positive",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "b38989",
+        "hash": "b25f8159",
+        "encoded": "Scenario:%20Product%20filtering%20and%20sorting",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "b38989",
+        "hash": "b18a5770",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "b38989",
+        "hash": "a97c0632",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "b38989",
+        "hash": "c15c1db8",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "b38989",
+        "hash": "d2618547",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "b38989",
+        "hash": "5940dbfe",
+        "encoded": "When%20I%20select%20%22Price%20(low%20to%20high)%22%20from%20%22Product%20Sort%22%20dropdown",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "b38989",
+        "hash": "18b3848c",
+        "encoded": "And%20I%20wait%202%20seconds",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "b38989",
+        "hash": "8d5e3f8a",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "b38989",
+        "hash": "08ab7ff5",
+        "encoded": "When%20I%20select%20%22Name%20(Z%20to%20A)%22%20from%20%22Product%20Sort%22%20dropdown",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "b38989",
+        "hash": "90dab008",
+        "encoded": "And%20I%20wait%202%20seconds",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "b38989",
+        "hash": "e1479f82",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "b38989",
+        "hash": "482fff82",
+        "encoded": "@positive",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "b38989",
+        "hash": "58d59dc5",
+        "encoded": "Scenario:%20Navigation%20and%20page%20verification",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "b38989",
+        "hash": "d63a6eba",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "b38989",
+        "hash": "de376373",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "b38989",
+        "hash": "a6a5305c",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "b38989",
+        "hash": "39ed0873",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "b38989",
+        "hash": "7df3ecdb",
+        "encoded": "When%20I%20click%20on%20%22Sauce%20Labs%20Backpack%22%20link",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "b38989",
+        "hash": "60ac09fd",
+        "encoded": "Then%20URL%20should%20contain%20%22/inventory-item.html%22",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "b38989",
+        "hash": "5bd5ca21",
+        "encoded": "And%20%22Back%20to%20products%22%20button%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "b38989",
+        "hash": "813fdb46",
+        "encoded": "When%20I%20click%20on%20%22Back%20to%20products%22%20button",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "b38989",
+        "hash": "0c847036",
+        "encoded": "Then%20URL%20should%20contain%20%22/inventory.html%22",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "b38989",
+        "hash": "21f6b1f6",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "b38989",
+        "hash": "dfe593ce",
+        "encoded": "@positive",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "b38989",
+        "hash": "c4ac7930",
+        "encoded": "Scenario:%20Shopping%20cart%20management",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "b38989",
+        "hash": "c0d1174f",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "b38989",
+        "hash": "fca3e844",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "b38989",
+        "hash": "26a39832",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "b38989",
+        "hash": "13ba2948",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "b38989",
+        "hash": "ed5501b0",
+        "encoded": "When%20I%20click%20on%20%22Add%20to%20cart%22%20button",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "b38989",
+        "hash": "a0a37054",
+        "encoded": "And%20I%20click%20on%20%22shoppingCartLink%22%20element",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "b38989",
+        "hash": "c785ac1c",
+        "encoded": "Then%20%22Your%20Cart%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "b38989",
+        "hash": "d0ad8437",
+        "encoded": "And%20there%20should%20be%201%20%22cart%20item%22%20elements",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "b38989",
+        "hash": "0ceba283",
+        "encoded": "When%20I%20click%20on%20%22Remove%22%20button",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "b38989",
+        "hash": "1db74633",
+        "encoded": "Then%20there%20should%20be%200%20%22cart%20item%22%20elements",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "b38989",
+        "hash": "59580357",
+        "encoded": "When%20I%20click%20on%20%22Continue%20Shopping%22%20button",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "b38989",
+        "hash": "8d01f4d7",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "103": {
+        "chunkId": "b38989",
+        "hash": "496145a9",
+        "encoded": "@accessibility",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "b38989",
+        "hash": "c1f017a0",
+        "encoded": "Scenario:%20Keyboard%20navigation%20and%20accessibility",
+        "prevChunkIds": []
+      },
+      "105": {
+        "chunkId": "b38989",
+        "hash": "ce327679",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "b38989",
+        "hash": "d6ef576d",
+        "encoded": "When%20I%20press%20Tab%20key",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "b38989",
+        "hash": "8cfe9334",
+        "encoded": "Then%20%22Password%22%20field%20should%20be%20focused",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "b38989",
+        "hash": "1fcc9202",
+        "encoded": "When%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "b38989",
+        "hash": "63e3166e",
+        "encoded": "And%20I%20press%20Enter%20key",
+        "prevChunkIds": []
+      },
+      "110": {
+        "chunkId": "b38989",
+        "hash": "cf1d5fba",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "b38989",
+        "hash": "0c005aed",
+        "encoded": "@responsive",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "b38989",
+        "hash": "1af562df",
+        "encoded": "Scenario:%20Responsive%20design%20verification",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "b38989",
+        "hash": "4af963ca",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "b38989",
+        "hash": "6ce2baff",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "b38989",
+        "hash": "f448b313",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "117": {
+        "chunkId": "b38989",
+        "hash": "c39fe091",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "b38989",
+        "hash": "4c7c2a0a",
+        "encoded": "When%20I%20take%20a%20screenshot",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "b38989",
+        "hash": "8a04bdcb",
+        "encoded": "Then%20%22Menu%22%20button%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "b38989",
+        "hash": "5fb45135",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20in%20viewport",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "b38989",
+        "hash": "0a42a001",
+        "encoded": "@error-handling",
+        "prevChunkIds": []
+      },
+      "123": {
+        "chunkId": "b38989",
+        "hash": "eccf95bf",
+        "encoded": "Scenario:%20Error%20message%20handling",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "b38989",
+        "hash": "c4bf09a7",
+        "encoded": "When%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "125": {
+        "chunkId": "b38989",
+        "hash": "bb4cc4bf",
+        "encoded": "Then%20%22Epic%20sadface:%20Username%20is%20required%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "b38989",
+        "hash": "6d21b545",
+        "encoded": "When%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "b38989",
+        "hash": "f6adda24",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "b38989",
+        "hash": "94f0e191",
+        "encoded": "Then%20%22Epic%20sadface:%20Password%20is%20required%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "130": {
+        "chunkId": "b38989",
+        "hash": "9fde0b63",
+        "encoded": "@form-validation",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "b38989",
+        "hash": "af6ceeb2",
+        "encoded": "Scenario:%20Form%20field%20validation",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "b38989",
+        "hash": "488303cb",
+        "encoded": "Given%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "133": {
+        "chunkId": "b38989",
+        "hash": "c41347b2",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "b38989",
+        "hash": "6d4b824c",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "b38989",
+        "hash": "77d14dc0",
+        "encoded": "And%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "b38989",
+        "hash": "155965db",
+        "encoded": "When%20I%20click%20on%20%22Add%20to%20cart%22%20button",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "b38989",
+        "hash": "62e3155d",
+        "encoded": "And%20I%20click%20on%20%22shoppingCartLink%22%20element",
+        "prevChunkIds": []
+      },
+      "138": {
+        "chunkId": "b38989",
+        "hash": "af00acff",
+        "encoded": "And%20I%20click%20on%20%22Checkout%22%20button",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "b38989",
+        "hash": "45fb83b1",
+        "encoded": "And%20I%20click%20on%20%22Continue%22%20button",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "b38989",
+        "hash": "5608b8cc",
+        "encoded": "Then%20%22Error:%20First%20Name%20is%20required%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "b38989",
+        "hash": "3e0dca5d",
+        "encoded": "When%20I%20type%20%22John%22%20into%20%22First%20Name%22%20field",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "b38989",
+        "hash": "f9092731",
+        "encoded": "And%20I%20click%20on%20%22Continue%22%20button",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "b38989",
+        "hash": "cad63069",
+        "encoded": "Then%20%22Error:%20Last%20Name%20is%20required%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "144": {
+        "chunkId": "b38989",
+        "hash": "0f875ebf",
+        "encoded": "When%20I%20type%20%22Doe%22%20into%20%22Last%20Name%22%20field",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "b38989",
+        "hash": "f1dd2612",
+        "encoded": "And%20I%20click%20on%20%22Continue%22%20button",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "b38989",
+        "hash": "c4252bf3",
+        "encoded": "Then%20%22Error:%20Postal%20Code%20is%20required%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "b38989",
+        "hash": "c3869a3c",
+        "encoded": "@performance",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "b38989",
+        "hash": "a3c40304",
+        "encoded": "Scenario:%20Page%20load%20performance%20verification",
+        "prevChunkIds": []
+      },
+      "150": {
+        "chunkId": "b38989",
+        "hash": "37e25a70",
+        "encoded": "When%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "b38989",
+        "hash": "61d2e409",
+        "encoded": "Then%20%22Username%22%20field%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "b38989",
+        "hash": "1904054f",
+        "encoded": "And%20%22Password%22%20field%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "b38989",
+        "hash": "d8d8359d",
+        "encoded": "And%20%22Login%22%20button%20should%20be%20clickable",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "b38989",
+        "hash": "20ed5e5d",
+        "encoded": "When%20I%20type%20%22standard_user%22%20into%20%22Username%22%20field",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "b38989",
+        "hash": "4ae924ef",
+        "encoded": "And%20I%20type%20%22secret_sauce%22%20into%20%22Password%22%20field",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "b38989",
+        "hash": "058ca559",
+        "encoded": "And%20I%20click%20on%20%22Login%22%20button",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "b38989",
+        "hash": "3e80cd49",
+        "encoded": "And%20I%20wait%20for%20page%20to%20load",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "b38989",
+        "hash": "ecabf093",
+        "encoded": "Then%20%22Products%22%20element%20should%20be%20visible",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "b38989",
+        "hash": "ae7156e6",
+        "encoded": "And%20there%20should%20be%20more%20than%200%20%22inventory%20item%22%20elements",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

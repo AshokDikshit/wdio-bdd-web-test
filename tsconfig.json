@@ -1,33 +1,51 @@
 {
-    "compilerOptions": {
-        "moduleResolution": "node",
-        "ignoreDeprecations": "6.0",
-        "module": "ESNext",
-        "target": "es2022",
-        "lib": [
-            "es2022",
-            "dom"
-        ],
-        "types": [
-            "node",
-            "@wdio/globals/types",
-            "expect-webdriverio",
-            "@wdio/cucumber-framework",
-            "@wdio/visual-service"
-        ],
-        "skipLibCheck": true,
-        "noEmit": true,
-        "allowImportingTsExtensions": true,
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "strict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./tests/*"],
+      "@support/*": ["./tests/support/*"],
+      "@step-definitions/*": ["./tests/step-definitions/*"],
+      "@features/*": ["./tests/features/*"],
+      "@locators/*": ["./tests/locators/*"]
     },
-    "include": [
-        "test",
-        "wdio.conf.ts",
-        "features"
+    "types": [
+      "node",
+      "@playwright/test",
+      "@cucumber/cucumber"
     ]
+  },
+  "include": [
+    "tests/**/*",
+    "playwright.config.ts",
+    "playwright-headless.config.ts",
+    "playwright-shared.config.ts",
+    "cucumber.config.ts",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test-results",
+    "test-results-headless",
+    "reports",
+    "screenshots"
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }
